@@ -7,7 +7,8 @@ namespace Plumber71.Core.Model
     public enum Currencies
     {
         RUB,
-        EUD,
-        USD
+        EUR,
+        USD,
+        Unknown
     }
 }

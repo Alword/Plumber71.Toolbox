@@ -1,4 +1,5 @@
 ﻿using Plumber71.Core.Controller;
+using Plumber71.Core.Model;
 using System;
 
 namespace Plumber71.TestConsole
@@ -8,9 +9,9 @@ namespace Plumber71.TestConsole
         private static string originalFileName = $"{Environment.CurrentDirectory}/Resource/price_d5.xls";
         static void Main(string[] args)
         {
-            Console.WriteLine("}|{OPA");
-            ExcelController excelController = new ExcelController();
-            excelController.ReadExcel(originalFileName);
+            Console.WriteLine("Hello world");
+            CatalogueController catalogueController = new CatalogueController(originalFileName);
+            Catalogue catalogue = catalogueController.ParseCatalogue();
             Console.ReadLine();
         }
     }
