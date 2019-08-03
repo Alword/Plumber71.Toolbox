@@ -11,10 +11,14 @@
   <ItemGroup>
     <None Remove="Model\NewFile1.txt" />
     <None Remove="Resource\price_d5.xls" />
+    <None Remove="Resource\woo.secret.json" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Resource\price_d5.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resource\woo.secret.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -24,6 +28,12 @@
     <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.1" />
+    <PackageReference Include="WooCommerceNET" Version="0.7.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Service\Woocomerce\Controller\" />
+    <Folder Include="Temp\" />
   </ItemGroup>
 
 </Project>
