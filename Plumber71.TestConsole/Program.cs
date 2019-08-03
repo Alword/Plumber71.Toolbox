@@ -6,7 +6,7 @@ namespace Plumber71.TestConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("}|{OPA");
         }
     }
 }
