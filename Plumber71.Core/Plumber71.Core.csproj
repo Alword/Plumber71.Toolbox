@@ -5,9 +5,28 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="Controller\" />
+    <Compile Remove="Model\Catalog.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Model\NewFile1.txt" />
+    <None Remove="Resource\price_d5.xls" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resource\price_d5.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Extentions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.1" />
   </ItemGroup>
 
 </Project>
