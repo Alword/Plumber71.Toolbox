@@ -12,6 +12,7 @@ namespace Plumber71.TestConsole
             Console.WriteLine("Hello world");
             CatalogueController catalogueController = new CatalogueController(originalFileName);
             Catalogue catalogue = catalogueController.ParseCatalogue();
+            Console.WriteLine(catalogue);
             Console.ReadLine();
         }
     }

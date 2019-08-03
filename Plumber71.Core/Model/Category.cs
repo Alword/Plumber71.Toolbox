@@ -6,11 +6,10 @@ namespace Plumber71.Core.Model
 {
     public class Category
     {
-        // Кот
+
         public int Id { get; set; }
-        // Название
-        public string Name { get; set;}
-        // Товары
+
+        public string Name { get; set; }
         public List<Product> Products { get; set; }
 
         public Category(int Id, string Name)
@@ -18,6 +17,11 @@ namespace Plumber71.Core.Model
             this.Id = Id;
             this.Name = Name;
             Products = new List<Product>();
+        }
+
+        public override string ToString()
+        {
+            return $"Id: {Id} Name: {Name} ProductsCount: {Products.Count}";
         }
     }
 }

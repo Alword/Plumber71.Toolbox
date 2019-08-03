@@ -25,5 +25,11 @@ namespace Plumber71.Core.Model
         {
             this.Id = id;
         }
+
+        public override string ToString()
+        {
+            return $"Id: {Id} Name: {Name} Pieces: {Pieces} Currency: {Currency.ToString()} " +
+                $"TradePriceInCurrency: {TradePriceInCurrency} TradePriceInRubbles: {TradePriceInRubbles} Price7Ka {Price7Ka}";
+        }
     }
 }

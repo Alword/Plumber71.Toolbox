@@ -23,6 +23,7 @@ namespace Plumber71.Core.Model
         public Catalogue HandleData()
         {
             GetInfo($"{dataTable.Rows[0][0]}", catalogue);
+            catalogue.Reference = $"{dataTable.Rows[1][0]}";
             HandleCategory(dataTable);
             return catalogue;
         }
