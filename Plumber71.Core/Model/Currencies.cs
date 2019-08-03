@@ -9,6 +9,5 @@ namespace Plumber71.Core.Model
         RUB,
         EUD,
         USD
-         Au
     }
 }

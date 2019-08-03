@@ -15,10 +15,15 @@ namespace Plumber71.Core.Model
         //Валюта
         public Currencies Currency { get; set; }
         //Оптовая цена
-        public float TradePriceInCurrency { get; set; }
+        public double TradePriceInCurrency { get; set; }
         //Оптовая рубли
         public double TradePriceInRubbles { get; set; }
         //Цена 7-ка
         public double Price7Ka { get; set; }
+
+        public Product(int id)
+        {
+            this.Id = id;
+        }
     }
 }

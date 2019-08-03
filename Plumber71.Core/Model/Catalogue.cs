@@ -12,5 +12,9 @@ namespace Plumber71.Core.Model
         public string Info { get; set; }
         public List<Category> Categorys { get; set; }
 
+        public Catalogue()
+        {
+            Categorys = new List<Category>();
+        }
     }
 }
