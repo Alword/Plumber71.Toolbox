@@ -17,36 +17,34 @@ namespace Plumber71.Core.Service.PriceComparer
 
         public List<ProductDomain> GetChangedProducts(List<CategoryExcel> categoryExcels)
         {
-            var chacedProductsDictionary = new Dictionary<string, ProductDomain>();
-            var productsList = new List<ProductDomain>();
-            // Добавить все продукты в словарь
-            foreach (var chacedCategory in chacheCategoryes)
-            {
-                productsList.AddRange(chacedCategory.Products);
-            }
+            var productsList = from category in chacheCategoryes
+                               from product in category.Products
+                               select product;
 
-            // Словарь товаров
-            chacedProductsDictionary = productsList.ToArray().ConvertToDictionary(p => p.Name);
+            var chacedProductsDictionary = productsList.ConvertToDictionary(p => p.Name);
 
+            return GetChangedProducts(categoryExcels, chacedProductsDictionary);
+        }
+
+        private static List<ProductDomain> GetChangedProducts(List<CategoryExcel> categoryExcels,
+            Dictionary<string, ProductDomain> chacedProductsDictionary)
+        {
             ProductDomain currentProduct = null;
+            IEnumerable<ProductExcel> allProducts = from category in categoryExcels
+                                                    from product in category.Products
+                                                    where chacedProductsDictionary.ContainsKey(product.Name)
+                                                    select product;
             List<ProductDomain> changedProducts = new List<ProductDomain>();
-            foreach (var category in categoryExcels)
+
+            foreach (var product in allProducts)
             {
-                foreach (var product in category.Products)
+                currentProduct = chacedProductsDictionary[product.Name];
+                if (currentProduct.TotalPrice != product.TradePriceInRubbles)
                 {
-                    if (chacedProductsDictionary.ContainsKey(product.Name))
-                    {
-                        currentProduct = chacedProductsDictionary[product.Name];
-                        if (currentProduct.TotalPrice != product.TradePriceInRubbles)
-                        {
-                            currentProduct.TotalPrice = product.TradePriceInRubbles;
-                            changedProducts.Add(currentProduct);
-                        }
-                    }
+                    currentProduct.TotalPrice = product.TradePriceInRubbles;
+                    changedProducts.Add(currentProduct);
                 }
             }
-            // категори на сайте в словарь
-            //var chacheDictionary = chacheCategory.ConvertToDictionary()
             return changedProducts;
         }
     }
