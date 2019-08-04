@@ -18,7 +18,12 @@ namespace Plumber71.Core.Model
         //Валюта
         public Currencies Currency { get; set; }
 
-        public double TotalPrice { get; set; }
+        private double totalPrice;
+        public double TotalPrice
+        {
+            get => totalPrice;
+            set => totalPrice = Math.Round(value, 2);
+        }
 
         public ProductDomain() { }
         public ProductDomain(int id)

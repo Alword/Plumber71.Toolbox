@@ -6,7 +6,7 @@ namespace Plumber71.Core.Extentions
 {
     public static class ArrayExtentions
     {
-        public static Dictionary<K, T> ConvertToDictionary<K, T>(T[] array, Func<T, K> keyParam)
+        public static Dictionary<K, T> ConvertToDictionary<K, T>(this T[] array, Func<T, K> keyParam)
         {
             int arrayLength = array.Length;
             var dictionary = new Dictionary<K, T>();
