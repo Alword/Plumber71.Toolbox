@@ -11,7 +11,7 @@ namespace Plumber71.Core.Model
     {
         private DataTable dataTable;
         private Catalogue catalogue = null;
-        private Category currentCategory = null;
+        private CategoryExcel currentCategory = null;
         private ProductExcel currentProduct = null;
 
         public CatalogueReader(DataTable dataTable)
@@ -51,7 +51,7 @@ namespace Plumber71.Core.Model
         private void HandleCategoryInfo(DataTable dataTable, int i, int idResult)
         {
             string cell1 = (string)dataTable.Rows[i][1];
-            currentCategory = new Category(idResult, cell1);
+            currentCategory = new CategoryExcel(idResult, cell1);
             catalogue.Categorys.Add(currentCategory);
         }
 

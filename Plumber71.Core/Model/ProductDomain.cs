@@ -4,10 +4,13 @@ using System.Text;
 
 namespace Plumber71.Core.Model
 {
+    /// <summary>
+    /// Тип продукта для приложения
+    /// </summary>
     public class ProductDomain
     {
         //id
-        public int Id { get; set; }
+        public int Sku { get; set; }
         //название stringi
         public string Name { get; set; }
         //штуки
@@ -20,12 +23,12 @@ namespace Plumber71.Core.Model
         public ProductDomain() { }
         public ProductDomain(int id)
         {
-            this.Id = id;
+            this.Sku = id;
         }
 
         public override string ToString()
         {
-            return $"Id: {Id} Name: {Name} Pieces: {Pieces} Currency: {Currency.ToString()} TotalPrice: {TotalPrice}";
+            return $"Sku: {Sku} Name: {Name} Pieces: {Pieces} Currency: {Currency.ToString()} TotalPrice: {TotalPrice}";
         }
     }
 }

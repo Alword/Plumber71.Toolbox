@@ -11,13 +11,13 @@ namespace Plumber71.Core.Model
         public double DollarRate { get; set; }
         public double EuroRate { get; set; }
         public string Reference { get; set; }
-        public List<Category> Categorys { get; set; }
+        public List<CategoryExcel> Categorys { get; set; }
 
         public int CategoryCount { get => Categorys.Count; }
         public int ProductsCount { get => Categorys.Sum(x => x.Products.Count); }
         public Catalogue()
         {
-            Categorys = new List<Category>();
+            Categorys = new List<CategoryExcel>();
         }
 
         public override string ToString()

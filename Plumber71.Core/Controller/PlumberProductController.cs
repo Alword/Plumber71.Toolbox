@@ -18,7 +18,7 @@ namespace Plumber71.Core.Controller
 
         public async Task ChacheProducts()
         {
-            Dictionary<string, List<Category>> categories = new Dictionary<string, List<Category>>();
+            Dictionary<string, CategoryDomain> categories = new Dictionary<string, CategoryDomain>();
 
             int productsCount = 0;
             int currentPage = 1;
@@ -29,15 +29,30 @@ namespace Plumber71.Core.Controller
 
                 foreach (var wooProduct in wooProducts)
                 {
-                    
-
                     // handle product
                     ProductDomain product = HandleProduct(wooProduct);
 
+
                     // check category 
+                    string categoryName = wooProduct.categories[0].name;
                     if (categories.ContainsKey(wooProduct.categories[0].name))
                     {
-                        //
+                        // Если существует
+                        
+                        // проверить наличее товара
+                        var category = categories["categoryName"];
+
+                        var findedProduct = category.Products.Find(p => p.Name == product.Name); //null
+
+                        // если товара нет
+                        if (findedProduct == null)
+                        {
+                            category.Products.Add(product);
+                        }
+                    }
+                    else
+                    {
+                        // Если нет
                     }
 
                     
@@ -55,7 +70,7 @@ namespace Plumber71.Core.Controller
         {
             var product = new ProductDomain()
             {
-                Id = (int)wooProduct.id,
+                Sku = (int)wooProduct.id,
                 Currency = Currencies.RUB,
                 Name = wooProduct.name,
                 TotalPrice = (double)wooProduct.price,
