@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <Compile Remove="Model\Catalog.cs" />
+    <Compile Remove="Model\Category - Копировать.cs" />
+    <Compile Remove="Service\ProductService\ProductComparer %282%29.cs" />
   </ItemGroup>
 
   <ItemGroup>

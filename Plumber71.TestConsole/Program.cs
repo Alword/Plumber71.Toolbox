@@ -12,7 +12,7 @@ namespace Plumber71.TestConsole
         private static string originalFileName = $"{Environment.CurrentDirectory}/Resource/price_d5.xls";
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            Console.WriteLine("Hello World");
             //TestWooProductHandler();
             Console.ReadLine();
         }
