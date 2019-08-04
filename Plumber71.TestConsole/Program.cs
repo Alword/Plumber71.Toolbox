@@ -1,5 +1,6 @@
 ﻿using Plumber71.Core.Controller;
 using Plumber71.Core.Model;
+using Plumber71.Core.Service.ChacheService;
 using Plumber71.Core.Service.Woocomerce;
 using System;
 using System.Collections.Generic;
@@ -12,8 +13,7 @@ namespace Plumber71.TestConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
-            TestExcel();
-            //Test();
+            TestWooProductHandler();
             Console.ReadLine();
         }
 
@@ -28,6 +28,22 @@ namespace Plumber71.TestConsole
             CatalogueController catalogueController = new CatalogueController(originalFileName);
             Catalogue catalogue = catalogueController.ParseCatalogue();
             Console.WriteLine(catalogue);
+        }
+
+        static async void TestWooProductHandler()
+        {
+            WooClient wooClient = new WooClient();
+            PlumberProductController plumberProductController = new PlumberProductController(wooClient);
+            await plumberProductController.ChacheProducts();
+        }
+
+        static void TestChache()
+        {
+            ProductDomain productDomain = new ProductDomain
+            {
+                Name = "Test"
+            };
+            ChacheService.WriteChache(productDomain);
         }
     }
 }
