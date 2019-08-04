@@ -7,10 +7,10 @@ using WooCommerceNET.WooCommerce.v3.Extension;
 
 namespace Plumber71.Core.Service.Woocomerce
 {
-    public class Client
+    public class WooClient
     {
         private readonly WCObject client;
-        public Client()
+        public WooClient()
         {
             RestConfig config = RestConfig.GetDefaults();
             RestAPI rest = new RestAPI($"{config.Server}/wp-json/wc/v3/", config.UserKey, config.SecretKey);

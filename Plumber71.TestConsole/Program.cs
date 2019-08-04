@@ -19,7 +19,7 @@ namespace Plumber71.TestConsole
 
         static async void Test()
         {
-            Client client = new Client();
+            WooClient client = new WooClient();
             List<WooCommerceNET.WooCommerce.v3.Product> products = await client.GetProductsPage();
         }
 

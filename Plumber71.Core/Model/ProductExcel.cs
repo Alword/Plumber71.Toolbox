@@ -4,16 +4,8 @@ using System.Text;
 
 namespace Plumber71.Core.Model
 {
-    public class Product
+    public class ProductExcel : ProductDomain
     {
-        //id
-        public int Id { get; set; }
-        //название stringi
-        public string Name { get; set; }
-        //штуки
-        public int Pieces { get; set; }
-        //Валюта
-        public Currencies Currency { get; set; }
         //Оптовая цена
         public double TradePriceInCurrency { get; set; }
         //Оптовая рубли
@@ -21,7 +13,7 @@ namespace Plumber71.Core.Model
         //Цена 7-ка
         public double Price7Ka { get; set; }
 
-        public Product(int id)
+        public ProductExcel(int id)
         {
             this.Id = id;
         }

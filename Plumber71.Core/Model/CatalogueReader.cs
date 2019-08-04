@@ -12,7 +12,7 @@ namespace Plumber71.Core.Model
         private DataTable dataTable;
         private Catalogue catalogue = null;
         private Category currentCategory = null;
-        private Product currentProduct = null;
+        private ProductExcel currentProduct = null;
 
         public CatalogueReader(DataTable dataTable)
         {
@@ -64,7 +64,7 @@ namespace Plumber71.Core.Model
 
         private void HandleProduct(DataTable dataTable, int i, int idResult)
         {
-            currentProduct = new Product(idResult)
+            currentProduct = new ProductExcel(idResult)
             {
                 Name = (string)dataTable.Rows[i][1],
                 Pieces = int.Parse($"{dataTable.Rows[i][2]}"),
