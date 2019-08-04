@@ -13,7 +13,7 @@ namespace Plumber71.TestConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
-            TestWooProductHandler();
+            //TestWooProductHandler();
             Console.ReadLine();
         }
 

@@ -17,7 +17,7 @@ namespace Plumber71.Core.Service.Woocomerce
             client = new WCObject(rest);
         }
 
-        public async Task<List<Product>> GetProductsPage(int count = 10, int page = 1)
+        public async Task<List<Product>> GetProductsPage(int count = 100, int page = 1)
         {
             Dictionary<string, string> keyValuePairs = new Dictionary<string, string>
             {
