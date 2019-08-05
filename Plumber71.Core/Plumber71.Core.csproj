@@ -36,8 +36,6 @@
   <ItemGroup>
     <Folder Include="Service\ChacheService\Model\" />
     <Folder Include="Service\ChacheService\Controllers\" />
-    <Folder Include="Service\ExelPriceProvider\Controller\" />
-    <Folder Include="Service\ExelPriceProvider\Abstractions\" />
     <Folder Include="Service\Woocomerce\Controller\" />
   </ItemGroup>
 

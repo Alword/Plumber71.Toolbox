@@ -28,7 +28,7 @@ namespace Plumber71.TestConsole
         static void TestExcel()
         {
             PricelistController catalogueController = new PricelistController(originalFileName);
-            ExcelPricelist catalogue = catalogueController.ParseCatalogue();
+            Priselist catalogue = catalogueController.ParseCatalogue();
             Console.WriteLine(catalogue);
         }
 
@@ -53,7 +53,7 @@ namespace Plumber71.TestConsole
             var chacheObject = ChacheService.ReadChache<List<CategoryDomain>>("chacheObject.json").ToArray();
             ProductComparer product = new ProductComparer(chacheObject);
             PricelistController catalogueController = new PricelistController(originalFileName);
-            ExcelPricelist catalogue = catalogueController.ParseCatalogue();
+            Priselist catalogue = catalogueController.ParseCatalogue();
             product.GetChangedProducts(catalogue.Categorys);
         }
     }

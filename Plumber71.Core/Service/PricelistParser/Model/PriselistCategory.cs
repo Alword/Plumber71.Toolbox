@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Plumber71.Core.Service.ExelPriceProvider.Model
 {
-    public class ExcelCategory : CategoryAbstraction<ExcelProduct>
+    public class PriselistCategory : CategoryAbstraction<PriselistProduct>
     {
         public int Id { get; set; }
 
-        public ExcelCategory(int Id, string Name) : base(Name)
+        public PriselistCategory(int Id, string Name) : base(Name)
         {
             this.Id = Id;
         }

@@ -5,26 +5,26 @@ using System.Collections.Generic;
 using System.Data;
 using System.Text;
 
-namespace Plumber71.Core.Service.ExelPriceProvider
+namespace Plumber71.Core.Service.PricelistParser
 {
-    public class ExcelPriceProvider
+    public class PricelistParser
     {
         private readonly DataTable dataTable;
-        private readonly ExcelPricelist excelPricelist = null;
-        private ExcelCategory currentCategory = null;
-        private ExcelProduct currentProduct = null;
+        private readonly Priselist excelPricelist = null;
+        private PriselistCategory currentCategory = null;
+        private PriselistProduct currentProduct = null;
 
-        public ExcelPriceProvider(DataTable dataTable)
+        public PricelistParser(DataTable dataTable)
         {
             this.dataTable = dataTable;
-            this.excelPricelist = new ExcelPricelist();
+            excelPricelist = new Priselist();
         }
 
         /// <summary>
         /// Parse excel DataTable to ExcelProduct
         /// </summary>
         /// <returns></returns>
-        public ExcelPricelist Parse()
+        public Priselist Parse()
         {
             SetCurrencyInfo($"{dataTable.Rows[0][0]}", excelPricelist);
             excelPricelist.Reference = $"{dataTable.Rows[1][0]}";
@@ -51,7 +51,7 @@ namespace Plumber71.Core.Service.ExelPriceProvider
         private void HandleCategoryInfo(DataRow dataRow, int idResult)
         {
             string categoryName = $"{dataRow[1]}";
-            currentCategory = new ExcelCategory(idResult, categoryName);
+            currentCategory = new PriselistCategory(idResult, categoryName);
             excelPricelist.Categorys.Add(currentCategory);
         }
 
@@ -64,7 +64,7 @@ namespace Plumber71.Core.Service.ExelPriceProvider
 
         private void ParseProduct(DataRow dataRow, int idResult)
         {
-            currentProduct = new ExcelProduct(idResult)
+            currentProduct = new PriselistProduct(idResult)
             {
                 Name = $"{dataRow[1]}",
                 Pieces = dataRow[2].ToInt(),
@@ -76,7 +76,7 @@ namespace Plumber71.Core.Service.ExelPriceProvider
             currentCategory.Products.Add(currentProduct);
         }
 
-        private static ExcelPricelist SetCurrencyInfo(string infoString, ExcelPricelist catalogue)
+        private static Priselist SetCurrencyInfo(string infoString, Priselist catalogue)
         {
             string[] infos = infoString.Split('/');
 

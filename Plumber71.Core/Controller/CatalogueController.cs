@@ -1,5 +1,5 @@
-﻿using Plumber71.Core.Service.ExelPriceProvider;
-using Plumber71.Core.Service.ExelPriceProvider.Model;
+﻿using Plumber71.Core.Service.ExelPriceProvider.Model;
+using Plumber71.Core.Service.PricelistParser;
 using System.Data;
 
 namespace Plumber71.Core.Controller
@@ -7,16 +7,16 @@ namespace Plumber71.Core.Controller
     public class PricelistController
     {
         private ExcelController excelController { get; set; }
-        private ExcelPriceProvider excelPriseProvider { get; set; }
+        private PricelistParser excelPriseProvider { get; set; }
         public PricelistController(string path)
         {
             excelController = new ExcelController(path);
         }
-        public ExcelPricelist ParseCatalogue()
+        public Priselist ParseCatalogue()
         {
             DataSet dataSet = excelController.ReadToEnd();
             DataTable dataTable = dataSet.Tables[0];
-            excelPriseProvider = new ExcelPriceProvider(dataTable);
+            excelPriseProvider = new PricelistParser(dataTable);
             return excelPriseProvider.Parse();
         }
     }

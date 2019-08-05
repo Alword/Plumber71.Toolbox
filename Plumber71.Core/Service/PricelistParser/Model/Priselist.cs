@@ -5,19 +5,19 @@ using System.Text;
 
 namespace Plumber71.Core.Service.ExelPriceProvider.Model
 {
-    public class ExcelPricelist
+    public class Priselist
     {
         public DateTime PriceDate { get; set; }
         public double DollarRate { get; set; }
         public double EuroRate { get; set; }
         public string Reference { get; set; }
-        public List<ExcelCategory> Categorys { get; set; }
+        public List<PriselistCategory> Categorys { get; set; }
 
         public int CategoryCount { get => Categorys.Count; }
         public int ProductsCount { get => Categorys.Sum(x => x.Products.Count); }
-        public ExcelPricelist()
+        public Priselist()
         {
-            Categorys = new List<ExcelCategory>();
+            Categorys = new List<PriselistCategory>();
         }
 
         public override string ToString()
