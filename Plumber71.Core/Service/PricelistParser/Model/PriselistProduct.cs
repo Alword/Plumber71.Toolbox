@@ -2,7 +2,7 @@
 
 namespace Plumber71.Core.Service.ExelPriceProvider.Model
 {
-    public class PriselistProduct : ProductDomain
+    public class PriselistProduct : PlumberProduct
     {
         //Оптовая цена
         public double TradePriceInCurrency { get; set; }

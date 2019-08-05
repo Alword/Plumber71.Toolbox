@@ -1,4 +1,5 @@
 ﻿using Plumber71.Core.Controller;
+using Plumber71.Core.Controller.Products;
 using Plumber71.Core.Model;
 using Plumber71.Core.Service.ChacheService;
 using Plumber71.Core.Service.ExelPriceProvider.Model;
@@ -41,7 +42,7 @@ namespace Plumber71.TestConsole
 
         static void TestChache()
         {
-            ProductDomain productDomain = new ProductDomain
+            PlumberProduct productDomain = new PlumberProduct
             {
                 Name = "Test"
             };
@@ -50,7 +51,7 @@ namespace Plumber71.TestConsole
 
         static void TestArrayToDictionary()
         {
-            var chacheObject = ChacheService.ReadChache<List<CategoryDomain>>("chacheObject.json").ToArray();
+            var chacheObject = ChacheService.ReadChache<List<PlumberCategory>>("chacheObject.json").ToArray();
             ProductComparer product = new ProductComparer(chacheObject);
             PricelistController catalogueController = new PricelistController(originalFileName);
             Priselist catalogue = catalogueController.ParseCatalogue();

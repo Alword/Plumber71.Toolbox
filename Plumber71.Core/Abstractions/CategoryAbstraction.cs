@@ -2,7 +2,7 @@
 
 namespace Plumber71.Core.Abstractions
 {
-    public abstract class CategoryAbstraction<T>
+    public abstract class CategoryAbstraction<T> where T : ProductAbstraction
     {
         public string Name { get; set; }
         public List<T> Products { get; set; }

@@ -10,13 +10,13 @@ namespace Plumber71.Core.Service.PriceComparer
 {
     public class ProductComparer
     {
-        public readonly CategoryDomain[] chacheCategoryes = null;
-        public ProductComparer(CategoryDomain[] chacheCategory)
+        public readonly PlumberCategory[] chacheCategoryes = null;
+        public ProductComparer(PlumberCategory[] chacheCategory)
         {
             this.chacheCategoryes = chacheCategory;
         }
 
-        public List<ProductDomain> GetChangedProducts(List<PriselistCategory> categoryExcels)
+        public List<PlumberProduct> GetChangedProducts(List<PriselistCategory> categoryExcels)
         {
             var productsList = from category in chacheCategoryes
                                from product in category.Products
@@ -27,15 +27,15 @@ namespace Plumber71.Core.Service.PriceComparer
             return GetChangedProducts(categoryExcels, chacedProductsDictionary);
         }
 
-        private static List<ProductDomain> GetChangedProducts(List<PriselistCategory> categoryExcels,
-            Dictionary<string, ProductDomain> chacedProductsDictionary)
+        private static List<PlumberProduct> GetChangedProducts(List<PriselistCategory> categoryExcels,
+            Dictionary<string, PlumberProduct> chacedProductsDictionary)
         {
-            ProductDomain currentProduct = null;
+            PlumberProduct currentProduct = null;
             IEnumerable<PriselistProduct> allProducts = from category in categoryExcels
                                                     from product in category.Products
                                                     where chacedProductsDictionary.ContainsKey(product.Name)
                                                     select product;
-            List<ProductDomain> changedProducts = new List<ProductDomain>();
+            List<PlumberProduct> changedProducts = new List<PlumberProduct>();
 
             foreach (var product in allProducts)
             {

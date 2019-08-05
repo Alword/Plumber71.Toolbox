@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WooCommerceNET.WooCommerce.v3;
 
-namespace Plumber71.Core.Controller
+namespace Plumber71.Core.Controller.Products
 {
     public class PlumberProductController
     {
@@ -22,7 +22,7 @@ namespace Plumber71.Core.Controller
 
         public async Task ChacheProducts()
         {
-            Dictionary<string, CategoryDomain> categories = new Dictionary<string, CategoryDomain>();
+            Dictionary<string, PlumberCategory> categories = new Dictionary<string, PlumberCategory>();
 
             // Скачать товары
             int productsCount = 0;
@@ -44,18 +44,18 @@ namespace Plumber71.Core.Controller
             ChacheService.WriteChache(chacheProducts);
         }
 
-        private void HandleProductsPage(Dictionary<string, CategoryDomain> categories, List<Product> wooProducts)
+        private void HandleProductsPage(Dictionary<string, PlumberCategory> categories, List<Product> wooProducts)
         {
             foreach (var wooProduct in wooProducts)
             {
                 // handle product
-                ProductDomain product = HandleProduct(wooProduct);
+                PlumberProduct product = HandleProduct(wooProduct);
                 // check category 
                 CheckCategory(categories, wooProduct, product);
             }
         }
 
-        private static void CheckCategory(Dictionary<string, CategoryDomain> categories, Product wooProduct, ProductDomain product)
+        private static void CheckCategory(Dictionary<string, PlumberCategory> categories, Product wooProduct, PlumberProduct product)
         {
             string categoryName = wooProduct.categories[0].name;
             if (categories.ContainsKey(wooProduct.categories[0].name))
@@ -68,7 +68,7 @@ namespace Plumber71.Core.Controller
             }
         }
 
-        private static void AddProductInCategoryIfNotExist(Dictionary<string, CategoryDomain> categories, ProductDomain product, string categoryName)
+        private static void AddProductInCategoryIfNotExist(Dictionary<string, PlumberCategory> categories, PlumberProduct product, string categoryName)
         {
             // Если существует
 
@@ -84,20 +84,20 @@ namespace Plumber71.Core.Controller
             }
         }
 
-        private static void CreateCategoryAndAddProduct(Dictionary<string, CategoryDomain> categories, ProductDomain product, string categoryName)
+        private static void CreateCategoryAndAddProduct(Dictionary<string, PlumberCategory> categories, PlumberProduct product, string categoryName)
         {
-            CategoryDomain newCategory = new CategoryDomain(categoryName);// Создаём категорию
+            PlumberCategory newCategory = new PlumberCategory(categoryName);// Создаём категорию
             categories.Add(categoryName, newCategory);// Добавляем в словарь
             newCategory.Products.Add(product);
         }
 
-        private ProductDomain HandleProduct(Product wooProduct)
+        private PlumberProduct HandleProduct(Product wooProduct)
         {
-            var product = new ProductDomain()
+            var product = new PlumberProduct()
             {
-                Sku = (int)wooProduct.id,
-                Currency = Currencies.RUB,
+                Id = (int)wooProduct.id,
                 Name = wooProduct.name,
+                Sku = wooProduct.sku,
                 TotalPrice = (double)wooProduct.price,
             };
             return product;
