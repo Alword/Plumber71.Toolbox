@@ -7,7 +7,7 @@ namespace Plumber71.Core.Service.JsonFileService
     public class JsonFileStorage
     {
         private static readonly string DefaultDirectory = $"{Environment.CurrentDirectory}\\Resource\\Temp";
-        public static void Save<T>(T chacheObject, string fileName = "") where T : new()
+        public static void Save<T>(T chacheObject, string fileName = null) where T : new()
         {
             string path = GetObjectPath<T>(fileName);
             string chacheText = JsonConvert.SerializeObject(chacheObject);
@@ -25,7 +25,7 @@ namespace Plumber71.Core.Service.JsonFileService
 
         private static string GetObjectPath<T>(string fileName)
         {
-            fileName = fileName ?? $"{typeof(T).Name}";
+            fileName = fileName ?? $"{typeof(T).GUID}.json";
             return Path.Combine(DefaultDirectory, fileName);
         }
     }

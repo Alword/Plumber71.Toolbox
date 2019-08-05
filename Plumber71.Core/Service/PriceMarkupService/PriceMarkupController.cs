@@ -41,11 +41,11 @@ namespace Plumber71.Core.Controller
                 {
                     bool producRateExist = priceMarkupConfig.ProductRate.TryGetValue(product.Id, out double productRate);
                     if (producRateExist)
-                        product.TotalPrice *= productRate;
+                        product.TotalPrice = product.RegularPrice * productRate;
                     else if (categoryRateExist)
-                        product.TotalPrice *= categoryRate;
+                        product.TotalPrice = product.RegularPrice * categoryRate;
                     else
-                        product.TotalPrice *= priceMarkupConfig.GlobalRate;
+                        product.TotalPrice = product.RegularPrice * priceMarkupConfig.GlobalRate;
                 }
             }
             return plumberCatalogue;

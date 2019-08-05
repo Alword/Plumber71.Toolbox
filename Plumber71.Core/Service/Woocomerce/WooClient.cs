@@ -13,6 +13,7 @@ namespace Plumber71.Core.Service.Woocomerce
     {
         public const int PRODUCTS_PER_PAGE = 100;
         private readonly WCObject client;
+        //TODO PUT RestConfig in ctor
         public WooClient()
         {
             RestConfig config = RestConfig.GetDefaults();
