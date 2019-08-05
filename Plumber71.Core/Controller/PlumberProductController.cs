@@ -1,25 +1,15 @@
-﻿using Plumber71.Core.Enums;
-using Plumber71.Core.Model;
+﻿using System.Threading.Tasks;
 using Plumber71.Core.Service.ChacheService;
 using Plumber71.Core.Service.Woocomerce;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WooCommerceNET.WooCommerce.v3;
 
-namespace Plumber71.Core.Controller.Products
+namespace Plumber71.Core.Controller
 {
     public class PlumberProductController
     {
-        private readonly WooClient wooClient;
         private readonly ProductsDownloader productsDownloader;
         public PlumberProductController(WooClient wooClient)
         {
-            this.wooClient = wooClient;
-            this.productsDownloader = new ProductsDownloader(wooClient);
+            productsDownloader = new ProductsDownloader(wooClient);
         }
 
         public async Task LoadOnDevice()

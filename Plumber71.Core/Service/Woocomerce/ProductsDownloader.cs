@@ -1,12 +1,11 @@
 ﻿using Plumber71.Core.Model;
-using Plumber71.Core.Service.Woocomerce;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using WooCommerceNET.WooCommerce.v3;
 
-namespace Plumber71.Core.Controller.Products
+namespace Plumber71.Core.Service.Woocomerce
 {
     public class ProductsDownloader
     {

@@ -36,7 +36,6 @@
   <ItemGroup>
     <Folder Include="Service\ChacheService\Model\" />
     <Folder Include="Service\ChacheService\Controllers\" />
-    <Folder Include="Service\Woocomerce\Controller\" />
   </ItemGroup>
 
 </Project>
