@@ -10,6 +10,11 @@ namespace Plumber71.Core.Service.PriceMarkupService.Model
         public Dictionary<string, double> CategoryRate { get; set; }
         public Dictionary<int, double> ProductRate { get; set; }
 
-        public PriceMarkupConfig() => GlobalRate = 1;
+        public PriceMarkupConfig()
+        {
+            GlobalRate = 1;
+            CategoryRate = new Dictionary<string, double>();
+            ProductRate = new Dictionary<int, double>();
+        }
     }
 }
