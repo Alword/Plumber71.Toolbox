@@ -9,7 +9,7 @@ namespace Plumber71.Core.Service.Woocomerce
 {
     public class WooClient
     {
-        public const int PRODUCTS_PER_PAGE = 1000;
+        public const int PRODUCTS_PER_PAGE = 100;
         private readonly WCObject client;
         public WooClient()
         {

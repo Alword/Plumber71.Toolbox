@@ -16,7 +16,7 @@ namespace Plumber71.TestConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
-            TestArrayToDictionary();
+            TestWooProductHandler();
             Console.ReadLine();
         }
 
@@ -37,7 +37,7 @@ namespace Plumber71.TestConsole
         {
             WooClient wooClient = new WooClient();
             PlumberProductController plumberProductController = new PlumberProductController(wooClient);
-            await plumberProductController.ChacheProducts();
+            await plumberProductController.LoadOnDevice();
         }
 
         static void TestChache()

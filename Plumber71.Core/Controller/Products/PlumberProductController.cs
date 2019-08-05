@@ -22,7 +22,7 @@ namespace Plumber71.Core.Controller.Products
             this.productsDownloader = new ProductsDownloader(wooClient);
         }
 
-        public async Task ChacheProducts()
+        public async Task LoadOnDevice()
         {
             // Кеширование товаров
             var chacheProducts = await productsDownloader.DownloadAll();

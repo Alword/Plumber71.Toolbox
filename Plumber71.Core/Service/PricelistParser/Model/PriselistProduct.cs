@@ -1,19 +1,23 @@
-﻿using Plumber71.Core.Model;
+﻿using Plumber71.Core.Enums;
+using Plumber71.Core.Model;
 
 namespace Plumber71.Core.Service.ExelPriceProvider.Model
 {
     public class PriselistProduct : PlumberProduct
     {
-        //Оптовая цена
+        public int Code { get => Key; set => Key = value; }
+
         public double TradePriceInCurrency { get; set; }
-        //Оптовая рубли
+
         public double TradePriceInRubbles { get; set; }
-        //Цена 7-ка
+
         public double Price7Ka { get; set; }
+
+        public Currencies Currency { get; set; }
 
         public PriselistProduct(int id)
         {
-            Sku = id;
+            Code = id;
         }
 
         public override string ToString()
