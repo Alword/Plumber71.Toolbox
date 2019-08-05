@@ -1,7 +1,9 @@
 ﻿using Plumber71.Core.Service.Woocomerce.Model;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using WooCommerceNET;
+using WooCommerceNET.Base;
 using WooCommerceNET.WooCommerce.v3;
 using WooCommerceNET.WooCommerce.v3.Extension;
 
@@ -27,6 +29,21 @@ namespace Plumber71.Core.Service.Woocomerce
             };
             List<Product> products = await client.Product.GetAll(keyValuePairs);
             return products;
+        }
+
+        public async Task<BatchObject<Product>> BatchProductRange(BatchObject<Product> products)
+        {
+            return await client.Product.UpdateRange(products);
+        }
+
+        public async Task<IEnumerable<Product>> UpdateProductRange(IEnumerable<Product> products)
+        {
+            BatchObject<Product> batchObject = new BatchObject<Product>
+            {
+                update = products.ToList()
+            };
+            batchObject = await client.Product.UpdateRange(batchObject);
+            return batchObject.update;
         }
     }
 }

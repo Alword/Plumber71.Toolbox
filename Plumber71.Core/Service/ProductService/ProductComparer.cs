@@ -18,9 +18,7 @@ namespace Plumber71.Core.Service.PriceComparer
 
         public List<PlumberProduct> GetChangedProducts(List<PriselistCategory> categoryExcels)
         {
-            var productsList = from category in chacheCategoryes
-                               from product in category.Products
-                               select product;
+            var productsList = chacheCategoryes.AsProductsIEnumerable();
 
             var chacedProductsDictionary = productsList.ConvertToDictionary(p => p.Name);
 
@@ -30,13 +28,12 @@ namespace Plumber71.Core.Service.PriceComparer
         private static List<PlumberProduct> GetChangedProducts(List<PriselistCategory> categoryExcels,
             Dictionary<string, PlumberProduct> chacedProductsDictionary)
         {
-            PlumberProduct currentProduct = null;
-            IEnumerable<PriselistProduct> allProducts = from category in categoryExcels
-                                                    from product in category.Products
-                                                    where chacedProductsDictionary.ContainsKey(product.Name)
-                                                    select product;
-            List<PlumberProduct> changedProducts = new List<PlumberProduct>();
+            IEnumerable<PriselistProduct> allProducts = categoryExcels
+                .AsProductsIEnumerable()
+                .Where(p => chacedProductsDictionary.ContainsKey(p.Name));
 
+            List<PlumberProduct> changedProducts = new List<PlumberProduct>();
+            PlumberProduct currentProduct = null;
             foreach (var product in allProducts)
             {
                 currentProduct = chacedProductsDictionary[product.Name];
