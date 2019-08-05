@@ -1,12 +1,13 @@
 ﻿using Plumber71.Core.Extentions;
 using Plumber71.Core.Service.ExelPriceProvider.Model;
 using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Text;
 
 namespace Plumber71.Core.Service.PricelistParser
 {
+    /// <summary>
+    /// Class that provide DataTable paser fore "ПРАЙС-ЛИСТ ООО "СТРОЙТЕПЛОМОНТАЖ" / ЭКСКЛЮЗИВНЫЙ"
+    /// </summary>
     public class PricelistParser
     {
         private readonly DataTable dataTable;
