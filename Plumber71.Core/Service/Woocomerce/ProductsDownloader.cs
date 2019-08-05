@@ -89,7 +89,7 @@ namespace Plumber71.Core.Service.Woocomerce
         private static void CreateCategoryAndAddProduct(Dictionary<string, PlumberCategory> categories, PlumberProduct product, string categoryName)
         {
             PlumberCategory newCategory = new PlumberCategory(categoryName);// Создаём категорию
-            categories.Add(categoryName, newCategory);// Добавляем в словарь
+            categories[categoryName] = newCategory;// Добавляем в словарь
             newCategory.Products.Add(product);
         }
     }

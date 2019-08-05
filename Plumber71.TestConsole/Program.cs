@@ -1,7 +1,7 @@
 ﻿using Plumber71.Core.Controller;
 using Plumber71.Core.Model;
-using Plumber71.Core.Service.ChacheService;
 using Plumber71.Core.Service.ExelPriceProvider.Model;
+using Plumber71.Core.Service.JsonFileService;
 using Plumber71.Core.Service.PriceComparer;
 using Plumber71.Core.Service.Woocomerce;
 using System;
@@ -15,7 +15,7 @@ namespace Plumber71.TestConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
-            TestWooProductHandler();
+            TestPriceMarkupService();
             Console.ReadLine();
         }
 
@@ -45,16 +45,26 @@ namespace Plumber71.TestConsole
             {
                 Name = "Test"
             };
-            ChacheService.WriteChache(productDomain);
+            JsonFileStorage.Save(productDomain);
         }
 
         static void TestArrayToDictionary()
         {
-            var chacheObject = ChacheService.ReadChache<List<PlumberCategory>>("chacheObject.json").ToArray();
+            var chacheObject = JsonFileStorage.Load<List<PlumberCategory>>("chacheObject.json").ToArray();
             ProductComparer product = new ProductComparer(chacheObject);
             PricelistController catalogueController = new PricelistController(originalFileName);
             Priselist catalogue = catalogueController.ParseCatalogue();
             product.GetChangedProducts(catalogue.Categorys);
+        }
+
+        static void TestPriceMarkupService()
+        {
+            PriceMarkupController pricelistController = new PriceMarkupController();
+            pricelistController.SetCategoryRate("Котлы настенные", 1.2);
+            pricelistController.SetProductRate(346, 1.3);
+            pricelistController.SetGlobalRate(1.4);
+            var chacheObject = JsonFileStorage.Load<List<PlumberCategory>>("chacheObject.json").ToArray();
+            pricelistController.ApplySetting(chacheObject);
         }
     }
 }
