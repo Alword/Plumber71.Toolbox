@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using WooCommerceNET.WooCommerce.v3;
 
 namespace Plumber71.Core.Service.Woocomerce
@@ -16,11 +17,15 @@ namespace Plumber71.Core.Service.Woocomerce
             this.wooClient = wooClient;
         }
 
-        public async void UploadRange(IEnumerable<PlumberCategory> plumberCategories)
+        public async Task<IEnumerable<Product>> UploadRange(IEnumerable<PlumberCategory> plumberCategories)
         {
             var productList = plumberCategories.AsProductsIEnumerable();
-
-            await wooClient.UpdateProductRange();
+            IEnumerable<Product> wooProducts = productList.Select(p => new Product()
+            {
+                id = p.Id,
+                regular_price = (decimal)p.TotalPrice
+            });
+            return await wooClient.UpdateProductRange(wooProducts);
         }
     }
 }
