@@ -1,6 +1,7 @@
 ﻿using Plumber71.Core.Controller;
 using Plumber71.Core.Model;
 using Plumber71.Core.Service.ChacheService;
+using Plumber71.Core.Service.ExelPriceProvider.Model;
 using Plumber71.Core.Service.PriceComparer;
 using Plumber71.Core.Service.Woocomerce;
 using System;
@@ -26,8 +27,8 @@ namespace Plumber71.TestConsole
 
         static void TestExcel()
         {
-            CatalogueController catalogueController = new CatalogueController(originalFileName);
-            Catalogue catalogue = catalogueController.ParseCatalogue();
+            PricelistController catalogueController = new PricelistController(originalFileName);
+            ExcelPricelist catalogue = catalogueController.ParseCatalogue();
             Console.WriteLine(catalogue);
         }
 
@@ -51,8 +52,8 @@ namespace Plumber71.TestConsole
         {
             var chacheObject = ChacheService.ReadChache<List<CategoryDomain>>("chacheObject.json").ToArray();
             ProductComparer product = new ProductComparer(chacheObject);
-            CatalogueController catalogueController = new CatalogueController(originalFileName);
-            Catalogue catalogue = catalogueController.ParseCatalogue();
+            PricelistController catalogueController = new PricelistController(originalFileName);
+            ExcelPricelist catalogue = catalogueController.ParseCatalogue();
             product.GetChangedProducts(catalogue.Categorys);
         }
     }

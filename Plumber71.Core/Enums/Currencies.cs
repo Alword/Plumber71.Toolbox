@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Plumber71.Core.Model
+namespace Plumber71.Core.Enums
 {
     public enum Currencies
     {

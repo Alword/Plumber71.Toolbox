@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Plumber71.Core.Model;
 
-namespace Plumber71.Core.Model
+namespace Plumber71.Core.Service.ExelPriceProvider.Model
 {
-    public class ProductExcel : ProductDomain
+    public class ExcelProduct : ProductDomain
     {
         //Оптовая цена
         public double TradePriceInCurrency { get; set; }
@@ -13,9 +11,9 @@ namespace Plumber71.Core.Model
         //Цена 7-ка
         public double Price7Ka { get; set; }
 
-        public ProductExcel(int id)
+        public ExcelProduct(int id)
         {
-            this.Sku = id;
+            Sku = id;
         }
 
         public override string ToString()

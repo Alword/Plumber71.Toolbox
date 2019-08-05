@@ -1,25 +1,23 @@
-﻿using Plumber71.Core.Model;
-using System;
-using System.Collections.Generic;
+﻿using Plumber71.Core.Service.ExelPriceProvider;
+using Plumber71.Core.Service.ExelPriceProvider.Model;
 using System.Data;
-using System.Text;
 
 namespace Plumber71.Core.Controller
 {
-    public class CatalogueController
+    public class PricelistController
     {
         private ExcelController excelController { get; set; }
-        private CatalogueReader catalogueReader { get; set; }
-        public CatalogueController(string path)
+        private ExcelPriceProvider excelPriseProvider { get; set; }
+        public PricelistController(string path)
         {
             excelController = new ExcelController(path);
         }
-        public Catalogue ParseCatalogue()
+        public ExcelPricelist ParseCatalogue()
         {
             DataSet dataSet = excelController.ReadToEnd();
             DataTable dataTable = dataSet.Tables[0];
-            catalogueReader = new CatalogueReader(dataTable);
-            return catalogueReader.HandleData();
+            excelPriseProvider = new ExcelPriceProvider(dataTable);
+            return excelPriseProvider.Parse();
         }
     }
 }

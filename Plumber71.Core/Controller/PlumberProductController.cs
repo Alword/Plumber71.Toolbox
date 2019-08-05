@@ -1,4 +1,5 @@
-﻿using Plumber71.Core.Model;
+﻿using Plumber71.Core.Enums;
+using Plumber71.Core.Model;
 using Plumber71.Core.Service.ChacheService;
 using Plumber71.Core.Service.Woocomerce;
 using System;

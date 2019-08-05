@@ -1,4 +1,4 @@
-﻿using Plumber71.Core.Model;
+﻿using Plumber71.Core.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -17,8 +17,16 @@ namespace Plumber71.Core.Extentions
 
         public static double ToDouble(this string text)
         {
+            text = text.Trim();
             if (text.Contains(".")) text = text.Replace(".", ",");
             double.TryParse(text, out double result);
+            return result;
+        }
+
+        public static int ToInt(this string text)
+        {
+            text = text.Trim();
+            int.TryParse(text, out int result);
             return result;
         }
     }

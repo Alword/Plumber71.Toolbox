@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Plumber71.Core.Extentions;
 using System.Linq;
+using Plumber71.Core.Service.ExelPriceProvider.Model;
 
 namespace Plumber71.Core.Service.PriceComparer
 {
@@ -15,7 +16,7 @@ namespace Plumber71.Core.Service.PriceComparer
             this.chacheCategoryes = chacheCategory;
         }
 
-        public List<ProductDomain> GetChangedProducts(List<CategoryExcel> categoryExcels)
+        public List<ProductDomain> GetChangedProducts(List<ExcelCategory> categoryExcels)
         {
             var productsList = from category in chacheCategoryes
                                from product in category.Products
@@ -26,11 +27,11 @@ namespace Plumber71.Core.Service.PriceComparer
             return GetChangedProducts(categoryExcels, chacedProductsDictionary);
         }
 
-        private static List<ProductDomain> GetChangedProducts(List<CategoryExcel> categoryExcels,
+        private static List<ProductDomain> GetChangedProducts(List<ExcelCategory> categoryExcels,
             Dictionary<string, ProductDomain> chacedProductsDictionary)
         {
             ProductDomain currentProduct = null;
-            IEnumerable<ProductExcel> allProducts = from category in categoryExcels
+            IEnumerable<ExcelProduct> allProducts = from category in categoryExcels
                                                     from product in category.Products
                                                     where chacedProductsDictionary.ContainsKey(product.Name)
                                                     select product;

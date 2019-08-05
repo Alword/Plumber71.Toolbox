@@ -1,26 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Plumber71.Core.Abstractions;
 
 namespace Plumber71.Core.Model
 {
     /// <summary>
     /// Каталог товаров на сайте
     /// </summary>
-    public class CategoryDomain
+    public class CategoryDomain : CategoryAbstraction<ProductDomain>
     {
-        public string Name { get; set; }
-        public List<ProductDomain> Products { get; set; }
-
-        public CategoryDomain(string Name)
-        {
-            this.Name = Name;
-            Products = new List<ProductDomain>();
-        }
-
-        public override string ToString()
-        {
-            return $"Name: {Name} ProductsCount: {Products.Count}";
-        }
+        public CategoryDomain() { }
+        public CategoryDomain(string name) : base(name) { }
     }
 }
