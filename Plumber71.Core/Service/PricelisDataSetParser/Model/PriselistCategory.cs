@@ -3,8 +3,9 @@ using Plumber71.Core.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
-namespace Plumber71.Core.Service.ExelPriceProvider.Model
+namespace Plumber71.Core.Service.PricelisDataSetParser.Model
 {
     public class PriselistCategory : CategoryAbstraction<PriselistProduct>
     {
@@ -28,10 +29,10 @@ namespace Plumber71.Core.Service.ExelPriceProvider.Model
                 Products = new List<ProductDTO>()
             };
 
-            foreach (var product in category.Products)
-            {
-                Products.Add((ProductDTO)product)
-            }
+            var products = from product in category.Products
+                           select (ProductDTO)product;
+
+            categoryDTO.Products.AddRange(products);
 
             return categoryDTO;
         }

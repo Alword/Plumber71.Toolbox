@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Plumber71.Core.Service.ExelPriceProvider.Model
+namespace Plumber71.Core.Service.PricelisDataSetParser.Model
 {
     public class Priselist
     {

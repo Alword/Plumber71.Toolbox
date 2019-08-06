@@ -7,7 +7,7 @@ using System.Data;
 using System.IO;
 using System.Text;
 
-namespace Plumber71.Core.Service.ExcelReader
+namespace Plumber71.Core.Service.ExcelDataSetReader
 {
     /// <summary>
     /// This class is just for read excel file into DataTable

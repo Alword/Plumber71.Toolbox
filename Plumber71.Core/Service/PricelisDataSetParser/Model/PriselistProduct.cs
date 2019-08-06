@@ -2,7 +2,7 @@
 using Plumber71.Core.Enums;
 using Plumber71.Core.Model;
 
-namespace Plumber71.Core.Service.ExelPriceProvider.Model
+namespace Plumber71.Core.Service.PricelisDataSetParser.Model
 {
     public class PriselistProduct : ProductAbstraction
     {

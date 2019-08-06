@@ -1,8 +1,8 @@
 ﻿using Plumber71.Core.Controller;
 using Plumber71.Core.Model;
-using Plumber71.Core.Service.ExelPriceProvider.Model;
 using Plumber71.Core.Service.JsonFileService;
-using Plumber71.Core.Service.PriceComparer;
+using Plumber71.Core.Service.PricelisDataSetParser.Model;
+using Plumber71.Core.Service.ProductService;
 using Plumber71.Core.Service.Woocomerce;
 using System;
 using System.Collections.Generic;

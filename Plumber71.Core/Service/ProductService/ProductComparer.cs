@@ -4,16 +4,15 @@ using System.Collections.Generic;
 using System.Text;
 using Plumber71.Core.Extentions;
 using System.Linq;
-using Plumber71.Core.Service.ExelPriceProvider.Model;
 
-namespace Plumber71.Core.Service.PriceComparer
+namespace Plumber71.Core.Service.ProductService
 {
     public class ProductComparer
     {
         public readonly IEnumerable<CategoryDTO> chacheCategoryes = null;
         public ProductComparer(CategoryDTO[] chacheCategory)
         {
-            this.chacheCategoryes = chacheCategory;
+            chacheCategoryes = chacheCategory;
         }
 
         public List<ProductDTO> GetChangedProducts(List<CategoryDTO> categoryExcels)

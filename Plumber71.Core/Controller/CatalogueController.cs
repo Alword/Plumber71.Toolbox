@@ -1,6 +1,6 @@
-﻿using Plumber71.Core.Service.ExcelReader;
-using Plumber71.Core.Service.ExelPriceProvider.Model;
-using Plumber71.Core.Service.PricelistParser;
+﻿using Plumber71.Core.Service.ExcelDataSetReader;
+using Plumber71.Core.Service.PricelisDataSetParser;
+using Plumber71.Core.Service.PricelisDataSetParser.Model;
 using System.Data;
 
 namespace Plumber71.Core.Controller

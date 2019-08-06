@@ -1,9 +1,9 @@
 ﻿using Plumber71.Core.Extentions;
-using Plumber71.Core.Service.ExelPriceProvider.Model;
+using Plumber71.Core.Service.PricelisDataSetParser.Model;
 using System;
 using System.Data;
 
-namespace Plumber71.Core.Service.PricelistParser
+namespace Plumber71.Core.Service.PricelisDataSetParser
 {
     /// <summary>
     /// Class that provide DataTable paser fore "ПРАЙС-ЛИСТ ООО "СТРОЙТЕПЛОМОНТАЖ" / ЭКСКЛЮЗИВНЫЙ"
@@ -32,7 +32,7 @@ namespace Plumber71.Core.Service.PricelistParser
             ParseCategory(dataTable);
             return excelPricelist;
         }
-        
+
         private void ParseCategory(DataTable dataTable)
         {
             foreach (DataRow dataRow in dataTable.Rows)
