@@ -2,6 +2,7 @@
 using Plumber71.Core.Model;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,21 +12,39 @@ namespace Plumber71.Core.Service.Woocomerce
 {
     public class ProductsUpdater
     {
+        private const int MAX_PRODUCTS_PER_REQUEST = 100;
         private readonly WooClient wooClient = null;
         public ProductsUpdater(WooClient wooClient)
         {
             this.wooClient = wooClient;
         }
 
-        public async Task<IEnumerable<Product>> UploadRange(IEnumerable<CategoryDTO> plumberCategories)
+        public async Task<int> UploadRange(IEnumerable<CategoryDTO> plumberCategories)
         {
             var productList = plumberCategories.AsProductsIEnumerable();
-            IEnumerable<Product> wooProducts = productList.Select(p => new Product()
+            return await UploadRange(productList);
+        }
+
+        public async Task<int> UploadRange(IEnumerable<ProductDTO> products)
+        {
+            int totalUpdated = 0;
+
+            IEnumerable<Product> wooProducts = products.Select(p => new Product()
             {
                 id = p.Id,
                 regular_price = (decimal)p.TotalPrice
             });
-            return await wooClient.UpdateProductRange(wooProducts);
+
+            do
+            {
+                IEnumerable<Product> updatePack = wooProducts.Take(MAX_PRODUCTS_PER_REQUEST);
+                totalUpdated += (await wooClient.UpdateProductRange(updatePack)).Count();
+                wooProducts = wooProducts.Skip(MAX_PRODUCTS_PER_REQUEST);
+                Debug.WriteLine($"Current pack {updatePack.Count()} TotalUpdated: {totalUpdated}");
+            }
+            while (wooProducts.Count() > 0);
+
+            return totalUpdated;
         }
     }
 }

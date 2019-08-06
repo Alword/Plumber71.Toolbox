@@ -1,4 +1,5 @@
 ﻿using Plumber71.Core.Model;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace Plumber71.Core.Service.Woocomerce
         {
             this.wooClient = wooClient;
         }
-        public async Task<IEnumerable<CategoryDTO>> DownloadAll()
+        public async Task<PricelistDTO> DownloadAll()
         {
             int currentPage = 0;
             int productsPerPage = WooClient.PRODUCTS_PER_PAGE;
@@ -31,7 +32,15 @@ namespace Plumber71.Core.Service.Woocomerce
 
             } while (productsOnCurrentPage == productsPerPage);
 
-            return categories.Values.AsEnumerable();
+            PricelistDTO pricelist = new PricelistDTO()
+            {
+                //TODO load from config;
+                ProductsCurrency = Enums.Currencies.RUB,
+                Timestamp = DateTime.Now,
+                Categories = categories.Values.ToList()
+            };
+
+            return pricelist;
         }
 
         private void HandleProductsPage(Dictionary<string, CategoryDTO> categories, List<Product> wooProducts)

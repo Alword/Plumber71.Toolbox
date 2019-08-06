@@ -50,5 +50,11 @@ namespace Plumber71.Core.Controller
             }
             return plumberCatalogue;
         }
+
+        public PricelistDTO ApplySetting(PricelistDTO plumberCatalogue)
+        {
+            plumberCatalogue.Categories = ApplySetting(plumberCatalogue.Categories).ToList();
+            return plumberCatalogue;
+        }
     }
 }

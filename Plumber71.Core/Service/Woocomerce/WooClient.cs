@@ -14,11 +14,17 @@ namespace Plumber71.Core.Service.Woocomerce
         public const int PRODUCTS_PER_PAGE = 100;
         private readonly WCObject client;
         //TODO PUT RestConfig in ctor
-        public WooClient()
+        public WooClient(RestConfig config)
         {
-            RestConfig config = RestConfig.GetDefaults();
             RestAPI rest = new RestAPI($"{config.Server}/wp-json/wc/v3/", config.UserKey, config.SecretKey);
             client = new WCObject(rest);
+        }
+
+        public static WooClient DefaultClient()
+        {
+            RestConfig config = RestConfig.GetDefaults();
+            WooClient wooClient = new WooClient(config);
+            return wooClient;
         }
 
         public async Task<List<Product>> GetProductsPage(int count = PRODUCTS_PER_PAGE, int page = 1)

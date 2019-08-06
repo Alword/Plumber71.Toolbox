@@ -2,7 +2,7 @@
 using Plumber71.Core.Model;
 using Plumber71.Core.Service.JsonFileService;
 using Plumber71.Core.Service.PricelisDataSetParser.Model;
-using Plumber71.Core.Service.ProductService;
+using Plumber71.Core.Service.PricelistComparer;
 using Plumber71.Core.Service.Woocomerce;
 using System;
 using System.Collections.Generic;
@@ -16,26 +16,26 @@ namespace Plumber71.TestConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
-            TestPriceMarkupService();
+            UpdatePricesFromExcel();
             Console.ReadLine();
         }
 
         static async void Test()
         {
-            WooClient client = new WooClient();
+            WooClient client = WooClient.DefaultClient();
             List<WooCommerceNET.WooCommerce.v3.Product> products = await client.GetProductsPage();
         }
 
         static void TestExcel()
         {
-            PricelistController catalogueController = new PricelistController(originalFileName);
-            Priselist catalogue = catalogueController.ParseCatalogue();
+            ExcelPricelistController catalogueController = new ExcelPricelistController(originalFileName);
+            Priselist catalogue = catalogueController.GetExcelPricelist();
             Console.WriteLine(catalogue);
         }
 
         static async void TestWooProductHandler()
         {
-            WooClient wooClient = new WooClient();
+            WooClient wooClient = WooClient.DefaultClient();
             PlumberProductController plumberProductController = new PlumberProductController(wooClient);
             await plumberProductController.LoadOnDevice();
         }
@@ -52,10 +52,10 @@ namespace Plumber71.TestConsole
         static void TestArrayToDictionary()
         {
             var chacheObject = JsonFileStorage.Load<List<CategoryDTO>>("chacheObject.json").ToArray();
-            ProductComparer product = new ProductComparer(chacheObject);
-            PricelistController catalogueController = new PricelistController(originalFileName);
-            Priselist catalogue = catalogueController.ParseCatalogue();
-            product.GetChangedProducts(catalogue.Categorys);
+            ExcelPricelistController catalogueController = new ExcelPricelistController(originalFileName);
+            PricelistDTO catalogue = (PricelistDTO)catalogueController.GetExcelPricelist();
+
+            var test = PricelistComparer.GetChangedProducts(catalogue.Categories, chacheObject);
         }
 
         static async void TestPriceMarkupService()
@@ -67,8 +67,15 @@ namespace Plumber71.TestConsole
             var chacheObject = JsonFileStorage.Load<List<CategoryDTO>>("chacheObject.json");
             chacheObject = pricelistController.ApplySetting(chacheObject).ToList();
             JsonFileStorage.Save(chacheObject);
-            ProductsUpdater pu = new ProductsUpdater(new WooClient());
+            ProductsUpdater pu = new ProductsUpdater(WooClient.DefaultClient());
             Console.WriteLine($"Done: {nameof(TestPriceMarkupService)}");
+        }
+
+        static async void UpdatePricesFromExcel()
+        {
+            List<int> test = new List<int>() { 1, 2, 3 };
+            PlumberProductController plumberProductController = new PlumberProductController(WooClient.DefaultClient());
+            plumberProductController.UpdatePricesFromExcel(originalFileName);
         }
     }
 }
