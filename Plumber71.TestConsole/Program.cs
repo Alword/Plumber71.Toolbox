@@ -16,7 +16,7 @@ namespace Plumber71.TestConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
-            UpdatePricesFromExcel();
+            //UpdatePricesFromExcel();
             Console.ReadLine();
         }
 
@@ -58,24 +58,24 @@ namespace Plumber71.TestConsole
             var test = PricelistComparer.GetChangedProducts(catalogue.Categories, chacheObject);
         }
 
-        static async void TestPriceMarkupService()
-        {
-            PriceMarkupController pricelistController = new PriceMarkupController();
-            pricelistController.SetGlobalRate(1.12);
-            //pricelistController.SetCategoryRate("Котлы настенные", 1.2);
-            //pricelistController.SetProductRate(346, 1.3);
-            var chacheObject = JsonFileStorage.Load<List<CategoryDTO>>("chacheObject.json");
-            chacheObject = pricelistController.ApplySetting(chacheObject).ToList();
-            JsonFileStorage.Save(chacheObject);
-            ProductsUpdater pu = new ProductsUpdater(WooClient.DefaultClient());
-            Console.WriteLine($"Done: {nameof(TestPriceMarkupService)}");
-        }
+        //static async void TestPriceMarkupService()
+        //{
+        //    PriceMarkupController pricelistController = new PriceMarkupController();
+        //    pricelistController.SetGlobalRate(1.12);
+        //    //pricelistController.SetCategoryRate("Котлы настенные", 1.2);
+        //    //pricelistController.SetProductRate(346, 1.3);
+        //    var chacheObject = JsonFileStorage.Load<List<CategoryDTO>>("chacheObject.json");
+        //    chacheObject = pricelistController.ApplySetting(chacheObject).ToList();
+        //    JsonFileStorage.Save(chacheObject);
+        //    ProductsUpdater pu = new ProductsUpdater(WooClient.DefaultClient());
+        //    Console.WriteLine($"Done: {nameof(TestPriceMarkupService)}");
+        //}
 
-        static async void UpdatePricesFromExcel()
-        {
-            List<int> test = new List<int>() { 1, 2, 3 };
-            PlumberProductController plumberProductController = new PlumberProductController(WooClient.DefaultClient());
-            plumberProductController.UpdatePricesFromExcel(originalFileName);
-        }
+        // first programm
+        //static async void UpdatePricesFromExcel()
+        //{
+        //    PlumberProductController plumberProductController = new PlumberProductController(WooClient.DefaultClient());
+        //    plumberProductController.UpdatePricesFromExcel(originalFileName);
+        //}
     }
 }

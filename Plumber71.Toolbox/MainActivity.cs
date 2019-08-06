@@ -12,7 +12,7 @@ namespace Plumber71.Toolbox
     public class MainActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
         TextView textMessage;
-        FrameLayout frameLayout;
+        FrameLayout fragmentContainer;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -20,8 +20,7 @@ namespace Plumber71.Toolbox
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
 
-            textMessage = FindViewById<TextView>(Resource.Id.message);
-            frameLayout = FindViewById<FrameLayout>(Resource.Id.frameLayout1);
+            fragmentContainer = FindViewById<FrameLayout>(Resource.Id.fragmentContainer);
 
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             navigation.SetOnNavigationItemSelectedListener(this);
