@@ -27,12 +27,12 @@ namespace Plumber71.Core.Service.PricelistParser
         /// <returns></returns>
         public Priselist Parse()
         {
-            SetCurrencyInfo($"{dataTable.Rows[0][0]}", excelPricelist);
-            excelPricelist.Reference = $"{dataTable.Rows[1][0]}";
+            SetCurrencyInfo($"{dataTable.Rows[1][0]}", excelPricelist);
+            excelPricelist.Reference = $"{dataTable.Rows[2][0]}";
             ParseCategory(dataTable);
             return excelPricelist;
         }
-        public 
+        
         private void ParseCategory(DataTable dataTable)
         {
             foreach (DataRow dataRow in dataTable.Rows)

@@ -1,9 +1,10 @@
-﻿using Plumber71.Core.Enums;
+﻿using Plumber71.Core.Abstractions;
+using Plumber71.Core.Enums;
 using Plumber71.Core.Model;
 
 namespace Plumber71.Core.Service.ExelPriceProvider.Model
 {
-    public class PriselistProduct : ProductDTO
+    public class PriselistProduct : ProductAbstraction
     {
         public int Code { get => Key; set => Key = value; }
 
@@ -24,6 +25,21 @@ namespace Plumber71.Core.Service.ExelPriceProvider.Model
         {
             return $"Id: {Sku} Name: {Name} Pieces: {Pieces} Currency: {Currency.ToString()} " +
                 $"TradePriceInCurrency: {TradePriceInCurrency} TradePriceInRubbles: {TradePriceInRubbles} Price7Ka {Price7Ka}";
+        }
+
+        public static explicit operator ProductDTO(PriselistProduct product)
+        {
+            ProductDTO productDTO = new ProductDTO()
+            {
+                Id = 0,
+                Key = 0,
+                Name = product.Name,
+                Sku = $"{product.Code}",
+                Pieces = product.Pieces,
+                RegularPrice = product.Price7Ka,
+                TotalPrice = product.Price7Ka
+            };
+            return productDTO;
         }
     }
 }

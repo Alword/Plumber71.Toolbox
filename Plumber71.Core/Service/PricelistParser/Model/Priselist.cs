@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Plumber71.Core.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,23 @@ namespace Plumber71.Core.Service.ExelPriceProvider.Model
         public override string ToString()
         {
             return $"PriceDate: {PriceDate} DollarRate: {DollarRate} EurRate: {EuroRate} Reference: {Reference} (Cat/Prod): {CategoryCount}/{ProductsCount}";
+        }
+
+        public static explicit operator PricelistDTO(Priselist priselist)  // explicit byte to digit conversion operator
+        {
+            PricelistDTO pricelistDTO = new PricelistDTO()
+            {
+                ProductsCurrency = Enums.Currencies.RUB,
+                Timestamp = priselist.PriceDate,
+                Categories = new List<CategoryDTO>()
+            };
+
+            var products = from category in priselist.Categorys
+                           select (CategoryDTO)category;
+
+            pricelistDTO.Categories.AddRange(products);
+
+            return pricelistDTO;
         }
     }
 }

@@ -9,6 +9,9 @@ using System.Text;
 
 namespace Plumber71.Core.Service.ExcelReader
 {
+    /// <summary>
+    /// This class is just for read excel file into DataTable
+    /// </summary>
     public class ExcelController
     {
         private string Path { get; set; }
@@ -20,27 +23,9 @@ namespace Plumber71.Core.Service.ExcelReader
 
             using (var stream = File.Open(Path, FileMode.Open, FileAccess.Read))
             {
-                /// читаем exсel
-                DataSet dataSet = ReadDataSet(stream);
-
-                return dataSet;
+                IExcelDataReader reader = ExcelReaderFactory.CreateReader(stream);
+                return reader.AsDataSet();
             }
-        }
-        private static DataSet ReadDataSet(FileStream stream)
-        {
-            IExcelDataReader reader = ExcelReaderFactory.CreateReader(stream);
-            /// настройка
-            var conf = new ExcelDataSetConfiguration()
-            {
-                ConfigureDataTable = _ => new ExcelDataTableConfiguration
-                {
-                    UseHeaderRow = true,
-                }
-            };
-
-            /// считывание
-            var dataSet = reader.AsDataSet(conf);
-            return dataSet;
         }
     }
 }
