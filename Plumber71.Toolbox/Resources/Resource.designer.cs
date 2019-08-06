@@ -26,6 +26,1547 @@ namespace Plumber71.Toolbox
 		
 		public static void UpdateIdValues()
 		{
+			global::EDMTDialog.Resource.Animation.abc_fade_in = global::Plumber71.Toolbox.Resource.Animation.abc_fade_in;
+			global::EDMTDialog.Resource.Animation.abc_fade_out = global::Plumber71.Toolbox.Resource.Animation.abc_fade_out;
+			global::EDMTDialog.Resource.Animation.abc_grow_fade_in_from_bottom = global::Plumber71.Toolbox.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::EDMTDialog.Resource.Animation.abc_popup_enter = global::Plumber71.Toolbox.Resource.Animation.abc_popup_enter;
+			global::EDMTDialog.Resource.Animation.abc_popup_exit = global::Plumber71.Toolbox.Resource.Animation.abc_popup_exit;
+			global::EDMTDialog.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Plumber71.Toolbox.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::EDMTDialog.Resource.Animation.abc_slide_in_bottom = global::Plumber71.Toolbox.Resource.Animation.abc_slide_in_bottom;
+			global::EDMTDialog.Resource.Animation.abc_slide_in_top = global::Plumber71.Toolbox.Resource.Animation.abc_slide_in_top;
+			global::EDMTDialog.Resource.Animation.abc_slide_out_bottom = global::Plumber71.Toolbox.Resource.Animation.abc_slide_out_bottom;
+			global::EDMTDialog.Resource.Animation.abc_slide_out_top = global::Plumber71.Toolbox.Resource.Animation.abc_slide_out_top;
+			global::EDMTDialog.Resource.Animation.tooltip_enter = global::Plumber71.Toolbox.Resource.Animation.tooltip_enter;
+			global::EDMTDialog.Resource.Animation.tooltip_exit = global::Plumber71.Toolbox.Resource.Animation.tooltip_exit;
+			global::EDMTDialog.Resource.Attribute.DialogSpotColor = global::Plumber71.Toolbox.Resource.Attribute.DialogSpotColor;
+			global::EDMTDialog.Resource.Attribute.DialogSpotCount = global::Plumber71.Toolbox.Resource.Attribute.DialogSpotCount;
+			global::EDMTDialog.Resource.Attribute.DialogTitleAppearance = global::Plumber71.Toolbox.Resource.Attribute.DialogTitleAppearance;
+			global::EDMTDialog.Resource.Attribute.DialogTitleText = global::Plumber71.Toolbox.Resource.Attribute.DialogTitleText;
+			global::EDMTDialog.Resource.Attribute.actionBarDivider = global::Plumber71.Toolbox.Resource.Attribute.actionBarDivider;
+			global::EDMTDialog.Resource.Attribute.actionBarItemBackground = global::Plumber71.Toolbox.Resource.Attribute.actionBarItemBackground;
+			global::EDMTDialog.Resource.Attribute.actionBarPopupTheme = global::Plumber71.Toolbox.Resource.Attribute.actionBarPopupTheme;
+			global::EDMTDialog.Resource.Attribute.actionBarSize = global::Plumber71.Toolbox.Resource.Attribute.actionBarSize;
+			global::EDMTDialog.Resource.Attribute.actionBarSplitStyle = global::Plumber71.Toolbox.Resource.Attribute.actionBarSplitStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarStyle = global::Plumber71.Toolbox.Resource.Attribute.actionBarStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTabBarStyle = global::Plumber71.Toolbox.Resource.Attribute.actionBarTabBarStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTabStyle = global::Plumber71.Toolbox.Resource.Attribute.actionBarTabStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTabTextStyle = global::Plumber71.Toolbox.Resource.Attribute.actionBarTabTextStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTheme = global::Plumber71.Toolbox.Resource.Attribute.actionBarTheme;
+			global::EDMTDialog.Resource.Attribute.actionBarWidgetTheme = global::Plumber71.Toolbox.Resource.Attribute.actionBarWidgetTheme;
+			global::EDMTDialog.Resource.Attribute.actionButtonStyle = global::Plumber71.Toolbox.Resource.Attribute.actionButtonStyle;
+			global::EDMTDialog.Resource.Attribute.actionDropDownStyle = global::Plumber71.Toolbox.Resource.Attribute.actionDropDownStyle;
+			global::EDMTDialog.Resource.Attribute.actionLayout = global::Plumber71.Toolbox.Resource.Attribute.actionLayout;
+			global::EDMTDialog.Resource.Attribute.actionMenuTextAppearance = global::Plumber71.Toolbox.Resource.Attribute.actionMenuTextAppearance;
+			global::EDMTDialog.Resource.Attribute.actionMenuTextColor = global::Plumber71.Toolbox.Resource.Attribute.actionMenuTextColor;
+			global::EDMTDialog.Resource.Attribute.actionModeBackground = global::Plumber71.Toolbox.Resource.Attribute.actionModeBackground;
+			global::EDMTDialog.Resource.Attribute.actionModeCloseButtonStyle = global::Plumber71.Toolbox.Resource.Attribute.actionModeCloseButtonStyle;
+			global::EDMTDialog.Resource.Attribute.actionModeCloseDrawable = global::Plumber71.Toolbox.Resource.Attribute.actionModeCloseDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeCopyDrawable = global::Plumber71.Toolbox.Resource.Attribute.actionModeCopyDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeCutDrawable = global::Plumber71.Toolbox.Resource.Attribute.actionModeCutDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeFindDrawable = global::Plumber71.Toolbox.Resource.Attribute.actionModeFindDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModePasteDrawable = global::Plumber71.Toolbox.Resource.Attribute.actionModePasteDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModePopupWindowStyle = global::Plumber71.Toolbox.Resource.Attribute.actionModePopupWindowStyle;
+			global::EDMTDialog.Resource.Attribute.actionModeSelectAllDrawable = global::Plumber71.Toolbox.Resource.Attribute.actionModeSelectAllDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeShareDrawable = global::Plumber71.Toolbox.Resource.Attribute.actionModeShareDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeSplitBackground = global::Plumber71.Toolbox.Resource.Attribute.actionModeSplitBackground;
+			global::EDMTDialog.Resource.Attribute.actionModeStyle = global::Plumber71.Toolbox.Resource.Attribute.actionModeStyle;
+			global::EDMTDialog.Resource.Attribute.actionModeWebSearchDrawable = global::Plumber71.Toolbox.Resource.Attribute.actionModeWebSearchDrawable;
+			global::EDMTDialog.Resource.Attribute.actionOverflowButtonStyle = global::Plumber71.Toolbox.Resource.Attribute.actionOverflowButtonStyle;
+			global::EDMTDialog.Resource.Attribute.actionOverflowMenuStyle = global::Plumber71.Toolbox.Resource.Attribute.actionOverflowMenuStyle;
+			global::EDMTDialog.Resource.Attribute.actionProviderClass = global::Plumber71.Toolbox.Resource.Attribute.actionProviderClass;
+			global::EDMTDialog.Resource.Attribute.actionViewClass = global::Plumber71.Toolbox.Resource.Attribute.actionViewClass;
+			global::EDMTDialog.Resource.Attribute.activityChooserViewStyle = global::Plumber71.Toolbox.Resource.Attribute.activityChooserViewStyle;
+			global::EDMTDialog.Resource.Attribute.alertDialogButtonGroupStyle = global::Plumber71.Toolbox.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::EDMTDialog.Resource.Attribute.alertDialogCenterButtons = global::Plumber71.Toolbox.Resource.Attribute.alertDialogCenterButtons;
+			global::EDMTDialog.Resource.Attribute.alertDialogStyle = global::Plumber71.Toolbox.Resource.Attribute.alertDialogStyle;
+			global::EDMTDialog.Resource.Attribute.alertDialogTheme = global::Plumber71.Toolbox.Resource.Attribute.alertDialogTheme;
+			global::EDMTDialog.Resource.Attribute.allowStacking = global::Plumber71.Toolbox.Resource.Attribute.allowStacking;
+			global::EDMTDialog.Resource.Attribute.alpha = global::Plumber71.Toolbox.Resource.Attribute.alpha;
+			global::EDMTDialog.Resource.Attribute.alphabeticModifiers = global::Plumber71.Toolbox.Resource.Attribute.alphabeticModifiers;
+			global::EDMTDialog.Resource.Attribute.arrowHeadLength = global::Plumber71.Toolbox.Resource.Attribute.arrowHeadLength;
+			global::EDMTDialog.Resource.Attribute.arrowShaftLength = global::Plumber71.Toolbox.Resource.Attribute.arrowShaftLength;
+			global::EDMTDialog.Resource.Attribute.autoCompleteTextViewStyle = global::Plumber71.Toolbox.Resource.Attribute.autoCompleteTextViewStyle;
+			global::EDMTDialog.Resource.Attribute.autoSizeMaxTextSize = global::Plumber71.Toolbox.Resource.Attribute.autoSizeMaxTextSize;
+			global::EDMTDialog.Resource.Attribute.autoSizeMinTextSize = global::Plumber71.Toolbox.Resource.Attribute.autoSizeMinTextSize;
+			global::EDMTDialog.Resource.Attribute.autoSizePresetSizes = global::Plumber71.Toolbox.Resource.Attribute.autoSizePresetSizes;
+			global::EDMTDialog.Resource.Attribute.autoSizeStepGranularity = global::Plumber71.Toolbox.Resource.Attribute.autoSizeStepGranularity;
+			global::EDMTDialog.Resource.Attribute.autoSizeTextType = global::Plumber71.Toolbox.Resource.Attribute.autoSizeTextType;
+			global::EDMTDialog.Resource.Attribute.background = global::Plumber71.Toolbox.Resource.Attribute.background;
+			global::EDMTDialog.Resource.Attribute.backgroundSplit = global::Plumber71.Toolbox.Resource.Attribute.backgroundSplit;
+			global::EDMTDialog.Resource.Attribute.backgroundStacked = global::Plumber71.Toolbox.Resource.Attribute.backgroundStacked;
+			global::EDMTDialog.Resource.Attribute.backgroundTint = global::Plumber71.Toolbox.Resource.Attribute.backgroundTint;
+			global::EDMTDialog.Resource.Attribute.backgroundTintMode = global::Plumber71.Toolbox.Resource.Attribute.backgroundTintMode;
+			global::EDMTDialog.Resource.Attribute.barLength = global::Plumber71.Toolbox.Resource.Attribute.barLength;
+			global::EDMTDialog.Resource.Attribute.borderlessButtonStyle = global::Plumber71.Toolbox.Resource.Attribute.borderlessButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarButtonStyle = global::Plumber71.Toolbox.Resource.Attribute.buttonBarButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarNegativeButtonStyle = global::Plumber71.Toolbox.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarNeutralButtonStyle = global::Plumber71.Toolbox.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarPositiveButtonStyle = global::Plumber71.Toolbox.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarStyle = global::Plumber71.Toolbox.Resource.Attribute.buttonBarStyle;
+			global::EDMTDialog.Resource.Attribute.buttonGravity = global::Plumber71.Toolbox.Resource.Attribute.buttonGravity;
+			global::EDMTDialog.Resource.Attribute.buttonPanelSideLayout = global::Plumber71.Toolbox.Resource.Attribute.buttonPanelSideLayout;
+			global::EDMTDialog.Resource.Attribute.buttonStyle = global::Plumber71.Toolbox.Resource.Attribute.buttonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonStyleSmall = global::Plumber71.Toolbox.Resource.Attribute.buttonStyleSmall;
+			global::EDMTDialog.Resource.Attribute.buttonTint = global::Plumber71.Toolbox.Resource.Attribute.buttonTint;
+			global::EDMTDialog.Resource.Attribute.buttonTintMode = global::Plumber71.Toolbox.Resource.Attribute.buttonTintMode;
+			global::EDMTDialog.Resource.Attribute.checkboxStyle = global::Plumber71.Toolbox.Resource.Attribute.checkboxStyle;
+			global::EDMTDialog.Resource.Attribute.checkedTextViewStyle = global::Plumber71.Toolbox.Resource.Attribute.checkedTextViewStyle;
+			global::EDMTDialog.Resource.Attribute.closeIcon = global::Plumber71.Toolbox.Resource.Attribute.closeIcon;
+			global::EDMTDialog.Resource.Attribute.closeItemLayout = global::Plumber71.Toolbox.Resource.Attribute.closeItemLayout;
+			global::EDMTDialog.Resource.Attribute.collapseContentDescription = global::Plumber71.Toolbox.Resource.Attribute.collapseContentDescription;
+			global::EDMTDialog.Resource.Attribute.collapseIcon = global::Plumber71.Toolbox.Resource.Attribute.collapseIcon;
+			global::EDMTDialog.Resource.Attribute.color = global::Plumber71.Toolbox.Resource.Attribute.color;
+			global::EDMTDialog.Resource.Attribute.colorAccent = global::Plumber71.Toolbox.Resource.Attribute.colorAccent;
+			global::EDMTDialog.Resource.Attribute.colorBackgroundFloating = global::Plumber71.Toolbox.Resource.Attribute.colorBackgroundFloating;
+			global::EDMTDialog.Resource.Attribute.colorButtonNormal = global::Plumber71.Toolbox.Resource.Attribute.colorButtonNormal;
+			global::EDMTDialog.Resource.Attribute.colorControlActivated = global::Plumber71.Toolbox.Resource.Attribute.colorControlActivated;
+			global::EDMTDialog.Resource.Attribute.colorControlHighlight = global::Plumber71.Toolbox.Resource.Attribute.colorControlHighlight;
+			global::EDMTDialog.Resource.Attribute.colorControlNormal = global::Plumber71.Toolbox.Resource.Attribute.colorControlNormal;
+			global::EDMTDialog.Resource.Attribute.colorError = global::Plumber71.Toolbox.Resource.Attribute.colorError;
+			global::EDMTDialog.Resource.Attribute.colorPrimary = global::Plumber71.Toolbox.Resource.Attribute.colorPrimary;
+			global::EDMTDialog.Resource.Attribute.colorPrimaryDark = global::Plumber71.Toolbox.Resource.Attribute.colorPrimaryDark;
+			global::EDMTDialog.Resource.Attribute.colorSwitchThumbNormal = global::Plumber71.Toolbox.Resource.Attribute.colorSwitchThumbNormal;
+			global::EDMTDialog.Resource.Attribute.commitIcon = global::Plumber71.Toolbox.Resource.Attribute.commitIcon;
+			global::EDMTDialog.Resource.Attribute.contentDescription = global::Plumber71.Toolbox.Resource.Attribute.contentDescription;
+			global::EDMTDialog.Resource.Attribute.contentInsetEnd = global::Plumber71.Toolbox.Resource.Attribute.contentInsetEnd;
+			global::EDMTDialog.Resource.Attribute.contentInsetEndWithActions = global::Plumber71.Toolbox.Resource.Attribute.contentInsetEndWithActions;
+			global::EDMTDialog.Resource.Attribute.contentInsetLeft = global::Plumber71.Toolbox.Resource.Attribute.contentInsetLeft;
+			global::EDMTDialog.Resource.Attribute.contentInsetRight = global::Plumber71.Toolbox.Resource.Attribute.contentInsetRight;
+			global::EDMTDialog.Resource.Attribute.contentInsetStart = global::Plumber71.Toolbox.Resource.Attribute.contentInsetStart;
+			global::EDMTDialog.Resource.Attribute.contentInsetStartWithNavigation = global::Plumber71.Toolbox.Resource.Attribute.contentInsetStartWithNavigation;
+			global::EDMTDialog.Resource.Attribute.controlBackground = global::Plumber71.Toolbox.Resource.Attribute.controlBackground;
+			global::EDMTDialog.Resource.Attribute.customNavigationLayout = global::Plumber71.Toolbox.Resource.Attribute.customNavigationLayout;
+			global::EDMTDialog.Resource.Attribute.defaultQueryHint = global::Plumber71.Toolbox.Resource.Attribute.defaultQueryHint;
+			global::EDMTDialog.Resource.Attribute.dialogPreferredPadding = global::Plumber71.Toolbox.Resource.Attribute.dialogPreferredPadding;
+			global::EDMTDialog.Resource.Attribute.dialogTheme = global::Plumber71.Toolbox.Resource.Attribute.dialogTheme;
+			global::EDMTDialog.Resource.Attribute.displayOptions = global::Plumber71.Toolbox.Resource.Attribute.displayOptions;
+			global::EDMTDialog.Resource.Attribute.divider = global::Plumber71.Toolbox.Resource.Attribute.divider;
+			global::EDMTDialog.Resource.Attribute.dividerHorizontal = global::Plumber71.Toolbox.Resource.Attribute.dividerHorizontal;
+			global::EDMTDialog.Resource.Attribute.dividerPadding = global::Plumber71.Toolbox.Resource.Attribute.dividerPadding;
+			global::EDMTDialog.Resource.Attribute.dividerVertical = global::Plumber71.Toolbox.Resource.Attribute.dividerVertical;
+			global::EDMTDialog.Resource.Attribute.drawableSize = global::Plumber71.Toolbox.Resource.Attribute.drawableSize;
+			global::EDMTDialog.Resource.Attribute.drawerArrowStyle = global::Plumber71.Toolbox.Resource.Attribute.drawerArrowStyle;
+			global::EDMTDialog.Resource.Attribute.dropDownListViewStyle = global::Plumber71.Toolbox.Resource.Attribute.dropDownListViewStyle;
+			global::EDMTDialog.Resource.Attribute.dropdownListPreferredItemHeight = global::Plumber71.Toolbox.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::EDMTDialog.Resource.Attribute.editTextBackground = global::Plumber71.Toolbox.Resource.Attribute.editTextBackground;
+			global::EDMTDialog.Resource.Attribute.editTextColor = global::Plumber71.Toolbox.Resource.Attribute.editTextColor;
+			global::EDMTDialog.Resource.Attribute.editTextStyle = global::Plumber71.Toolbox.Resource.Attribute.editTextStyle;
+			global::EDMTDialog.Resource.Attribute.elevation = global::Plumber71.Toolbox.Resource.Attribute.elevation;
+			global::EDMTDialog.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Plumber71.Toolbox.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::EDMTDialog.Resource.Attribute.font = global::Plumber71.Toolbox.Resource.Attribute.font;
+			global::EDMTDialog.Resource.Attribute.fontFamily = global::Plumber71.Toolbox.Resource.Attribute.fontFamily;
+			global::EDMTDialog.Resource.Attribute.fontProviderAuthority = global::Plumber71.Toolbox.Resource.Attribute.fontProviderAuthority;
+			global::EDMTDialog.Resource.Attribute.fontProviderCerts = global::Plumber71.Toolbox.Resource.Attribute.fontProviderCerts;
+			global::EDMTDialog.Resource.Attribute.fontProviderFetchStrategy = global::Plumber71.Toolbox.Resource.Attribute.fontProviderFetchStrategy;
+			global::EDMTDialog.Resource.Attribute.fontProviderFetchTimeout = global::Plumber71.Toolbox.Resource.Attribute.fontProviderFetchTimeout;
+			global::EDMTDialog.Resource.Attribute.fontProviderPackage = global::Plumber71.Toolbox.Resource.Attribute.fontProviderPackage;
+			global::EDMTDialog.Resource.Attribute.fontProviderQuery = global::Plumber71.Toolbox.Resource.Attribute.fontProviderQuery;
+			global::EDMTDialog.Resource.Attribute.fontStyle = global::Plumber71.Toolbox.Resource.Attribute.fontStyle;
+			global::EDMTDialog.Resource.Attribute.fontWeight = global::Plumber71.Toolbox.Resource.Attribute.fontWeight;
+			global::EDMTDialog.Resource.Attribute.gapBetweenBars = global::Plumber71.Toolbox.Resource.Attribute.gapBetweenBars;
+			global::EDMTDialog.Resource.Attribute.goIcon = global::Plumber71.Toolbox.Resource.Attribute.goIcon;
+			global::EDMTDialog.Resource.Attribute.height = global::Plumber71.Toolbox.Resource.Attribute.height;
+			global::EDMTDialog.Resource.Attribute.hideOnContentScroll = global::Plumber71.Toolbox.Resource.Attribute.hideOnContentScroll;
+			global::EDMTDialog.Resource.Attribute.homeAsUpIndicator = global::Plumber71.Toolbox.Resource.Attribute.homeAsUpIndicator;
+			global::EDMTDialog.Resource.Attribute.homeLayout = global::Plumber71.Toolbox.Resource.Attribute.homeLayout;
+			global::EDMTDialog.Resource.Attribute.icon = global::Plumber71.Toolbox.Resource.Attribute.icon;
+			global::EDMTDialog.Resource.Attribute.iconTint = global::Plumber71.Toolbox.Resource.Attribute.iconTint;
+			global::EDMTDialog.Resource.Attribute.iconTintMode = global::Plumber71.Toolbox.Resource.Attribute.iconTintMode;
+			global::EDMTDialog.Resource.Attribute.iconifiedByDefault = global::Plumber71.Toolbox.Resource.Attribute.iconifiedByDefault;
+			global::EDMTDialog.Resource.Attribute.imageButtonStyle = global::Plumber71.Toolbox.Resource.Attribute.imageButtonStyle;
+			global::EDMTDialog.Resource.Attribute.indeterminateProgressStyle = global::Plumber71.Toolbox.Resource.Attribute.indeterminateProgressStyle;
+			global::EDMTDialog.Resource.Attribute.initialActivityCount = global::Plumber71.Toolbox.Resource.Attribute.initialActivityCount;
+			global::EDMTDialog.Resource.Attribute.isLightTheme = global::Plumber71.Toolbox.Resource.Attribute.isLightTheme;
+			global::EDMTDialog.Resource.Attribute.itemPadding = global::Plumber71.Toolbox.Resource.Attribute.itemPadding;
+			global::EDMTDialog.Resource.Attribute.layout = global::Plumber71.Toolbox.Resource.Attribute.layout;
+			global::EDMTDialog.Resource.Attribute.listChoiceBackgroundIndicator = global::Plumber71.Toolbox.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::EDMTDialog.Resource.Attribute.listDividerAlertDialog = global::Plumber71.Toolbox.Resource.Attribute.listDividerAlertDialog;
+			global::EDMTDialog.Resource.Attribute.listItemLayout = global::Plumber71.Toolbox.Resource.Attribute.listItemLayout;
+			global::EDMTDialog.Resource.Attribute.listLayout = global::Plumber71.Toolbox.Resource.Attribute.listLayout;
+			global::EDMTDialog.Resource.Attribute.listMenuViewStyle = global::Plumber71.Toolbox.Resource.Attribute.listMenuViewStyle;
+			global::EDMTDialog.Resource.Attribute.listPopupWindowStyle = global::Plumber71.Toolbox.Resource.Attribute.listPopupWindowStyle;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemHeight = global::Plumber71.Toolbox.Resource.Attribute.listPreferredItemHeight;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemHeightLarge = global::Plumber71.Toolbox.Resource.Attribute.listPreferredItemHeightLarge;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemHeightSmall = global::Plumber71.Toolbox.Resource.Attribute.listPreferredItemHeightSmall;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemPaddingLeft = global::Plumber71.Toolbox.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemPaddingRight = global::Plumber71.Toolbox.Resource.Attribute.listPreferredItemPaddingRight;
+			global::EDMTDialog.Resource.Attribute.logo = global::Plumber71.Toolbox.Resource.Attribute.logo;
+			global::EDMTDialog.Resource.Attribute.logoDescription = global::Plumber71.Toolbox.Resource.Attribute.logoDescription;
+			global::EDMTDialog.Resource.Attribute.maxButtonHeight = global::Plumber71.Toolbox.Resource.Attribute.maxButtonHeight;
+			global::EDMTDialog.Resource.Attribute.measureWithLargestChild = global::Plumber71.Toolbox.Resource.Attribute.measureWithLargestChild;
+			global::EDMTDialog.Resource.Attribute.multiChoiceItemLayout = global::Plumber71.Toolbox.Resource.Attribute.multiChoiceItemLayout;
+			global::EDMTDialog.Resource.Attribute.navigationContentDescription = global::Plumber71.Toolbox.Resource.Attribute.navigationContentDescription;
+			global::EDMTDialog.Resource.Attribute.navigationIcon = global::Plumber71.Toolbox.Resource.Attribute.navigationIcon;
+			global::EDMTDialog.Resource.Attribute.navigationMode = global::Plumber71.Toolbox.Resource.Attribute.navigationMode;
+			global::EDMTDialog.Resource.Attribute.numericModifiers = global::Plumber71.Toolbox.Resource.Attribute.numericModifiers;
+			global::EDMTDialog.Resource.Attribute.overlapAnchor = global::Plumber71.Toolbox.Resource.Attribute.overlapAnchor;
+			global::EDMTDialog.Resource.Attribute.paddingBottomNoButtons = global::Plumber71.Toolbox.Resource.Attribute.paddingBottomNoButtons;
+			global::EDMTDialog.Resource.Attribute.paddingEnd = global::Plumber71.Toolbox.Resource.Attribute.paddingEnd;
+			global::EDMTDialog.Resource.Attribute.paddingStart = global::Plumber71.Toolbox.Resource.Attribute.paddingStart;
+			global::EDMTDialog.Resource.Attribute.paddingTopNoTitle = global::Plumber71.Toolbox.Resource.Attribute.paddingTopNoTitle;
+			global::EDMTDialog.Resource.Attribute.panelBackground = global::Plumber71.Toolbox.Resource.Attribute.panelBackground;
+			global::EDMTDialog.Resource.Attribute.panelMenuListTheme = global::Plumber71.Toolbox.Resource.Attribute.panelMenuListTheme;
+			global::EDMTDialog.Resource.Attribute.panelMenuListWidth = global::Plumber71.Toolbox.Resource.Attribute.panelMenuListWidth;
+			global::EDMTDialog.Resource.Attribute.popupMenuStyle = global::Plumber71.Toolbox.Resource.Attribute.popupMenuStyle;
+			global::EDMTDialog.Resource.Attribute.popupTheme = global::Plumber71.Toolbox.Resource.Attribute.popupTheme;
+			global::EDMTDialog.Resource.Attribute.popupWindowStyle = global::Plumber71.Toolbox.Resource.Attribute.popupWindowStyle;
+			global::EDMTDialog.Resource.Attribute.preserveIconSpacing = global::Plumber71.Toolbox.Resource.Attribute.preserveIconSpacing;
+			global::EDMTDialog.Resource.Attribute.progressBarPadding = global::Plumber71.Toolbox.Resource.Attribute.progressBarPadding;
+			global::EDMTDialog.Resource.Attribute.progressBarStyle = global::Plumber71.Toolbox.Resource.Attribute.progressBarStyle;
+			global::EDMTDialog.Resource.Attribute.queryBackground = global::Plumber71.Toolbox.Resource.Attribute.queryBackground;
+			global::EDMTDialog.Resource.Attribute.queryHint = global::Plumber71.Toolbox.Resource.Attribute.queryHint;
+			global::EDMTDialog.Resource.Attribute.radioButtonStyle = global::Plumber71.Toolbox.Resource.Attribute.radioButtonStyle;
+			global::EDMTDialog.Resource.Attribute.ratingBarStyle = global::Plumber71.Toolbox.Resource.Attribute.ratingBarStyle;
+			global::EDMTDialog.Resource.Attribute.ratingBarStyleIndicator = global::Plumber71.Toolbox.Resource.Attribute.ratingBarStyleIndicator;
+			global::EDMTDialog.Resource.Attribute.ratingBarStyleSmall = global::Plumber71.Toolbox.Resource.Attribute.ratingBarStyleSmall;
+			global::EDMTDialog.Resource.Attribute.searchHintIcon = global::Plumber71.Toolbox.Resource.Attribute.searchHintIcon;
+			global::EDMTDialog.Resource.Attribute.searchIcon = global::Plumber71.Toolbox.Resource.Attribute.searchIcon;
+			global::EDMTDialog.Resource.Attribute.searchViewStyle = global::Plumber71.Toolbox.Resource.Attribute.searchViewStyle;
+			global::EDMTDialog.Resource.Attribute.seekBarStyle = global::Plumber71.Toolbox.Resource.Attribute.seekBarStyle;
+			global::EDMTDialog.Resource.Attribute.selectableItemBackground = global::Plumber71.Toolbox.Resource.Attribute.selectableItemBackground;
+			global::EDMTDialog.Resource.Attribute.selectableItemBackgroundBorderless = global::Plumber71.Toolbox.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::EDMTDialog.Resource.Attribute.showAsAction = global::Plumber71.Toolbox.Resource.Attribute.showAsAction;
+			global::EDMTDialog.Resource.Attribute.showDividers = global::Plumber71.Toolbox.Resource.Attribute.showDividers;
+			global::EDMTDialog.Resource.Attribute.showText = global::Plumber71.Toolbox.Resource.Attribute.showText;
+			global::EDMTDialog.Resource.Attribute.showTitle = global::Plumber71.Toolbox.Resource.Attribute.showTitle;
+			global::EDMTDialog.Resource.Attribute.singleChoiceItemLayout = global::Plumber71.Toolbox.Resource.Attribute.singleChoiceItemLayout;
+			global::EDMTDialog.Resource.Attribute.spinBars = global::Plumber71.Toolbox.Resource.Attribute.spinBars;
+			global::EDMTDialog.Resource.Attribute.spinnerDropDownItemStyle = global::Plumber71.Toolbox.Resource.Attribute.spinnerDropDownItemStyle;
+			global::EDMTDialog.Resource.Attribute.spinnerStyle = global::Plumber71.Toolbox.Resource.Attribute.spinnerStyle;
+			global::EDMTDialog.Resource.Attribute.splitTrack = global::Plumber71.Toolbox.Resource.Attribute.splitTrack;
+			global::EDMTDialog.Resource.Attribute.srcCompat = global::Plumber71.Toolbox.Resource.Attribute.srcCompat;
+			global::EDMTDialog.Resource.Attribute.state_above_anchor = global::Plumber71.Toolbox.Resource.Attribute.state_above_anchor;
+			global::EDMTDialog.Resource.Attribute.subMenuArrow = global::Plumber71.Toolbox.Resource.Attribute.subMenuArrow;
+			global::EDMTDialog.Resource.Attribute.submitBackground = global::Plumber71.Toolbox.Resource.Attribute.submitBackground;
+			global::EDMTDialog.Resource.Attribute.subtitle = global::Plumber71.Toolbox.Resource.Attribute.subtitle;
+			global::EDMTDialog.Resource.Attribute.subtitleTextAppearance = global::Plumber71.Toolbox.Resource.Attribute.subtitleTextAppearance;
+			global::EDMTDialog.Resource.Attribute.subtitleTextColor = global::Plumber71.Toolbox.Resource.Attribute.subtitleTextColor;
+			global::EDMTDialog.Resource.Attribute.subtitleTextStyle = global::Plumber71.Toolbox.Resource.Attribute.subtitleTextStyle;
+			global::EDMTDialog.Resource.Attribute.suggestionRowLayout = global::Plumber71.Toolbox.Resource.Attribute.suggestionRowLayout;
+			global::EDMTDialog.Resource.Attribute.switchMinWidth = global::Plumber71.Toolbox.Resource.Attribute.switchMinWidth;
+			global::EDMTDialog.Resource.Attribute.switchPadding = global::Plumber71.Toolbox.Resource.Attribute.switchPadding;
+			global::EDMTDialog.Resource.Attribute.switchStyle = global::Plumber71.Toolbox.Resource.Attribute.switchStyle;
+			global::EDMTDialog.Resource.Attribute.switchTextAppearance = global::Plumber71.Toolbox.Resource.Attribute.switchTextAppearance;
+			global::EDMTDialog.Resource.Attribute.textAllCaps = global::Plumber71.Toolbox.Resource.Attribute.textAllCaps;
+			global::EDMTDialog.Resource.Attribute.textAppearanceLargePopupMenu = global::Plumber71.Toolbox.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::EDMTDialog.Resource.Attribute.textAppearanceListItem = global::Plumber71.Toolbox.Resource.Attribute.textAppearanceListItem;
+			global::EDMTDialog.Resource.Attribute.textAppearanceListItemSecondary = global::Plumber71.Toolbox.Resource.Attribute.textAppearanceListItemSecondary;
+			global::EDMTDialog.Resource.Attribute.textAppearanceListItemSmall = global::Plumber71.Toolbox.Resource.Attribute.textAppearanceListItemSmall;
+			global::EDMTDialog.Resource.Attribute.textAppearancePopupMenuHeader = global::Plumber71.Toolbox.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::EDMTDialog.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Plumber71.Toolbox.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::EDMTDialog.Resource.Attribute.textAppearanceSearchResultTitle = global::Plumber71.Toolbox.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::EDMTDialog.Resource.Attribute.textAppearanceSmallPopupMenu = global::Plumber71.Toolbox.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::EDMTDialog.Resource.Attribute.textColorAlertDialogListItem = global::Plumber71.Toolbox.Resource.Attribute.textColorAlertDialogListItem;
+			global::EDMTDialog.Resource.Attribute.textColorSearchUrl = global::Plumber71.Toolbox.Resource.Attribute.textColorSearchUrl;
+			global::EDMTDialog.Resource.Attribute.theme = global::Plumber71.Toolbox.Resource.Attribute.theme;
+			global::EDMTDialog.Resource.Attribute.thickness = global::Plumber71.Toolbox.Resource.Attribute.thickness;
+			global::EDMTDialog.Resource.Attribute.thumbTextPadding = global::Plumber71.Toolbox.Resource.Attribute.thumbTextPadding;
+			global::EDMTDialog.Resource.Attribute.thumbTint = global::Plumber71.Toolbox.Resource.Attribute.thumbTint;
+			global::EDMTDialog.Resource.Attribute.thumbTintMode = global::Plumber71.Toolbox.Resource.Attribute.thumbTintMode;
+			global::EDMTDialog.Resource.Attribute.tickMark = global::Plumber71.Toolbox.Resource.Attribute.tickMark;
+			global::EDMTDialog.Resource.Attribute.tickMarkTint = global::Plumber71.Toolbox.Resource.Attribute.tickMarkTint;
+			global::EDMTDialog.Resource.Attribute.tickMarkTintMode = global::Plumber71.Toolbox.Resource.Attribute.tickMarkTintMode;
+			global::EDMTDialog.Resource.Attribute.tint = global::Plumber71.Toolbox.Resource.Attribute.tint;
+			global::EDMTDialog.Resource.Attribute.tintMode = global::Plumber71.Toolbox.Resource.Attribute.tintMode;
+			global::EDMTDialog.Resource.Attribute.title = global::Plumber71.Toolbox.Resource.Attribute.title;
+			global::EDMTDialog.Resource.Attribute.titleMargin = global::Plumber71.Toolbox.Resource.Attribute.titleMargin;
+			global::EDMTDialog.Resource.Attribute.titleMarginBottom = global::Plumber71.Toolbox.Resource.Attribute.titleMarginBottom;
+			global::EDMTDialog.Resource.Attribute.titleMarginEnd = global::Plumber71.Toolbox.Resource.Attribute.titleMarginEnd;
+			global::EDMTDialog.Resource.Attribute.titleMarginStart = global::Plumber71.Toolbox.Resource.Attribute.titleMarginStart;
+			global::EDMTDialog.Resource.Attribute.titleMarginTop = global::Plumber71.Toolbox.Resource.Attribute.titleMarginTop;
+			global::EDMTDialog.Resource.Attribute.titleMargins = global::Plumber71.Toolbox.Resource.Attribute.titleMargins;
+			global::EDMTDialog.Resource.Attribute.titleTextAppearance = global::Plumber71.Toolbox.Resource.Attribute.titleTextAppearance;
+			global::EDMTDialog.Resource.Attribute.titleTextColor = global::Plumber71.Toolbox.Resource.Attribute.titleTextColor;
+			global::EDMTDialog.Resource.Attribute.titleTextStyle = global::Plumber71.Toolbox.Resource.Attribute.titleTextStyle;
+			global::EDMTDialog.Resource.Attribute.toolbarNavigationButtonStyle = global::Plumber71.Toolbox.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::EDMTDialog.Resource.Attribute.toolbarStyle = global::Plumber71.Toolbox.Resource.Attribute.toolbarStyle;
+			global::EDMTDialog.Resource.Attribute.tooltipForegroundColor = global::Plumber71.Toolbox.Resource.Attribute.tooltipForegroundColor;
+			global::EDMTDialog.Resource.Attribute.tooltipFrameBackground = global::Plumber71.Toolbox.Resource.Attribute.tooltipFrameBackground;
+			global::EDMTDialog.Resource.Attribute.tooltipText = global::Plumber71.Toolbox.Resource.Attribute.tooltipText;
+			global::EDMTDialog.Resource.Attribute.track = global::Plumber71.Toolbox.Resource.Attribute.track;
+			global::EDMTDialog.Resource.Attribute.trackTint = global::Plumber71.Toolbox.Resource.Attribute.trackTint;
+			global::EDMTDialog.Resource.Attribute.trackTintMode = global::Plumber71.Toolbox.Resource.Attribute.trackTintMode;
+			global::EDMTDialog.Resource.Attribute.voiceIcon = global::Plumber71.Toolbox.Resource.Attribute.voiceIcon;
+			global::EDMTDialog.Resource.Attribute.windowActionBar = global::Plumber71.Toolbox.Resource.Attribute.windowActionBar;
+			global::EDMTDialog.Resource.Attribute.windowActionBarOverlay = global::Plumber71.Toolbox.Resource.Attribute.windowActionBarOverlay;
+			global::EDMTDialog.Resource.Attribute.windowActionModeOverlay = global::Plumber71.Toolbox.Resource.Attribute.windowActionModeOverlay;
+			global::EDMTDialog.Resource.Attribute.windowFixedHeightMajor = global::Plumber71.Toolbox.Resource.Attribute.windowFixedHeightMajor;
+			global::EDMTDialog.Resource.Attribute.windowFixedHeightMinor = global::Plumber71.Toolbox.Resource.Attribute.windowFixedHeightMinor;
+			global::EDMTDialog.Resource.Attribute.windowFixedWidthMajor = global::Plumber71.Toolbox.Resource.Attribute.windowFixedWidthMajor;
+			global::EDMTDialog.Resource.Attribute.windowFixedWidthMinor = global::Plumber71.Toolbox.Resource.Attribute.windowFixedWidthMinor;
+			global::EDMTDialog.Resource.Attribute.windowMinWidthMajor = global::Plumber71.Toolbox.Resource.Attribute.windowMinWidthMajor;
+			global::EDMTDialog.Resource.Attribute.windowMinWidthMinor = global::Plumber71.Toolbox.Resource.Attribute.windowMinWidthMinor;
+			global::EDMTDialog.Resource.Attribute.windowNoTitle = global::Plumber71.Toolbox.Resource.Attribute.windowNoTitle;
+			global::EDMTDialog.Resource.Boolean.abc_action_bar_embed_tabs = global::Plumber71.Toolbox.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::EDMTDialog.Resource.Boolean.abc_allow_stacked_button_bar = global::Plumber71.Toolbox.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::EDMTDialog.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Plumber71.Toolbox.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::EDMTDialog.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::Plumber71.Toolbox.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::EDMTDialog.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Plumber71.Toolbox.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::EDMTDialog.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Plumber71.Toolbox.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::EDMTDialog.Resource.Color.abc_background_cache_hint_selector_material_light = global::Plumber71.Toolbox.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::EDMTDialog.Resource.Color.abc_btn_colored_borderless_text_material = global::Plumber71.Toolbox.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::EDMTDialog.Resource.Color.abc_btn_colored_text_material = global::Plumber71.Toolbox.Resource.Color.abc_btn_colored_text_material;
+			global::EDMTDialog.Resource.Color.abc_color_highlight_material = global::Plumber71.Toolbox.Resource.Color.abc_color_highlight_material;
+			global::EDMTDialog.Resource.Color.abc_hint_foreground_material_dark = global::Plumber71.Toolbox.Resource.Color.abc_hint_foreground_material_dark;
+			global::EDMTDialog.Resource.Color.abc_hint_foreground_material_light = global::Plumber71.Toolbox.Resource.Color.abc_hint_foreground_material_light;
+			global::EDMTDialog.Resource.Color.abc_input_method_navigation_guard = global::Plumber71.Toolbox.Resource.Color.abc_input_method_navigation_guard;
+			global::EDMTDialog.Resource.Color.abc_primary_text_disable_only_material_dark = global::Plumber71.Toolbox.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::EDMTDialog.Resource.Color.abc_primary_text_disable_only_material_light = global::Plumber71.Toolbox.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::EDMTDialog.Resource.Color.abc_primary_text_material_dark = global::Plumber71.Toolbox.Resource.Color.abc_primary_text_material_dark;
+			global::EDMTDialog.Resource.Color.abc_primary_text_material_light = global::Plumber71.Toolbox.Resource.Color.abc_primary_text_material_light;
+			global::EDMTDialog.Resource.Color.abc_search_url_text = global::Plumber71.Toolbox.Resource.Color.abc_search_url_text;
+			global::EDMTDialog.Resource.Color.abc_search_url_text_normal = global::Plumber71.Toolbox.Resource.Color.abc_search_url_text_normal;
+			global::EDMTDialog.Resource.Color.abc_search_url_text_pressed = global::Plumber71.Toolbox.Resource.Color.abc_search_url_text_pressed;
+			global::EDMTDialog.Resource.Color.abc_search_url_text_selected = global::Plumber71.Toolbox.Resource.Color.abc_search_url_text_selected;
+			global::EDMTDialog.Resource.Color.abc_secondary_text_material_dark = global::Plumber71.Toolbox.Resource.Color.abc_secondary_text_material_dark;
+			global::EDMTDialog.Resource.Color.abc_secondary_text_material_light = global::Plumber71.Toolbox.Resource.Color.abc_secondary_text_material_light;
+			global::EDMTDialog.Resource.Color.abc_tint_btn_checkable = global::Plumber71.Toolbox.Resource.Color.abc_tint_btn_checkable;
+			global::EDMTDialog.Resource.Color.abc_tint_default = global::Plumber71.Toolbox.Resource.Color.abc_tint_default;
+			global::EDMTDialog.Resource.Color.abc_tint_edittext = global::Plumber71.Toolbox.Resource.Color.abc_tint_edittext;
+			global::EDMTDialog.Resource.Color.abc_tint_seek_thumb = global::Plumber71.Toolbox.Resource.Color.abc_tint_seek_thumb;
+			global::EDMTDialog.Resource.Color.abc_tint_spinner = global::Plumber71.Toolbox.Resource.Color.abc_tint_spinner;
+			global::EDMTDialog.Resource.Color.abc_tint_switch_track = global::Plumber71.Toolbox.Resource.Color.abc_tint_switch_track;
+			global::EDMTDialog.Resource.Color.accent_material_dark = global::Plumber71.Toolbox.Resource.Color.accent_material_dark;
+			global::EDMTDialog.Resource.Color.accent_material_light = global::Plumber71.Toolbox.Resource.Color.accent_material_light;
+			global::EDMTDialog.Resource.Color.background_floating_material_dark = global::Plumber71.Toolbox.Resource.Color.background_floating_material_dark;
+			global::EDMTDialog.Resource.Color.background_floating_material_light = global::Plumber71.Toolbox.Resource.Color.background_floating_material_light;
+			global::EDMTDialog.Resource.Color.background_material_dark = global::Plumber71.Toolbox.Resource.Color.background_material_dark;
+			global::EDMTDialog.Resource.Color.background_material_light = global::Plumber71.Toolbox.Resource.Color.background_material_light;
+			global::EDMTDialog.Resource.Color.bright_foreground_disabled_material_dark = global::Plumber71.Toolbox.Resource.Color.bright_foreground_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.bright_foreground_disabled_material_light = global::Plumber71.Toolbox.Resource.Color.bright_foreground_disabled_material_light;
+			global::EDMTDialog.Resource.Color.bright_foreground_inverse_material_dark = global::Plumber71.Toolbox.Resource.Color.bright_foreground_inverse_material_dark;
+			global::EDMTDialog.Resource.Color.bright_foreground_inverse_material_light = global::Plumber71.Toolbox.Resource.Color.bright_foreground_inverse_material_light;
+			global::EDMTDialog.Resource.Color.bright_foreground_material_dark = global::Plumber71.Toolbox.Resource.Color.bright_foreground_material_dark;
+			global::EDMTDialog.Resource.Color.bright_foreground_material_light = global::Plumber71.Toolbox.Resource.Color.bright_foreground_material_light;
+			global::EDMTDialog.Resource.Color.button_material_dark = global::Plumber71.Toolbox.Resource.Color.button_material_dark;
+			global::EDMTDialog.Resource.Color.button_material_light = global::Plumber71.Toolbox.Resource.Color.button_material_light;
+			global::EDMTDialog.Resource.Color.dim_foreground_disabled_material_dark = global::Plumber71.Toolbox.Resource.Color.dim_foreground_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.dim_foreground_disabled_material_light = global::Plumber71.Toolbox.Resource.Color.dim_foreground_disabled_material_light;
+			global::EDMTDialog.Resource.Color.dim_foreground_material_dark = global::Plumber71.Toolbox.Resource.Color.dim_foreground_material_dark;
+			global::EDMTDialog.Resource.Color.dim_foreground_material_light = global::Plumber71.Toolbox.Resource.Color.dim_foreground_material_light;
+			global::EDMTDialog.Resource.Color.error_color_material = global::Plumber71.Toolbox.Resource.Color.error_color_material;
+			global::EDMTDialog.Resource.Color.foreground_material_dark = global::Plumber71.Toolbox.Resource.Color.foreground_material_dark;
+			global::EDMTDialog.Resource.Color.foreground_material_light = global::Plumber71.Toolbox.Resource.Color.foreground_material_light;
+			global::EDMTDialog.Resource.Color.highlighted_text_material_dark = global::Plumber71.Toolbox.Resource.Color.highlighted_text_material_dark;
+			global::EDMTDialog.Resource.Color.highlighted_text_material_light = global::Plumber71.Toolbox.Resource.Color.highlighted_text_material_light;
+			global::EDMTDialog.Resource.Color.material_blue_grey_800 = global::Plumber71.Toolbox.Resource.Color.material_blue_grey_800;
+			global::EDMTDialog.Resource.Color.material_blue_grey_900 = global::Plumber71.Toolbox.Resource.Color.material_blue_grey_900;
+			global::EDMTDialog.Resource.Color.material_blue_grey_950 = global::Plumber71.Toolbox.Resource.Color.material_blue_grey_950;
+			global::EDMTDialog.Resource.Color.material_deep_teal_200 = global::Plumber71.Toolbox.Resource.Color.material_deep_teal_200;
+			global::EDMTDialog.Resource.Color.material_deep_teal_500 = global::Plumber71.Toolbox.Resource.Color.material_deep_teal_500;
+			global::EDMTDialog.Resource.Color.material_grey_100 = global::Plumber71.Toolbox.Resource.Color.material_grey_100;
+			global::EDMTDialog.Resource.Color.material_grey_300 = global::Plumber71.Toolbox.Resource.Color.material_grey_300;
+			global::EDMTDialog.Resource.Color.material_grey_50 = global::Plumber71.Toolbox.Resource.Color.material_grey_50;
+			global::EDMTDialog.Resource.Color.material_grey_600 = global::Plumber71.Toolbox.Resource.Color.material_grey_600;
+			global::EDMTDialog.Resource.Color.material_grey_800 = global::Plumber71.Toolbox.Resource.Color.material_grey_800;
+			global::EDMTDialog.Resource.Color.material_grey_850 = global::Plumber71.Toolbox.Resource.Color.material_grey_850;
+			global::EDMTDialog.Resource.Color.material_grey_900 = global::Plumber71.Toolbox.Resource.Color.material_grey_900;
+			global::EDMTDialog.Resource.Color.notification_action_color_filter = global::Plumber71.Toolbox.Resource.Color.notification_action_color_filter;
+			global::EDMTDialog.Resource.Color.notification_icon_bg_color = global::Plumber71.Toolbox.Resource.Color.notification_icon_bg_color;
+			global::EDMTDialog.Resource.Color.notification_material_background_media_default_color = global::Plumber71.Toolbox.Resource.Color.notification_material_background_media_default_color;
+			global::EDMTDialog.Resource.Color.primary_dark_material_dark = global::Plumber71.Toolbox.Resource.Color.primary_dark_material_dark;
+			global::EDMTDialog.Resource.Color.primary_dark_material_light = global::Plumber71.Toolbox.Resource.Color.primary_dark_material_light;
+			global::EDMTDialog.Resource.Color.primary_material_dark = global::Plumber71.Toolbox.Resource.Color.primary_material_dark;
+			global::EDMTDialog.Resource.Color.primary_material_light = global::Plumber71.Toolbox.Resource.Color.primary_material_light;
+			global::EDMTDialog.Resource.Color.primary_text_default_material_dark = global::Plumber71.Toolbox.Resource.Color.primary_text_default_material_dark;
+			global::EDMTDialog.Resource.Color.primary_text_default_material_light = global::Plumber71.Toolbox.Resource.Color.primary_text_default_material_light;
+			global::EDMTDialog.Resource.Color.primary_text_disabled_material_dark = global::Plumber71.Toolbox.Resource.Color.primary_text_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.primary_text_disabled_material_light = global::Plumber71.Toolbox.Resource.Color.primary_text_disabled_material_light;
+			global::EDMTDialog.Resource.Color.ripple_material_dark = global::Plumber71.Toolbox.Resource.Color.ripple_material_dark;
+			global::EDMTDialog.Resource.Color.ripple_material_light = global::Plumber71.Toolbox.Resource.Color.ripple_material_light;
+			global::EDMTDialog.Resource.Color.secondary_text_default_material_dark = global::Plumber71.Toolbox.Resource.Color.secondary_text_default_material_dark;
+			global::EDMTDialog.Resource.Color.secondary_text_default_material_light = global::Plumber71.Toolbox.Resource.Color.secondary_text_default_material_light;
+			global::EDMTDialog.Resource.Color.secondary_text_disabled_material_dark = global::Plumber71.Toolbox.Resource.Color.secondary_text_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.secondary_text_disabled_material_light = global::Plumber71.Toolbox.Resource.Color.secondary_text_disabled_material_light;
+			global::EDMTDialog.Resource.Color.spots_dialog_color = global::Plumber71.Toolbox.Resource.Color.spots_dialog_color;
+			global::EDMTDialog.Resource.Color.switch_thumb_disabled_material_dark = global::Plumber71.Toolbox.Resource.Color.switch_thumb_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.switch_thumb_disabled_material_light = global::Plumber71.Toolbox.Resource.Color.switch_thumb_disabled_material_light;
+			global::EDMTDialog.Resource.Color.switch_thumb_material_dark = global::Plumber71.Toolbox.Resource.Color.switch_thumb_material_dark;
+			global::EDMTDialog.Resource.Color.switch_thumb_material_light = global::Plumber71.Toolbox.Resource.Color.switch_thumb_material_light;
+			global::EDMTDialog.Resource.Color.switch_thumb_normal_material_dark = global::Plumber71.Toolbox.Resource.Color.switch_thumb_normal_material_dark;
+			global::EDMTDialog.Resource.Color.switch_thumb_normal_material_light = global::Plumber71.Toolbox.Resource.Color.switch_thumb_normal_material_light;
+			global::EDMTDialog.Resource.Color.tooltip_background_dark = global::Plumber71.Toolbox.Resource.Color.tooltip_background_dark;
+			global::EDMTDialog.Resource.Color.tooltip_background_light = global::Plumber71.Toolbox.Resource.Color.tooltip_background_light;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_content_inset_material = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_default_height_material = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_default_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_elevation_material = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_elevation_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_progress_bar_size = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_stacked_max_height = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Plumber71.Toolbox.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_button_min_height_material = global::Plumber71.Toolbox.Resource.Dimension.abc_action_button_min_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_button_min_width_material = global::Plumber71.Toolbox.Resource.Dimension.abc_action_button_min_width_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Plumber71.Toolbox.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::EDMTDialog.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Plumber71.Toolbox.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::EDMTDialog.Resource.Dimension.abc_button_inset_horizontal_material = global::Plumber71.Toolbox.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_button_inset_vertical_material = global::Plumber71.Toolbox.Resource.Dimension.abc_button_inset_vertical_material;
+			global::EDMTDialog.Resource.Dimension.abc_button_padding_horizontal_material = global::Plumber71.Toolbox.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_button_padding_vertical_material = global::Plumber71.Toolbox.Resource.Dimension.abc_button_padding_vertical_material;
+			global::EDMTDialog.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Plumber71.Toolbox.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::EDMTDialog.Resource.Dimension.abc_config_prefDialogWidth = global::Plumber71.Toolbox.Resource.Dimension.abc_config_prefDialogWidth;
+			global::EDMTDialog.Resource.Dimension.abc_control_corner_material = global::Plumber71.Toolbox.Resource.Dimension.abc_control_corner_material;
+			global::EDMTDialog.Resource.Dimension.abc_control_inset_material = global::Plumber71.Toolbox.Resource.Dimension.abc_control_inset_material;
+			global::EDMTDialog.Resource.Dimension.abc_control_padding_material = global::Plumber71.Toolbox.Resource.Dimension.abc_control_padding_material;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_height_major = global::Plumber71.Toolbox.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_height_minor = global::Plumber71.Toolbox.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_width_major = global::Plumber71.Toolbox.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_width_minor = global::Plumber71.Toolbox.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Plumber71.Toolbox.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Plumber71.Toolbox.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_min_width_major = global::Plumber71.Toolbox.Resource.Dimension.abc_dialog_min_width_major;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_min_width_minor = global::Plumber71.Toolbox.Resource.Dimension.abc_dialog_min_width_minor;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_padding_material = global::Plumber71.Toolbox.Resource.Dimension.abc_dialog_padding_material;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_padding_top_material = global::Plumber71.Toolbox.Resource.Dimension.abc_dialog_padding_top_material;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_title_divider_material = global::Plumber71.Toolbox.Resource.Dimension.abc_dialog_title_divider_material;
+			global::EDMTDialog.Resource.Dimension.abc_disabled_alpha_material_dark = global::Plumber71.Toolbox.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.abc_disabled_alpha_material_light = global::Plumber71.Toolbox.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.abc_dropdownitem_icon_width = global::Plumber71.Toolbox.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::EDMTDialog.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Plumber71.Toolbox.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::EDMTDialog.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Plumber71.Toolbox.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::EDMTDialog.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Plumber71.Toolbox.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::EDMTDialog.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Plumber71.Toolbox.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_edit_text_inset_top_material = global::Plumber71.Toolbox.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::EDMTDialog.Resource.Dimension.abc_floating_window_z = global::Plumber71.Toolbox.Resource.Dimension.abc_floating_window_z;
+			global::EDMTDialog.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Plumber71.Toolbox.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_panel_menu_list_width = global::Plumber71.Toolbox.Resource.Dimension.abc_panel_menu_list_width;
+			global::EDMTDialog.Resource.Dimension.abc_progress_bar_height_material = global::Plumber71.Toolbox.Resource.Dimension.abc_progress_bar_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_search_view_preferred_height = global::Plumber71.Toolbox.Resource.Dimension.abc_search_view_preferred_height;
+			global::EDMTDialog.Resource.Dimension.abc_search_view_preferred_width = global::Plumber71.Toolbox.Resource.Dimension.abc_search_view_preferred_width;
+			global::EDMTDialog.Resource.Dimension.abc_seekbar_track_background_height_material = global::Plumber71.Toolbox.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Plumber71.Toolbox.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_select_dialog_padding_start_material = global::Plumber71.Toolbox.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::EDMTDialog.Resource.Dimension.abc_switch_padding = global::Plumber71.Toolbox.Resource.Dimension.abc_switch_padding;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_body_1_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_body_1_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_body_2_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_body_2_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_button_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_button_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_caption_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_caption_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_1_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_display_1_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_2_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_display_2_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_3_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_display_3_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_4_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_display_4_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_headline_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_headline_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_large_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_large_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_medium_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_medium_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_menu_header_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_menu_header_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_menu_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_menu_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_small_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_small_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_subhead_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_subhead_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_title_material = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_title_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_title_material_toolbar = global::Plumber71.Toolbox.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::EDMTDialog.Resource.Dimension.compat_button_inset_horizontal_material = global::Plumber71.Toolbox.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.compat_button_inset_vertical_material = global::Plumber71.Toolbox.Resource.Dimension.compat_button_inset_vertical_material;
+			global::EDMTDialog.Resource.Dimension.compat_button_padding_horizontal_material = global::Plumber71.Toolbox.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.compat_button_padding_vertical_material = global::Plumber71.Toolbox.Resource.Dimension.compat_button_padding_vertical_material;
+			global::EDMTDialog.Resource.Dimension.compat_control_corner_material = global::Plumber71.Toolbox.Resource.Dimension.compat_control_corner_material;
+			global::EDMTDialog.Resource.Dimension.disabled_alpha_material_dark = global::Plumber71.Toolbox.Resource.Dimension.disabled_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.disabled_alpha_material_light = global::Plumber71.Toolbox.Resource.Dimension.disabled_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.highlight_alpha_material_colored = global::Plumber71.Toolbox.Resource.Dimension.highlight_alpha_material_colored;
+			global::EDMTDialog.Resource.Dimension.highlight_alpha_material_dark = global::Plumber71.Toolbox.Resource.Dimension.highlight_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.highlight_alpha_material_light = global::Plumber71.Toolbox.Resource.Dimension.highlight_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.hint_alpha_material_dark = global::Plumber71.Toolbox.Resource.Dimension.hint_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.hint_alpha_material_light = global::Plumber71.Toolbox.Resource.Dimension.hint_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.hint_pressed_alpha_material_dark = global::Plumber71.Toolbox.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.hint_pressed_alpha_material_light = global::Plumber71.Toolbox.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.notification_action_icon_size = global::Plumber71.Toolbox.Resource.Dimension.notification_action_icon_size;
+			global::EDMTDialog.Resource.Dimension.notification_action_text_size = global::Plumber71.Toolbox.Resource.Dimension.notification_action_text_size;
+			global::EDMTDialog.Resource.Dimension.notification_big_circle_margin = global::Plumber71.Toolbox.Resource.Dimension.notification_big_circle_margin;
+			global::EDMTDialog.Resource.Dimension.notification_content_margin_start = global::Plumber71.Toolbox.Resource.Dimension.notification_content_margin_start;
+			global::EDMTDialog.Resource.Dimension.notification_large_icon_height = global::Plumber71.Toolbox.Resource.Dimension.notification_large_icon_height;
+			global::EDMTDialog.Resource.Dimension.notification_large_icon_width = global::Plumber71.Toolbox.Resource.Dimension.notification_large_icon_width;
+			global::EDMTDialog.Resource.Dimension.notification_main_column_padding_top = global::Plumber71.Toolbox.Resource.Dimension.notification_main_column_padding_top;
+			global::EDMTDialog.Resource.Dimension.notification_media_narrow_margin = global::Plumber71.Toolbox.Resource.Dimension.notification_media_narrow_margin;
+			global::EDMTDialog.Resource.Dimension.notification_right_icon_size = global::Plumber71.Toolbox.Resource.Dimension.notification_right_icon_size;
+			global::EDMTDialog.Resource.Dimension.notification_right_side_padding_top = global::Plumber71.Toolbox.Resource.Dimension.notification_right_side_padding_top;
+			global::EDMTDialog.Resource.Dimension.notification_small_icon_background_padding = global::Plumber71.Toolbox.Resource.Dimension.notification_small_icon_background_padding;
+			global::EDMTDialog.Resource.Dimension.notification_small_icon_size_as_large = global::Plumber71.Toolbox.Resource.Dimension.notification_small_icon_size_as_large;
+			global::EDMTDialog.Resource.Dimension.notification_subtext_size = global::Plumber71.Toolbox.Resource.Dimension.notification_subtext_size;
+			global::EDMTDialog.Resource.Dimension.notification_top_pad = global::Plumber71.Toolbox.Resource.Dimension.notification_top_pad;
+			global::EDMTDialog.Resource.Dimension.notification_top_pad_large_text = global::Plumber71.Toolbox.Resource.Dimension.notification_top_pad_large_text;
+			global::EDMTDialog.Resource.Dimension.progress_margin = global::Plumber71.Toolbox.Resource.Dimension.progress_margin;
+			global::EDMTDialog.Resource.Dimension.progress_width = global::Plumber71.Toolbox.Resource.Dimension.progress_width;
+			global::EDMTDialog.Resource.Dimension.spot_size = global::Plumber71.Toolbox.Resource.Dimension.spot_size;
+			global::EDMTDialog.Resource.Dimension.title_margin = global::Plumber71.Toolbox.Resource.Dimension.title_margin;
+			global::EDMTDialog.Resource.Dimension.title_padding = global::Plumber71.Toolbox.Resource.Dimension.title_padding;
+			global::EDMTDialog.Resource.Dimension.tooltip_corner_radius = global::Plumber71.Toolbox.Resource.Dimension.tooltip_corner_radius;
+			global::EDMTDialog.Resource.Dimension.tooltip_horizontal_padding = global::Plumber71.Toolbox.Resource.Dimension.tooltip_horizontal_padding;
+			global::EDMTDialog.Resource.Dimension.tooltip_margin = global::Plumber71.Toolbox.Resource.Dimension.tooltip_margin;
+			global::EDMTDialog.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Plumber71.Toolbox.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::EDMTDialog.Resource.Dimension.tooltip_precise_anchor_threshold = global::Plumber71.Toolbox.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::EDMTDialog.Resource.Dimension.tooltip_vertical_padding = global::Plumber71.Toolbox.Resource.Dimension.tooltip_vertical_padding;
+			global::EDMTDialog.Resource.Dimension.tooltip_y_offset_non_touch = global::Plumber71.Toolbox.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::EDMTDialog.Resource.Dimension.tooltip_y_offset_touch = global::Plumber71.Toolbox.Resource.Dimension.tooltip_y_offset_touch;
+			global::EDMTDialog.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_action_bar_item_background_material = global::Plumber71.Toolbox.Resource.Drawable.abc_action_bar_item_background_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_borderless_material = global::Plumber71.Toolbox.Resource.Drawable.abc_btn_borderless_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_check_material = global::Plumber71.Toolbox.Resource.Drawable.abc_btn_check_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Plumber71.Toolbox.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::EDMTDialog.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Plumber71.Toolbox.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::EDMTDialog.Resource.Drawable.abc_btn_colored_material = global::Plumber71.Toolbox.Resource.Drawable.abc_btn_colored_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_default_mtrl_shape = global::Plumber71.Toolbox.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::EDMTDialog.Resource.Drawable.abc_btn_radio_material = global::Plumber71.Toolbox.Resource.Drawable.abc_btn_radio_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Plumber71.Toolbox.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::EDMTDialog.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Plumber71.Toolbox.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::EDMTDialog.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Plumber71.Toolbox.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::EDMTDialog.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Plumber71.Toolbox.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::EDMTDialog.Resource.Drawable.abc_cab_background_internal_bg = global::Plumber71.Toolbox.Resource.Drawable.abc_cab_background_internal_bg;
+			global::EDMTDialog.Resource.Drawable.abc_cab_background_top_material = global::Plumber71.Toolbox.Resource.Drawable.abc_cab_background_top_material;
+			global::EDMTDialog.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_control_background_material = global::Plumber71.Toolbox.Resource.Drawable.abc_control_background_material;
+			global::EDMTDialog.Resource.Drawable.abc_dialog_material_background = global::Plumber71.Toolbox.Resource.Drawable.abc_dialog_material_background;
+			global::EDMTDialog.Resource.Drawable.abc_edit_text_material = global::Plumber71.Toolbox.Resource.Drawable.abc_edit_text_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_ab_back_material = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_ab_back_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_clear_material = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_clear_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_go_search_api_material = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_go_search_api_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_overflow_material = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_search_api_material = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_search_api_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_black_16dp = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_star_black_16dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_black_36dp = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_star_black_36dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_black_48dp = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_star_black_48dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_half_black_16dp = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_half_black_36dp = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_half_black_48dp = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_voice_search_api_material = global::Plumber71.Toolbox.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::EDMTDialog.Resource.Drawable.abc_item_background_holo_dark = global::Plumber71.Toolbox.Resource.Drawable.abc_item_background_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_item_background_holo_light = global::Plumber71.Toolbox.Resource.Drawable.abc_item_background_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_list_focused_holo = global::Plumber71.Toolbox.Resource.Drawable.abc_list_focused_holo;
+			global::EDMTDialog.Resource.Drawable.abc_list_longpressed_holo = global::Plumber71.Toolbox.Resource.Drawable.abc_list_longpressed_holo;
+			global::EDMTDialog.Resource.Drawable.abc_list_pressed_holo_dark = global::Plumber71.Toolbox.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_pressed_holo_light = global::Plumber71.Toolbox.Resource.Drawable.abc_list_pressed_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Plumber71.Toolbox.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Plumber71.Toolbox.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Plumber71.Toolbox.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Plumber71.Toolbox.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_holo_dark = global::Plumber71.Toolbox.Resource.Drawable.abc_list_selector_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_holo_light = global::Plumber71.Toolbox.Resource.Drawable.abc_list_selector_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Plumber71.Toolbox.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::EDMTDialog.Resource.Drawable.abc_popup_background_mtrl_mult = global::Plumber71.Toolbox.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::EDMTDialog.Resource.Drawable.abc_ratingbar_indicator_material = global::Plumber71.Toolbox.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::EDMTDialog.Resource.Drawable.abc_ratingbar_material = global::Plumber71.Toolbox.Resource.Drawable.abc_ratingbar_material;
+			global::EDMTDialog.Resource.Drawable.abc_ratingbar_small_material = global::Plumber71.Toolbox.Resource.Drawable.abc_ratingbar_small_material;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Plumber71.Toolbox.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Plumber71.Toolbox.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_seekbar_thumb_material = global::Plumber71.Toolbox.Resource.Drawable.abc_seekbar_thumb_material;
+			global::EDMTDialog.Resource.Drawable.abc_seekbar_tick_mark_material = global::Plumber71.Toolbox.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::EDMTDialog.Resource.Drawable.abc_seekbar_track_material = global::Plumber71.Toolbox.Resource.Drawable.abc_seekbar_track_material;
+			global::EDMTDialog.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_spinner_textfield_background_material = global::Plumber71.Toolbox.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::EDMTDialog.Resource.Drawable.abc_switch_thumb_material = global::Plumber71.Toolbox.Resource.Drawable.abc_switch_thumb_material;
+			global::EDMTDialog.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_tab_indicator_material = global::Plumber71.Toolbox.Resource.Drawable.abc_tab_indicator_material;
+			global::EDMTDialog.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_text_cursor_material = global::Plumber71.Toolbox.Resource.Drawable.abc_text_cursor_material;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Plumber71.Toolbox.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Plumber71.Toolbox.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Plumber71.Toolbox.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Plumber71.Toolbox.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Plumber71.Toolbox.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Plumber71.Toolbox.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Plumber71.Toolbox.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_search_material = global::Plumber71.Toolbox.Resource.Drawable.abc_textfield_search_material;
+			global::EDMTDialog.Resource.Drawable.abc_vector_test = global::Plumber71.Toolbox.Resource.Drawable.abc_vector_test;
+			global::EDMTDialog.Resource.Drawable.notification_action_background = global::Plumber71.Toolbox.Resource.Drawable.notification_action_background;
+			global::EDMTDialog.Resource.Drawable.notification_bg = global::Plumber71.Toolbox.Resource.Drawable.notification_bg;
+			global::EDMTDialog.Resource.Drawable.notification_bg_low = global::Plumber71.Toolbox.Resource.Drawable.notification_bg_low;
+			global::EDMTDialog.Resource.Drawable.notification_bg_low_normal = global::Plumber71.Toolbox.Resource.Drawable.notification_bg_low_normal;
+			global::EDMTDialog.Resource.Drawable.notification_bg_low_pressed = global::Plumber71.Toolbox.Resource.Drawable.notification_bg_low_pressed;
+			global::EDMTDialog.Resource.Drawable.notification_bg_normal = global::Plumber71.Toolbox.Resource.Drawable.notification_bg_normal;
+			global::EDMTDialog.Resource.Drawable.notification_bg_normal_pressed = global::Plumber71.Toolbox.Resource.Drawable.notification_bg_normal_pressed;
+			global::EDMTDialog.Resource.Drawable.notification_icon_background = global::Plumber71.Toolbox.Resource.Drawable.notification_icon_background;
+			global::EDMTDialog.Resource.Drawable.notification_template_icon_bg = global::Plumber71.Toolbox.Resource.Drawable.notification_template_icon_bg;
+			global::EDMTDialog.Resource.Drawable.notification_template_icon_low_bg = global::Plumber71.Toolbox.Resource.Drawable.notification_template_icon_low_bg;
+			global::EDMTDialog.Resource.Drawable.notification_tile_bg = global::Plumber71.Toolbox.Resource.Drawable.notification_tile_bg;
+			global::EDMTDialog.Resource.Drawable.notify_panel_notification_icon_bg = global::Plumber71.Toolbox.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::EDMTDialog.Resource.Drawable.tooltip_frame_dark = global::Plumber71.Toolbox.Resource.Drawable.tooltip_frame_dark;
+			global::EDMTDialog.Resource.Drawable.tooltip_frame_light = global::Plumber71.Toolbox.Resource.Drawable.tooltip_frame_light;
+			global::EDMTDialog.Resource.Id.ALT = global::Plumber71.Toolbox.Resource.Id.ALT;
+			global::EDMTDialog.Resource.Id.CTRL = global::Plumber71.Toolbox.Resource.Id.CTRL;
+			global::EDMTDialog.Resource.Id.FUNCTION = global::Plumber71.Toolbox.Resource.Id.FUNCTION;
+			global::EDMTDialog.Resource.Id.META = global::Plumber71.Toolbox.Resource.Id.META;
+			global::EDMTDialog.Resource.Id.SHIFT = global::Plumber71.Toolbox.Resource.Id.SHIFT;
+			global::EDMTDialog.Resource.Id.SYM = global::Plumber71.Toolbox.Resource.Id.SYM;
+			global::EDMTDialog.Resource.Id.action0 = global::Plumber71.Toolbox.Resource.Id.action0;
+			global::EDMTDialog.Resource.Id.action_bar = global::Plumber71.Toolbox.Resource.Id.action_bar;
+			global::EDMTDialog.Resource.Id.action_bar_activity_content = global::Plumber71.Toolbox.Resource.Id.action_bar_activity_content;
+			global::EDMTDialog.Resource.Id.action_bar_container = global::Plumber71.Toolbox.Resource.Id.action_bar_container;
+			global::EDMTDialog.Resource.Id.action_bar_root = global::Plumber71.Toolbox.Resource.Id.action_bar_root;
+			global::EDMTDialog.Resource.Id.action_bar_spinner = global::Plumber71.Toolbox.Resource.Id.action_bar_spinner;
+			global::EDMTDialog.Resource.Id.action_bar_subtitle = global::Plumber71.Toolbox.Resource.Id.action_bar_subtitle;
+			global::EDMTDialog.Resource.Id.action_bar_title = global::Plumber71.Toolbox.Resource.Id.action_bar_title;
+			global::EDMTDialog.Resource.Id.action_container = global::Plumber71.Toolbox.Resource.Id.action_container;
+			global::EDMTDialog.Resource.Id.action_context_bar = global::Plumber71.Toolbox.Resource.Id.action_context_bar;
+			global::EDMTDialog.Resource.Id.action_divider = global::Plumber71.Toolbox.Resource.Id.action_divider;
+			global::EDMTDialog.Resource.Id.action_image = global::Plumber71.Toolbox.Resource.Id.action_image;
+			global::EDMTDialog.Resource.Id.action_menu_divider = global::Plumber71.Toolbox.Resource.Id.action_menu_divider;
+			global::EDMTDialog.Resource.Id.action_menu_presenter = global::Plumber71.Toolbox.Resource.Id.action_menu_presenter;
+			global::EDMTDialog.Resource.Id.action_mode_bar = global::Plumber71.Toolbox.Resource.Id.action_mode_bar;
+			global::EDMTDialog.Resource.Id.action_mode_bar_stub = global::Plumber71.Toolbox.Resource.Id.action_mode_bar_stub;
+			global::EDMTDialog.Resource.Id.action_mode_close_button = global::Plumber71.Toolbox.Resource.Id.action_mode_close_button;
+			global::EDMTDialog.Resource.Id.action_text = global::Plumber71.Toolbox.Resource.Id.action_text;
+			global::EDMTDialog.Resource.Id.actions = global::Plumber71.Toolbox.Resource.Id.actions;
+			global::EDMTDialog.Resource.Id.activity_chooser_view_content = global::Plumber71.Toolbox.Resource.Id.activity_chooser_view_content;
+			global::EDMTDialog.Resource.Id.add = global::Plumber71.Toolbox.Resource.Id.add;
+			global::EDMTDialog.Resource.Id.alertTitle = global::Plumber71.Toolbox.Resource.Id.alertTitle;
+			global::EDMTDialog.Resource.Id.always = global::Plumber71.Toolbox.Resource.Id.always;
+			global::EDMTDialog.Resource.Id.async = global::Plumber71.Toolbox.Resource.Id.async;
+			global::EDMTDialog.Resource.Id.beginning = global::Plumber71.Toolbox.Resource.Id.beginning;
+			global::EDMTDialog.Resource.Id.blocking = global::Plumber71.Toolbox.Resource.Id.blocking;
+			global::EDMTDialog.Resource.Id.bottom = global::Plumber71.Toolbox.Resource.Id.bottom;
+			global::EDMTDialog.Resource.Id.buttonPanel = global::Plumber71.Toolbox.Resource.Id.buttonPanel;
+			global::EDMTDialog.Resource.Id.cancel_action = global::Plumber71.Toolbox.Resource.Id.cancel_action;
+			global::EDMTDialog.Resource.Id.checkbox = global::Plumber71.Toolbox.Resource.Id.checkbox;
+			global::EDMTDialog.Resource.Id.chronometer = global::Plumber71.Toolbox.Resource.Id.chronometer;
+			global::EDMTDialog.Resource.Id.collapseActionView = global::Plumber71.Toolbox.Resource.Id.collapseActionView;
+			global::EDMTDialog.Resource.Id.contentPanel = global::Plumber71.Toolbox.Resource.Id.contentPanel;
+			global::EDMTDialog.Resource.Id.custom = global::Plumber71.Toolbox.Resource.Id.custom;
+			global::EDMTDialog.Resource.Id.customPanel = global::Plumber71.Toolbox.Resource.Id.customPanel;
+			global::EDMTDialog.Resource.Id.decor_content_parent = global::Plumber71.Toolbox.Resource.Id.decor_content_parent;
+			global::EDMTDialog.Resource.Id.default_activity_button = global::Plumber71.Toolbox.Resource.Id.default_activity_button;
+			global::EDMTDialog.Resource.Id.disableHome = global::Plumber71.Toolbox.Resource.Id.disableHome;
+			global::EDMTDialog.Resource.Id.edit_query = global::Plumber71.Toolbox.Resource.Id.edit_query;
+			global::EDMTDialog.Resource.Id.end = global::Plumber71.Toolbox.Resource.Id.end;
+			global::EDMTDialog.Resource.Id.end_padder = global::Plumber71.Toolbox.Resource.Id.end_padder;
+			global::EDMTDialog.Resource.Id.expand_activities_button = global::Plumber71.Toolbox.Resource.Id.expand_activities_button;
+			global::EDMTDialog.Resource.Id.expanded_menu = global::Plumber71.Toolbox.Resource.Id.expanded_menu;
+			global::EDMTDialog.Resource.Id.forever = global::Plumber71.Toolbox.Resource.Id.forever;
+			global::EDMTDialog.Resource.Id.home = global::Plumber71.Toolbox.Resource.Id.home;
+			global::EDMTDialog.Resource.Id.homeAsUp = global::Plumber71.Toolbox.Resource.Id.homeAsUp;
+			global::EDMTDialog.Resource.Id.icon = global::Plumber71.Toolbox.Resource.Id.icon;
+			global::EDMTDialog.Resource.Id.icon_group = global::Plumber71.Toolbox.Resource.Id.icon_group;
+			global::EDMTDialog.Resource.Id.ifRoom = global::Plumber71.Toolbox.Resource.Id.ifRoom;
+			global::EDMTDialog.Resource.Id.image = global::Plumber71.Toolbox.Resource.Id.image;
+			global::EDMTDialog.Resource.Id.info = global::Plumber71.Toolbox.Resource.Id.info;
+			global::EDMTDialog.Resource.Id.italic = global::Plumber71.Toolbox.Resource.Id.italic;
+			global::EDMTDialog.Resource.Id.line1 = global::Plumber71.Toolbox.Resource.Id.line1;
+			global::EDMTDialog.Resource.Id.line3 = global::Plumber71.Toolbox.Resource.Id.line3;
+			global::EDMTDialog.Resource.Id.listMode = global::Plumber71.Toolbox.Resource.Id.listMode;
+			global::EDMTDialog.Resource.Id.list_item = global::Plumber71.Toolbox.Resource.Id.list_item;
+			global::EDMTDialog.Resource.Id.marker_progress = global::Plumber71.Toolbox.Resource.Id.marker_progress;
+			global::EDMTDialog.Resource.Id.media_actions = global::Plumber71.Toolbox.Resource.Id.media_actions;
+			global::EDMTDialog.Resource.Id.message = global::Plumber71.Toolbox.Resource.Id.message;
+			global::EDMTDialog.Resource.Id.middle = global::Plumber71.Toolbox.Resource.Id.middle;
+			global::EDMTDialog.Resource.Id.multiply = global::Plumber71.Toolbox.Resource.Id.multiply;
+			global::EDMTDialog.Resource.Id.my_text_view = global::Plumber71.Toolbox.Resource.Id.my_text_view;
+			global::EDMTDialog.Resource.Id.never = global::Plumber71.Toolbox.Resource.Id.never;
+			global::EDMTDialog.Resource.Id.none = global::Plumber71.Toolbox.Resource.Id.none;
+			global::EDMTDialog.Resource.Id.normal = global::Plumber71.Toolbox.Resource.Id.normal;
+			global::EDMTDialog.Resource.Id.notification_background = global::Plumber71.Toolbox.Resource.Id.notification_background;
+			global::EDMTDialog.Resource.Id.notification_main_column = global::Plumber71.Toolbox.Resource.Id.notification_main_column;
+			global::EDMTDialog.Resource.Id.notification_main_column_container = global::Plumber71.Toolbox.Resource.Id.notification_main_column_container;
+			global::EDMTDialog.Resource.Id.parentPanel = global::Plumber71.Toolbox.Resource.Id.parentPanel;
+			global::EDMTDialog.Resource.Id.progress_circular = global::Plumber71.Toolbox.Resource.Id.progress_circular;
+			global::EDMTDialog.Resource.Id.progress_horizontal = global::Plumber71.Toolbox.Resource.Id.progress_horizontal;
+			global::EDMTDialog.Resource.Id.radio = global::Plumber71.Toolbox.Resource.Id.radio;
+			global::EDMTDialog.Resource.Id.right_icon = global::Plumber71.Toolbox.Resource.Id.right_icon;
+			global::EDMTDialog.Resource.Id.right_side = global::Plumber71.Toolbox.Resource.Id.right_side;
+			global::EDMTDialog.Resource.Id.screen = global::Plumber71.Toolbox.Resource.Id.screen;
+			global::EDMTDialog.Resource.Id.scrollIndicatorDown = global::Plumber71.Toolbox.Resource.Id.scrollIndicatorDown;
+			global::EDMTDialog.Resource.Id.scrollIndicatorUp = global::Plumber71.Toolbox.Resource.Id.scrollIndicatorUp;
+			global::EDMTDialog.Resource.Id.scrollView = global::Plumber71.Toolbox.Resource.Id.scrollView;
+			global::EDMTDialog.Resource.Id.search_badge = global::Plumber71.Toolbox.Resource.Id.search_badge;
+			global::EDMTDialog.Resource.Id.search_bar = global::Plumber71.Toolbox.Resource.Id.search_bar;
+			global::EDMTDialog.Resource.Id.search_button = global::Plumber71.Toolbox.Resource.Id.search_button;
+			global::EDMTDialog.Resource.Id.search_close_btn = global::Plumber71.Toolbox.Resource.Id.search_close_btn;
+			global::EDMTDialog.Resource.Id.search_edit_frame = global::Plumber71.Toolbox.Resource.Id.search_edit_frame;
+			global::EDMTDialog.Resource.Id.search_go_btn = global::Plumber71.Toolbox.Resource.Id.search_go_btn;
+			global::EDMTDialog.Resource.Id.search_mag_icon = global::Plumber71.Toolbox.Resource.Id.search_mag_icon;
+			global::EDMTDialog.Resource.Id.search_plate = global::Plumber71.Toolbox.Resource.Id.search_plate;
+			global::EDMTDialog.Resource.Id.search_src_text = global::Plumber71.Toolbox.Resource.Id.search_src_text;
+			global::EDMTDialog.Resource.Id.search_voice_btn = global::Plumber71.Toolbox.Resource.Id.search_voice_btn;
+			global::EDMTDialog.Resource.Id.select_dialog_listview = global::Plumber71.Toolbox.Resource.Id.select_dialog_listview;
+			global::EDMTDialog.Resource.Id.shortcut = global::Plumber71.Toolbox.Resource.Id.shortcut;
+			global::EDMTDialog.Resource.Id.showCustom = global::Plumber71.Toolbox.Resource.Id.showCustom;
+			global::EDMTDialog.Resource.Id.showHome = global::Plumber71.Toolbox.Resource.Id.showHome;
+			global::EDMTDialog.Resource.Id.showTitle = global::Plumber71.Toolbox.Resource.Id.showTitle;
+			global::EDMTDialog.Resource.Id.spacer = global::Plumber71.Toolbox.Resource.Id.spacer;
+			global::EDMTDialog.Resource.Id.split_action_bar = global::Plumber71.Toolbox.Resource.Id.split_action_bar;
+			global::EDMTDialog.Resource.Id.src_atop = global::Plumber71.Toolbox.Resource.Id.src_atop;
+			global::EDMTDialog.Resource.Id.src_in = global::Plumber71.Toolbox.Resource.Id.src_in;
+			global::EDMTDialog.Resource.Id.src_over = global::Plumber71.Toolbox.Resource.Id.src_over;
+			global::EDMTDialog.Resource.Id.status_bar_latest_event_content = global::Plumber71.Toolbox.Resource.Id.status_bar_latest_event_content;
+			global::EDMTDialog.Resource.Id.submenuarrow = global::Plumber71.Toolbox.Resource.Id.submenuarrow;
+			global::EDMTDialog.Resource.Id.submit_area = global::Plumber71.Toolbox.Resource.Id.submit_area;
+			global::EDMTDialog.Resource.Id.tabMode = global::Plumber71.Toolbox.Resource.Id.tabMode;
+			global::EDMTDialog.Resource.Id.tag_transition_group = global::Plumber71.Toolbox.Resource.Id.tag_transition_group;
+			global::EDMTDialog.Resource.Id.text = global::Plumber71.Toolbox.Resource.Id.text;
+			global::EDMTDialog.Resource.Id.text2 = global::Plumber71.Toolbox.Resource.Id.text2;
+			global::EDMTDialog.Resource.Id.textSpacerNoButtons = global::Plumber71.Toolbox.Resource.Id.textSpacerNoButtons;
+			global::EDMTDialog.Resource.Id.textSpacerNoTitle = global::Plumber71.Toolbox.Resource.Id.textSpacerNoTitle;
+			global::EDMTDialog.Resource.Id.time = global::Plumber71.Toolbox.Resource.Id.time;
+			global::EDMTDialog.Resource.Id.title = global::Plumber71.Toolbox.Resource.Id.title;
+			global::EDMTDialog.Resource.Id.titleDividerNoCustom = global::Plumber71.Toolbox.Resource.Id.titleDividerNoCustom;
+			global::EDMTDialog.Resource.Id.title_template = global::Plumber71.Toolbox.Resource.Id.title_template;
+			global::EDMTDialog.Resource.Id.top = global::Plumber71.Toolbox.Resource.Id.top;
+			global::EDMTDialog.Resource.Id.topPanel = global::Plumber71.Toolbox.Resource.Id.topPanel;
+			global::EDMTDialog.Resource.Id.uniform = global::Plumber71.Toolbox.Resource.Id.uniform;
+			global::EDMTDialog.Resource.Id.up = global::Plumber71.Toolbox.Resource.Id.up;
+			global::EDMTDialog.Resource.Id.useLogo = global::Plumber71.Toolbox.Resource.Id.useLogo;
+			global::EDMTDialog.Resource.Id.withText = global::Plumber71.Toolbox.Resource.Id.withText;
+			global::EDMTDialog.Resource.Id.wrap_content = global::Plumber71.Toolbox.Resource.Id.wrap_content;
+			global::EDMTDialog.Resource.Integer.abc_config_activityDefaultDur = global::Plumber71.Toolbox.Resource.Integer.abc_config_activityDefaultDur;
+			global::EDMTDialog.Resource.Integer.abc_config_activityShortDur = global::Plumber71.Toolbox.Resource.Integer.abc_config_activityShortDur;
+			global::EDMTDialog.Resource.Integer.cancel_button_image_alpha = global::Plumber71.Toolbox.Resource.Integer.cancel_button_image_alpha;
+			global::EDMTDialog.Resource.Integer.config_tooltipAnimTime = global::Plumber71.Toolbox.Resource.Integer.config_tooltipAnimTime;
+			global::EDMTDialog.Resource.Integer.status_bar_notification_info_maxnum = global::Plumber71.Toolbox.Resource.Integer.status_bar_notification_info_maxnum;
+			global::EDMTDialog.Resource.Layout.abc_action_bar_title_item = global::Plumber71.Toolbox.Resource.Layout.abc_action_bar_title_item;
+			global::EDMTDialog.Resource.Layout.abc_action_bar_up_container = global::Plumber71.Toolbox.Resource.Layout.abc_action_bar_up_container;
+			global::EDMTDialog.Resource.Layout.abc_action_menu_item_layout = global::Plumber71.Toolbox.Resource.Layout.abc_action_menu_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_action_menu_layout = global::Plumber71.Toolbox.Resource.Layout.abc_action_menu_layout;
+			global::EDMTDialog.Resource.Layout.abc_action_mode_bar = global::Plumber71.Toolbox.Resource.Layout.abc_action_mode_bar;
+			global::EDMTDialog.Resource.Layout.abc_action_mode_close_item_material = global::Plumber71.Toolbox.Resource.Layout.abc_action_mode_close_item_material;
+			global::EDMTDialog.Resource.Layout.abc_activity_chooser_view = global::Plumber71.Toolbox.Resource.Layout.abc_activity_chooser_view;
+			global::EDMTDialog.Resource.Layout.abc_activity_chooser_view_list_item = global::Plumber71.Toolbox.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::EDMTDialog.Resource.Layout.abc_alert_dialog_button_bar_material = global::Plumber71.Toolbox.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::EDMTDialog.Resource.Layout.abc_alert_dialog_material = global::Plumber71.Toolbox.Resource.Layout.abc_alert_dialog_material;
+			global::EDMTDialog.Resource.Layout.abc_alert_dialog_title_material = global::Plumber71.Toolbox.Resource.Layout.abc_alert_dialog_title_material;
+			global::EDMTDialog.Resource.Layout.abc_dialog_title_material = global::Plumber71.Toolbox.Resource.Layout.abc_dialog_title_material;
+			global::EDMTDialog.Resource.Layout.abc_expanded_menu_layout = global::Plumber71.Toolbox.Resource.Layout.abc_expanded_menu_layout;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_checkbox = global::Plumber71.Toolbox.Resource.Layout.abc_list_menu_item_checkbox;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_icon = global::Plumber71.Toolbox.Resource.Layout.abc_list_menu_item_icon;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_layout = global::Plumber71.Toolbox.Resource.Layout.abc_list_menu_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_radio = global::Plumber71.Toolbox.Resource.Layout.abc_list_menu_item_radio;
+			global::EDMTDialog.Resource.Layout.abc_popup_menu_header_item_layout = global::Plumber71.Toolbox.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_popup_menu_item_layout = global::Plumber71.Toolbox.Resource.Layout.abc_popup_menu_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_screen_content_include = global::Plumber71.Toolbox.Resource.Layout.abc_screen_content_include;
+			global::EDMTDialog.Resource.Layout.abc_screen_simple = global::Plumber71.Toolbox.Resource.Layout.abc_screen_simple;
+			global::EDMTDialog.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Plumber71.Toolbox.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::EDMTDialog.Resource.Layout.abc_screen_toolbar = global::Plumber71.Toolbox.Resource.Layout.abc_screen_toolbar;
+			global::EDMTDialog.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Plumber71.Toolbox.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::EDMTDialog.Resource.Layout.abc_search_view = global::Plumber71.Toolbox.Resource.Layout.abc_search_view;
+			global::EDMTDialog.Resource.Layout.abc_select_dialog_material = global::Plumber71.Toolbox.Resource.Layout.abc_select_dialog_material;
+			global::EDMTDialog.Resource.Layout.my_dialog_layout = global::Plumber71.Toolbox.Resource.Layout.my_dialog_layout;
+			global::EDMTDialog.Resource.Layout.notification_action = global::Plumber71.Toolbox.Resource.Layout.notification_action;
+			global::EDMTDialog.Resource.Layout.notification_action_tombstone = global::Plumber71.Toolbox.Resource.Layout.notification_action_tombstone;
+			global::EDMTDialog.Resource.Layout.notification_media_action = global::Plumber71.Toolbox.Resource.Layout.notification_media_action;
+			global::EDMTDialog.Resource.Layout.notification_media_cancel_action = global::Plumber71.Toolbox.Resource.Layout.notification_media_cancel_action;
+			global::EDMTDialog.Resource.Layout.notification_template_big_media = global::Plumber71.Toolbox.Resource.Layout.notification_template_big_media;
+			global::EDMTDialog.Resource.Layout.notification_template_big_media_custom = global::Plumber71.Toolbox.Resource.Layout.notification_template_big_media_custom;
+			global::EDMTDialog.Resource.Layout.notification_template_big_media_narrow = global::Plumber71.Toolbox.Resource.Layout.notification_template_big_media_narrow;
+			global::EDMTDialog.Resource.Layout.notification_template_big_media_narrow_custom = global::Plumber71.Toolbox.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::EDMTDialog.Resource.Layout.notification_template_custom_big = global::Plumber71.Toolbox.Resource.Layout.notification_template_custom_big;
+			global::EDMTDialog.Resource.Layout.notification_template_icon_group = global::Plumber71.Toolbox.Resource.Layout.notification_template_icon_group;
+			global::EDMTDialog.Resource.Layout.notification_template_lines_media = global::Plumber71.Toolbox.Resource.Layout.notification_template_lines_media;
+			global::EDMTDialog.Resource.Layout.notification_template_media = global::Plumber71.Toolbox.Resource.Layout.notification_template_media;
+			global::EDMTDialog.Resource.Layout.notification_template_media_custom = global::Plumber71.Toolbox.Resource.Layout.notification_template_media_custom;
+			global::EDMTDialog.Resource.Layout.notification_template_part_chronometer = global::Plumber71.Toolbox.Resource.Layout.notification_template_part_chronometer;
+			global::EDMTDialog.Resource.Layout.notification_template_part_time = global::Plumber71.Toolbox.Resource.Layout.notification_template_part_time;
+			global::EDMTDialog.Resource.Layout.select_dialog_item_material = global::Plumber71.Toolbox.Resource.Layout.select_dialog_item_material;
+			global::EDMTDialog.Resource.Layout.select_dialog_multichoice_material = global::Plumber71.Toolbox.Resource.Layout.select_dialog_multichoice_material;
+			global::EDMTDialog.Resource.Layout.select_dialog_singlechoice_material = global::Plumber71.Toolbox.Resource.Layout.select_dialog_singlechoice_material;
+			global::EDMTDialog.Resource.Layout.support_simple_spinner_dropdown_item = global::Plumber71.Toolbox.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::EDMTDialog.Resource.Layout.tooltip = global::Plumber71.Toolbox.Resource.Layout.tooltip;
+			global::EDMTDialog.Resource.String.abc_action_bar_home_description = global::Plumber71.Toolbox.Resource.String.abc_action_bar_home_description;
+			global::EDMTDialog.Resource.String.abc_action_bar_up_description = global::Plumber71.Toolbox.Resource.String.abc_action_bar_up_description;
+			global::EDMTDialog.Resource.String.abc_action_menu_overflow_description = global::Plumber71.Toolbox.Resource.String.abc_action_menu_overflow_description;
+			global::EDMTDialog.Resource.String.abc_action_mode_done = global::Plumber71.Toolbox.Resource.String.abc_action_mode_done;
+			global::EDMTDialog.Resource.String.abc_activity_chooser_view_see_all = global::Plumber71.Toolbox.Resource.String.abc_activity_chooser_view_see_all;
+			global::EDMTDialog.Resource.String.abc_activitychooserview_choose_application = global::Plumber71.Toolbox.Resource.String.abc_activitychooserview_choose_application;
+			global::EDMTDialog.Resource.String.abc_capital_off = global::Plumber71.Toolbox.Resource.String.abc_capital_off;
+			global::EDMTDialog.Resource.String.abc_capital_on = global::Plumber71.Toolbox.Resource.String.abc_capital_on;
+			global::EDMTDialog.Resource.String.abc_font_family_body_1_material = global::Plumber71.Toolbox.Resource.String.abc_font_family_body_1_material;
+			global::EDMTDialog.Resource.String.abc_font_family_body_2_material = global::Plumber71.Toolbox.Resource.String.abc_font_family_body_2_material;
+			global::EDMTDialog.Resource.String.abc_font_family_button_material = global::Plumber71.Toolbox.Resource.String.abc_font_family_button_material;
+			global::EDMTDialog.Resource.String.abc_font_family_caption_material = global::Plumber71.Toolbox.Resource.String.abc_font_family_caption_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_1_material = global::Plumber71.Toolbox.Resource.String.abc_font_family_display_1_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_2_material = global::Plumber71.Toolbox.Resource.String.abc_font_family_display_2_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_3_material = global::Plumber71.Toolbox.Resource.String.abc_font_family_display_3_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_4_material = global::Plumber71.Toolbox.Resource.String.abc_font_family_display_4_material;
+			global::EDMTDialog.Resource.String.abc_font_family_headline_material = global::Plumber71.Toolbox.Resource.String.abc_font_family_headline_material;
+			global::EDMTDialog.Resource.String.abc_font_family_menu_material = global::Plumber71.Toolbox.Resource.String.abc_font_family_menu_material;
+			global::EDMTDialog.Resource.String.abc_font_family_subhead_material = global::Plumber71.Toolbox.Resource.String.abc_font_family_subhead_material;
+			global::EDMTDialog.Resource.String.abc_font_family_title_material = global::Plumber71.Toolbox.Resource.String.abc_font_family_title_material;
+			global::EDMTDialog.Resource.String.abc_search_hint = global::Plumber71.Toolbox.Resource.String.abc_search_hint;
+			global::EDMTDialog.Resource.String.abc_searchview_description_clear = global::Plumber71.Toolbox.Resource.String.abc_searchview_description_clear;
+			global::EDMTDialog.Resource.String.abc_searchview_description_query = global::Plumber71.Toolbox.Resource.String.abc_searchview_description_query;
+			global::EDMTDialog.Resource.String.abc_searchview_description_search = global::Plumber71.Toolbox.Resource.String.abc_searchview_description_search;
+			global::EDMTDialog.Resource.String.abc_searchview_description_submit = global::Plumber71.Toolbox.Resource.String.abc_searchview_description_submit;
+			global::EDMTDialog.Resource.String.abc_searchview_description_voice = global::Plumber71.Toolbox.Resource.String.abc_searchview_description_voice;
+			global::EDMTDialog.Resource.String.abc_shareactionprovider_share_with = global::Plumber71.Toolbox.Resource.String.abc_shareactionprovider_share_with;
+			global::EDMTDialog.Resource.String.abc_shareactionprovider_share_with_application = global::Plumber71.Toolbox.Resource.String.abc_shareactionprovider_share_with_application;
+			global::EDMTDialog.Resource.String.abc_toolbar_collapse_description = global::Plumber71.Toolbox.Resource.String.abc_toolbar_collapse_description;
+			global::EDMTDialog.Resource.String.app_name = global::Plumber71.Toolbox.Resource.String.app_name;
+			global::EDMTDialog.Resource.String.hello = global::Plumber71.Toolbox.Resource.String.hello;
+			global::EDMTDialog.Resource.String.search_menu_title = global::Plumber71.Toolbox.Resource.String.search_menu_title;
+			global::EDMTDialog.Resource.String.status_bar_notification_info_overflow = global::Plumber71.Toolbox.Resource.String.status_bar_notification_info_overflow;
+			global::EDMTDialog.Resource.Style.AlertDialog_AppCompat = global::Plumber71.Toolbox.Resource.Style.AlertDialog_AppCompat;
+			global::EDMTDialog.Resource.Style.AlertDialog_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.AlertDialog_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Animation_AppCompat_Dialog = global::Plumber71.Toolbox.Resource.Style.Animation_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Animation_AppCompat_DropDownUp = global::Plumber71.Toolbox.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::EDMTDialog.Resource.Style.Animation_AppCompat_Tooltip = global::Plumber71.Toolbox.Resource.Style.Animation_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.Base_AlertDialog_AppCompat = global::Plumber71.Toolbox.Resource.Style.Base_AlertDialog_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_Animation_AppCompat_Dialog = global::Plumber71.Toolbox.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Plumber71.Toolbox.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::EDMTDialog.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Plumber71.Toolbox.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Plumber71.Toolbox.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Plumber71.Toolbox.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Plumber71.Toolbox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Plumber71.Toolbox.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat = global::Plumber71.Toolbox.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Plumber71.Toolbox.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Plumber71.Toolbox.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Plumber71.Toolbox.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Plumber71.Toolbox.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Plumber71.Toolbox.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::Plumber71.Toolbox.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::Plumber71.Toolbox.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::Plumber71.Toolbox.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::Plumber71.Toolbox.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::Plumber71.Toolbox.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat = global::Plumber71.Toolbox.Resource.Style.Base_V21_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Plumber71.Toolbox.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Plumber71.Toolbox.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Plumber71.Toolbox.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V22_Theme_AppCompat = global::Plumber71.Toolbox.Resource.Style.Base_V22_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V23_Theme_AppCompat = global::Plumber71.Toolbox.Resource.Style.Base_V23_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V26_Theme_AppCompat = global::Plumber71.Toolbox.Resource.Style.Base_V26_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Plumber71.Toolbox.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat = global::Plumber71.Toolbox.Resource.Style.Base_V7_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Plumber71.Toolbox.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Plumber71.Toolbox.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Plumber71.Toolbox.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Plumber71.Toolbox.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Plumber71.Toolbox.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Plumber71.Toolbox.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_EditText = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListView = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SearchView = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Spinner = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Plumber71.Toolbox.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EDMTDialog.Resource.Style.Platform_AppCompat = global::Plumber71.Toolbox.Resource.Style.Platform_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Platform_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Plumber71.Toolbox.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Plumber71.Toolbox.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::EDMTDialog.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_V11_AppCompat = global::Plumber71.Toolbox.Resource.Style.Platform_V11_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_V11_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Platform_V11_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_V14_AppCompat = global::Plumber71.Toolbox.Resource.Style.Platform_V14_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_V14_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Platform_V14_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_V21_AppCompat = global::Plumber71.Toolbox.Resource.Style.Platform_V21_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_V21_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Platform_V21_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_V25_AppCompat = global::Plumber71.Toolbox.Resource.Style.Platform_V25_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_V25_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Platform_V25_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Plumber71.Toolbox.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::EDMTDialog.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Plumber71.Toolbox.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Plumber71.Toolbox.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Plumber71.Toolbox.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Plumber71.Toolbox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Plumber71.Toolbox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Plumber71.Toolbox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Plumber71.Toolbox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Plumber71.Toolbox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Plumber71.Toolbox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Plumber71.Toolbox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Plumber71.Toolbox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Plumber71.Toolbox.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::EDMTDialog.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Plumber71.Toolbox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::EDMTDialog.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Plumber71.Toolbox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.SpotsDialogDefault = global::Plumber71.Toolbox.Resource.Style.SpotsDialogDefault;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Body1 = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Body2 = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Button = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Caption = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display1 = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display2 = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display3 = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display4 = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Headline = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Inverse = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Large = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Large;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Medium = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Menu = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Small = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Small;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Subhead = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Title = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Plumber71.Toolbox.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification = global::Plumber71.Toolbox.Resource.Style.TextAppearance_Compat_Notification;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Info = global::Plumber71.Toolbox.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Plumber71.Toolbox.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Plumber71.Toolbox.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Plumber71.Toolbox.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Media = global::Plumber71.Toolbox.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Time = global::Plumber71.Toolbox.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Plumber71.Toolbox.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Title = global::Plumber71.Toolbox.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Plumber71.Toolbox.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::EDMTDialog.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Plumber71.Toolbox.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EDMTDialog.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Plumber71.Toolbox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Plumber71.Toolbox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_CompactMenu = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_DayNight;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Dialog = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_Dialog = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_NoActionBar = global::Plumber71.Toolbox.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat = global::Plumber71.Toolbox.Resource.Style.ThemeOverlay_AppCompat;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Plumber71.Toolbox.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Plumber71.Toolbox.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Plumber71.Toolbox.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Plumber71.Toolbox.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Plumber71.Toolbox.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Light = global::Plumber71.Toolbox.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionButton = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ActionButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionMode = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ActionMode;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Borderless = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Colored = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Small = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Button_Small;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ButtonBar = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_EditText = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ImageButton = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ImageButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_SearchView = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListMenuView = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListView = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ListView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListView_Menu = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_PopupMenu = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_PopupWindow = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ProgressBar = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_RatingBar = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_RatingBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SearchView = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_SearchView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SeekBar = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_SeekBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Spinner;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Toolbar = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Plumber71.Toolbox.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EDMTDialog.Resource.Style.Widget_Compat_NotificationActionContainer = global::Plumber71.Toolbox.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::EDMTDialog.Resource.Style.Widget_Compat_NotificationActionText = global::Plumber71.Toolbox.Resource.Style.Widget_Compat_NotificationActionText;
+			global::EDMTDialog.Resource.Styleable.ActionBar = global::Plumber71.Toolbox.Resource.Styleable.ActionBar;
+			global::EDMTDialog.Resource.Styleable.ActionBar_background = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_background;
+			global::EDMTDialog.Resource.Styleable.ActionBar_backgroundSplit = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_backgroundSplit;
+			global::EDMTDialog.Resource.Styleable.ActionBar_backgroundStacked = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_backgroundStacked;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetEnd = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetLeft = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetRight = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_contentInsetRight;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetStart = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_contentInsetStart;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::EDMTDialog.Resource.Styleable.ActionBar_customNavigationLayout = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::EDMTDialog.Resource.Styleable.ActionBar_displayOptions = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_displayOptions;
+			global::EDMTDialog.Resource.Styleable.ActionBar_divider = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_divider;
+			global::EDMTDialog.Resource.Styleable.ActionBar_elevation = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_elevation;
+			global::EDMTDialog.Resource.Styleable.ActionBar_height = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_height;
+			global::EDMTDialog.Resource.Styleable.ActionBar_hideOnContentScroll = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::EDMTDialog.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::EDMTDialog.Resource.Styleable.ActionBar_homeLayout = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_homeLayout;
+			global::EDMTDialog.Resource.Styleable.ActionBar_icon = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_icon;
+			global::EDMTDialog.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_itemPadding = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_itemPadding;
+			global::EDMTDialog.Resource.Styleable.ActionBar_logo = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_logo;
+			global::EDMTDialog.Resource.Styleable.ActionBar_navigationMode = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_navigationMode;
+			global::EDMTDialog.Resource.Styleable.ActionBar_popupTheme = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_popupTheme;
+			global::EDMTDialog.Resource.Styleable.ActionBar_progressBarPadding = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_progressBarPadding;
+			global::EDMTDialog.Resource.Styleable.ActionBar_progressBarStyle = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_progressBarStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_subtitle = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_subtitle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_subtitleTextStyle = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_title = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_title;
+			global::EDMTDialog.Resource.Styleable.ActionBar_titleTextStyle = global::Plumber71.Toolbox.Resource.Styleable.ActionBar_titleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBarLayout = global::Plumber71.Toolbox.Resource.Styleable.ActionBarLayout;
+			global::EDMTDialog.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Plumber71.Toolbox.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::EDMTDialog.Resource.Styleable.ActionMenuItemView = global::Plumber71.Toolbox.Resource.Styleable.ActionMenuItemView;
+			global::EDMTDialog.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Plumber71.Toolbox.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::EDMTDialog.Resource.Styleable.ActionMenuView = global::Plumber71.Toolbox.Resource.Styleable.ActionMenuView;
+			global::EDMTDialog.Resource.Styleable.ActionMode = global::Plumber71.Toolbox.Resource.Styleable.ActionMode;
+			global::EDMTDialog.Resource.Styleable.ActionMode_background = global::Plumber71.Toolbox.Resource.Styleable.ActionMode_background;
+			global::EDMTDialog.Resource.Styleable.ActionMode_backgroundSplit = global::Plumber71.Toolbox.Resource.Styleable.ActionMode_backgroundSplit;
+			global::EDMTDialog.Resource.Styleable.ActionMode_closeItemLayout = global::Plumber71.Toolbox.Resource.Styleable.ActionMode_closeItemLayout;
+			global::EDMTDialog.Resource.Styleable.ActionMode_height = global::Plumber71.Toolbox.Resource.Styleable.ActionMode_height;
+			global::EDMTDialog.Resource.Styleable.ActionMode_subtitleTextStyle = global::Plumber71.Toolbox.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActionMode_titleTextStyle = global::Plumber71.Toolbox.Resource.Styleable.ActionMode_titleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActivityChooserView = global::Plumber71.Toolbox.Resource.Styleable.ActivityChooserView;
+			global::EDMTDialog.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Plumber71.Toolbox.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::EDMTDialog.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Plumber71.Toolbox.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::EDMTDialog.Resource.Styleable.AlertDialog = global::Plumber71.Toolbox.Resource.Styleable.AlertDialog;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_android_layout = global::Plumber71.Toolbox.Resource.Styleable.AlertDialog_android_layout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Plumber71.Toolbox.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_listItemLayout = global::Plumber71.Toolbox.Resource.Styleable.AlertDialog_listItemLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_listLayout = global::Plumber71.Toolbox.Resource.Styleable.AlertDialog_listLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Plumber71.Toolbox.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_showTitle = global::Plumber71.Toolbox.Resource.Styleable.AlertDialog_showTitle;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Plumber71.Toolbox.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView = global::Plumber71.Toolbox.Resource.Styleable.AppCompatImageView;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_android_src = global::Plumber71.Toolbox.Resource.Styleable.AppCompatImageView_android_src;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_srcCompat = global::Plumber71.Toolbox.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_tint = global::Plumber71.Toolbox.Resource.Styleable.AppCompatImageView_tint;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_tintMode = global::Plumber71.Toolbox.Resource.Styleable.AppCompatImageView_tintMode;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar = global::Plumber71.Toolbox.Resource.Styleable.AppCompatSeekBar;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Plumber71.Toolbox.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_tickMark = global::Plumber71.Toolbox.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Plumber71.Toolbox.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Plumber71.Toolbox.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextHelper;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextView;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_fontFamily = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_textAllCaps = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarSize = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorAccent = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorError = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_colorError;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorPrimary = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_controlBackground = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dialogTheme = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dividerVertical = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_editTextBackground = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_editTextColor = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_editTextStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_panelBackground = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_switchStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowActionBar = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Plumber71.Toolbox.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::EDMTDialog.Resource.Styleable.ButtonBarLayout = global::Plumber71.Toolbox.Resource.Styleable.ButtonBarLayout;
+			global::EDMTDialog.Resource.Styleable.ButtonBarLayout_allowStacking = global::Plumber71.Toolbox.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem = global::Plumber71.Toolbox.Resource.Styleable.ColorStateListItem;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem_alpha = global::Plumber71.Toolbox.Resource.Styleable.ColorStateListItem_alpha;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem_android_alpha = global::Plumber71.Toolbox.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem_android_color = global::Plumber71.Toolbox.Resource.Styleable.ColorStateListItem_android_color;
+			global::EDMTDialog.Resource.Styleable.CompoundButton = global::Plumber71.Toolbox.Resource.Styleable.CompoundButton;
+			global::EDMTDialog.Resource.Styleable.CompoundButton_android_button = global::Plumber71.Toolbox.Resource.Styleable.CompoundButton_android_button;
+			global::EDMTDialog.Resource.Styleable.CompoundButton_buttonTint = global::Plumber71.Toolbox.Resource.Styleable.CompoundButton_buttonTint;
+			global::EDMTDialog.Resource.Styleable.CompoundButton_buttonTintMode = global::Plumber71.Toolbox.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::EDMTDialog.Resource.Styleable.Dialog = global::Plumber71.Toolbox.Resource.Styleable.Dialog;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogSpotColor = global::Plumber71.Toolbox.Resource.Styleable.Dialog_DialogSpotColor;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogSpotCount = global::Plumber71.Toolbox.Resource.Styleable.Dialog_DialogSpotCount;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogTitleAppearance = global::Plumber71.Toolbox.Resource.Styleable.Dialog_DialogTitleAppearance;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogTitleText = global::Plumber71.Toolbox.Resource.Styleable.Dialog_DialogTitleText;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle = global::Plumber71.Toolbox.Resource.Styleable.DrawerArrowToggle;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Plumber71.Toolbox.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Plumber71.Toolbox.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_barLength = global::Plumber71.Toolbox.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_color = global::Plumber71.Toolbox.Resource.Styleable.DrawerArrowToggle_color;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Plumber71.Toolbox.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Plumber71.Toolbox.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_spinBars = global::Plumber71.Toolbox.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_thickness = global::Plumber71.Toolbox.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::EDMTDialog.Resource.Styleable.FontFamily = global::Plumber71.Toolbox.Resource.Styleable.FontFamily;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderAuthority = global::Plumber71.Toolbox.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderCerts = global::Plumber71.Toolbox.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Plumber71.Toolbox.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Plumber71.Toolbox.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderPackage = global::Plumber71.Toolbox.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderQuery = global::Plumber71.Toolbox.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_android_font = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont_android_font;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_font = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont_font;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_fontStyle = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_fontWeight = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_divider = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_divider;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_showDividers = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Plumber71.Toolbox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::EDMTDialog.Resource.Styleable.ListPopupWindow = global::Plumber71.Toolbox.Resource.Styleable.ListPopupWindow;
+			global::EDMTDialog.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Plumber71.Toolbox.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::EDMTDialog.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Plumber71.Toolbox.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::EDMTDialog.Resource.Styleable.MenuGroup = global::Plumber71.Toolbox.Resource.Styleable.MenuGroup;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Plumber71.Toolbox.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_enabled = global::Plumber71.Toolbox.Resource.Styleable.MenuGroup_android_enabled;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_id = global::Plumber71.Toolbox.Resource.Styleable.MenuGroup_android_id;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_menuCategory = global::Plumber71.Toolbox.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_orderInCategory = global::Plumber71.Toolbox.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_visible = global::Plumber71.Toolbox.Resource.Styleable.MenuGroup_android_visible;
+			global::EDMTDialog.Resource.Styleable.MenuItem = global::Plumber71.Toolbox.Resource.Styleable.MenuItem;
+			global::EDMTDialog.Resource.Styleable.MenuItem_actionLayout = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_actionLayout;
+			global::EDMTDialog.Resource.Styleable.MenuItem_actionProviderClass = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_actionProviderClass;
+			global::EDMTDialog.Resource.Styleable.MenuItem_actionViewClass = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_actionViewClass;
+			global::EDMTDialog.Resource.Styleable.MenuItem_alphabeticModifiers = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_checkable = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_android_checkable;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_checked = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_android_checked;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_enabled = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_android_enabled;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_icon = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_android_icon;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_id = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_android_id;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_menuCategory = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_android_menuCategory;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_numericShortcut = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_onClick = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_android_onClick;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_orderInCategory = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_title = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_android_title;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_titleCondensed = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_visible = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_android_visible;
+			global::EDMTDialog.Resource.Styleable.MenuItem_contentDescription = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_contentDescription;
+			global::EDMTDialog.Resource.Styleable.MenuItem_iconTint = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_iconTint;
+			global::EDMTDialog.Resource.Styleable.MenuItem_iconTintMode = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_iconTintMode;
+			global::EDMTDialog.Resource.Styleable.MenuItem_numericModifiers = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_numericModifiers;
+			global::EDMTDialog.Resource.Styleable.MenuItem_showAsAction = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_showAsAction;
+			global::EDMTDialog.Resource.Styleable.MenuItem_tooltipText = global::Plumber71.Toolbox.Resource.Styleable.MenuItem_tooltipText;
+			global::EDMTDialog.Resource.Styleable.MenuView = global::Plumber71.Toolbox.Resource.Styleable.MenuView;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_headerBackground = global::Plumber71.Toolbox.Resource.Styleable.MenuView_android_headerBackground;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_horizontalDivider = global::Plumber71.Toolbox.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_itemBackground = global::Plumber71.Toolbox.Resource.Styleable.MenuView_android_itemBackground;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Plumber71.Toolbox.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_itemTextAppearance = global::Plumber71.Toolbox.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_verticalDivider = global::Plumber71.Toolbox.Resource.Styleable.MenuView_android_verticalDivider;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Plumber71.Toolbox.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::EDMTDialog.Resource.Styleable.MenuView_preserveIconSpacing = global::Plumber71.Toolbox.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::EDMTDialog.Resource.Styleable.MenuView_subMenuArrow = global::Plumber71.Toolbox.Resource.Styleable.MenuView_subMenuArrow;
+			global::EDMTDialog.Resource.Styleable.PopupWindow = global::Plumber71.Toolbox.Resource.Styleable.PopupWindow;
+			global::EDMTDialog.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Plumber71.Toolbox.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::EDMTDialog.Resource.Styleable.PopupWindow_android_popupBackground = global::Plumber71.Toolbox.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::EDMTDialog.Resource.Styleable.PopupWindow_overlapAnchor = global::Plumber71.Toolbox.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::EDMTDialog.Resource.Styleable.PopupWindowBackgroundState = global::Plumber71.Toolbox.Resource.Styleable.PopupWindowBackgroundState;
+			global::EDMTDialog.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Plumber71.Toolbox.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::EDMTDialog.Resource.Styleable.RecycleListView = global::Plumber71.Toolbox.Resource.Styleable.RecycleListView;
+			global::EDMTDialog.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Plumber71.Toolbox.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::EDMTDialog.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Plumber71.Toolbox.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::EDMTDialog.Resource.Styleable.SearchView = global::Plumber71.Toolbox.Resource.Styleable.SearchView;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_focusable = global::Plumber71.Toolbox.Resource.Styleable.SearchView_android_focusable;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_imeOptions = global::Plumber71.Toolbox.Resource.Styleable.SearchView_android_imeOptions;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_inputType = global::Plumber71.Toolbox.Resource.Styleable.SearchView_android_inputType;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_maxWidth = global::Plumber71.Toolbox.Resource.Styleable.SearchView_android_maxWidth;
+			global::EDMTDialog.Resource.Styleable.SearchView_closeIcon = global::Plumber71.Toolbox.Resource.Styleable.SearchView_closeIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_commitIcon = global::Plumber71.Toolbox.Resource.Styleable.SearchView_commitIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_defaultQueryHint = global::Plumber71.Toolbox.Resource.Styleable.SearchView_defaultQueryHint;
+			global::EDMTDialog.Resource.Styleable.SearchView_goIcon = global::Plumber71.Toolbox.Resource.Styleable.SearchView_goIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_iconifiedByDefault = global::Plumber71.Toolbox.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::EDMTDialog.Resource.Styleable.SearchView_layout = global::Plumber71.Toolbox.Resource.Styleable.SearchView_layout;
+			global::EDMTDialog.Resource.Styleable.SearchView_queryBackground = global::Plumber71.Toolbox.Resource.Styleable.SearchView_queryBackground;
+			global::EDMTDialog.Resource.Styleable.SearchView_queryHint = global::Plumber71.Toolbox.Resource.Styleable.SearchView_queryHint;
+			global::EDMTDialog.Resource.Styleable.SearchView_searchHintIcon = global::Plumber71.Toolbox.Resource.Styleable.SearchView_searchHintIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_searchIcon = global::Plumber71.Toolbox.Resource.Styleable.SearchView_searchIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_submitBackground = global::Plumber71.Toolbox.Resource.Styleable.SearchView_submitBackground;
+			global::EDMTDialog.Resource.Styleable.SearchView_suggestionRowLayout = global::Plumber71.Toolbox.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::EDMTDialog.Resource.Styleable.SearchView_voiceIcon = global::Plumber71.Toolbox.Resource.Styleable.SearchView_voiceIcon;
+			global::EDMTDialog.Resource.Styleable.Spinner = global::Plumber71.Toolbox.Resource.Styleable.Spinner;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_dropDownWidth = global::Plumber71.Toolbox.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_entries = global::Plumber71.Toolbox.Resource.Styleable.Spinner_android_entries;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_popupBackground = global::Plumber71.Toolbox.Resource.Styleable.Spinner_android_popupBackground;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_prompt = global::Plumber71.Toolbox.Resource.Styleable.Spinner_android_prompt;
+			global::EDMTDialog.Resource.Styleable.Spinner_popupTheme = global::Plumber71.Toolbox.Resource.Styleable.Spinner_popupTheme;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_android_textOff = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_android_textOff;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_android_textOn = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_android_textOn;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_android_thumb = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_android_thumb;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_showText = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_showText;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_splitTrack = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_splitTrack;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_switchMinWidth = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_switchPadding = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_switchPadding;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_thumbTint = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_thumbTint;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_thumbTintMode = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_track = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_track;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_trackTint = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_trackTint;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_trackTintMode = global::Plumber71.Toolbox.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::EDMTDialog.Resource.Styleable.TextAppearance = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_fontFamily = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowColor = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowDx = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowDy = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowRadius = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textColor = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance_android_textColor;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textColorHint = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textColorLink = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textSize = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance_android_textSize;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textStyle = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance_android_textStyle;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_typeface = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance_android_typeface;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_fontFamily = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance_fontFamily;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_textAllCaps = global::Plumber71.Toolbox.Resource.Styleable.TextAppearance_textAllCaps;
+			global::EDMTDialog.Resource.Styleable.Toolbar = global::Plumber71.Toolbox.Resource.Styleable.Toolbar;
+			global::EDMTDialog.Resource.Styleable.Toolbar_android_gravity = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_android_gravity;
+			global::EDMTDialog.Resource.Styleable.Toolbar_android_minHeight = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_android_minHeight;
+			global::EDMTDialog.Resource.Styleable.Toolbar_buttonGravity = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_buttonGravity;
+			global::EDMTDialog.Resource.Styleable.Toolbar_collapseContentDescription = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::EDMTDialog.Resource.Styleable.Toolbar_collapseIcon = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_collapseIcon;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetEnd = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetLeft = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetRight = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_contentInsetRight;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetStart = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_contentInsetStart;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::EDMTDialog.Resource.Styleable.Toolbar_logo = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_logo;
+			global::EDMTDialog.Resource.Styleable.Toolbar_logoDescription = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_logoDescription;
+			global::EDMTDialog.Resource.Styleable.Toolbar_maxButtonHeight = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::EDMTDialog.Resource.Styleable.Toolbar_navigationContentDescription = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::EDMTDialog.Resource.Styleable.Toolbar_navigationIcon = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_navigationIcon;
+			global::EDMTDialog.Resource.Styleable.Toolbar_popupTheme = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_popupTheme;
+			global::EDMTDialog.Resource.Styleable.Toolbar_subtitle = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_subtitle;
+			global::EDMTDialog.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::EDMTDialog.Resource.Styleable.Toolbar_subtitleTextColor = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::EDMTDialog.Resource.Styleable.Toolbar_title = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_title;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMargin = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_titleMargin;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginBottom = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginEnd = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginStart = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_titleMarginStart;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginTop = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_titleMarginTop;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMargins = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_titleMargins;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleTextAppearance = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleTextColor = global::Plumber71.Toolbox.Resource.Styleable.Toolbar_titleTextColor;
+			global::EDMTDialog.Resource.Styleable.View = global::Plumber71.Toolbox.Resource.Styleable.View;
+			global::EDMTDialog.Resource.Styleable.View_android_focusable = global::Plumber71.Toolbox.Resource.Styleable.View_android_focusable;
+			global::EDMTDialog.Resource.Styleable.View_android_theme = global::Plumber71.Toolbox.Resource.Styleable.View_android_theme;
+			global::EDMTDialog.Resource.Styleable.View_paddingEnd = global::Plumber71.Toolbox.Resource.Styleable.View_paddingEnd;
+			global::EDMTDialog.Resource.Styleable.View_paddingStart = global::Plumber71.Toolbox.Resource.Styleable.View_paddingStart;
+			global::EDMTDialog.Resource.Styleable.View_theme = global::Plumber71.Toolbox.Resource.Styleable.View_theme;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper = global::Plumber71.Toolbox.Resource.Styleable.ViewBackgroundHelper;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper_android_background = global::Plumber71.Toolbox.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Plumber71.Toolbox.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Plumber71.Toolbox.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat = global::Plumber71.Toolbox.Resource.Styleable.ViewStubCompat;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat_android_id = global::Plumber71.Toolbox.Resource.Styleable.ViewStubCompat_android_id;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Plumber71.Toolbox.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat_android_layout = global::Plumber71.Toolbox.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::Plumber71.Toolbox.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::Plumber71.Toolbox.Resource.Attribute.fontProviderAuthority;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::Plumber71.Toolbox.Resource.Attribute.fontProviderCerts;
@@ -93,6 +1634,7 @@ namespace Plumber71.Toolbox
 			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::Plumber71.Toolbox.Resource.Id.notification_main_column_container;
 			global::Xamarin.Essentials.Resource.Id.right_icon = global::Plumber71.Toolbox.Resource.Id.right_icon;
 			global::Xamarin.Essentials.Resource.Id.right_side = global::Plumber71.Toolbox.Resource.Id.right_side;
+			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::Plumber71.Toolbox.Resource.Id.tag_transition_group;
 			global::Xamarin.Essentials.Resource.Id.text = global::Plumber71.Toolbox.Resource.Id.text;
 			global::Xamarin.Essentials.Resource.Id.text2 = global::Plumber71.Toolbox.Resource.Id.text2;
 			global::Xamarin.Essentials.Resource.Id.time = global::Plumber71.Toolbox.Resource.Id.time;
@@ -121,6 +1663,9 @@ namespace Plumber71.Toolbox
 			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::Plumber71.Toolbox.Resource.Styleable.FontFamily_fontProviderPackage;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::Plumber71.Toolbox.Resource.Styleable.FontFamily_fontProviderQuery;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont_android_fontWeight;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_font = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont_font;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontStyle = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont_fontStyle;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::Plumber71.Toolbox.Resource.Styleable.FontFamilyFont_fontWeight;
@@ -206,1043 +1751,1055 @@ namespace Plumber71.Toolbox
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7F030000
-			public const int actionBarDivider = 2130903040;
-			
-			// aapt resource value: 0x7F030001
-			public const int actionBarItemBackground = 2130903041;
-			
-			// aapt resource value: 0x7F030002
-			public const int actionBarPopupTheme = 2130903042;
-			
-			// aapt resource value: 0x7F030003
-			public const int actionBarSize = 2130903043;
-			
 			// aapt resource value: 0x7F030004
-			public const int actionBarSplitStyle = 2130903044;
+			public const int actionBarDivider = 2130903044;
 			
 			// aapt resource value: 0x7F030005
-			public const int actionBarStyle = 2130903045;
+			public const int actionBarItemBackground = 2130903045;
 			
 			// aapt resource value: 0x7F030006
-			public const int actionBarTabBarStyle = 2130903046;
+			public const int actionBarPopupTheme = 2130903046;
 			
 			// aapt resource value: 0x7F030007
-			public const int actionBarTabStyle = 2130903047;
+			public const int actionBarSize = 2130903047;
 			
 			// aapt resource value: 0x7F030008
-			public const int actionBarTabTextStyle = 2130903048;
+			public const int actionBarSplitStyle = 2130903048;
 			
 			// aapt resource value: 0x7F030009
-			public const int actionBarTheme = 2130903049;
+			public const int actionBarStyle = 2130903049;
 			
 			// aapt resource value: 0x7F03000A
-			public const int actionBarWidgetTheme = 2130903050;
+			public const int actionBarTabBarStyle = 2130903050;
 			
 			// aapt resource value: 0x7F03000B
-			public const int actionButtonStyle = 2130903051;
+			public const int actionBarTabStyle = 2130903051;
 			
 			// aapt resource value: 0x7F03000C
-			public const int actionDropDownStyle = 2130903052;
+			public const int actionBarTabTextStyle = 2130903052;
 			
 			// aapt resource value: 0x7F03000D
-			public const int actionLayout = 2130903053;
+			public const int actionBarTheme = 2130903053;
 			
 			// aapt resource value: 0x7F03000E
-			public const int actionMenuTextAppearance = 2130903054;
+			public const int actionBarWidgetTheme = 2130903054;
 			
 			// aapt resource value: 0x7F03000F
-			public const int actionMenuTextColor = 2130903055;
+			public const int actionButtonStyle = 2130903055;
 			
 			// aapt resource value: 0x7F030010
-			public const int actionModeBackground = 2130903056;
+			public const int actionDropDownStyle = 2130903056;
 			
 			// aapt resource value: 0x7F030011
-			public const int actionModeCloseButtonStyle = 2130903057;
+			public const int actionLayout = 2130903057;
 			
 			// aapt resource value: 0x7F030012
-			public const int actionModeCloseDrawable = 2130903058;
+			public const int actionMenuTextAppearance = 2130903058;
 			
 			// aapt resource value: 0x7F030013
-			public const int actionModeCopyDrawable = 2130903059;
+			public const int actionMenuTextColor = 2130903059;
 			
 			// aapt resource value: 0x7F030014
-			public const int actionModeCutDrawable = 2130903060;
+			public const int actionModeBackground = 2130903060;
 			
 			// aapt resource value: 0x7F030015
-			public const int actionModeFindDrawable = 2130903061;
+			public const int actionModeCloseButtonStyle = 2130903061;
 			
 			// aapt resource value: 0x7F030016
-			public const int actionModePasteDrawable = 2130903062;
+			public const int actionModeCloseDrawable = 2130903062;
 			
 			// aapt resource value: 0x7F030017
-			public const int actionModePopupWindowStyle = 2130903063;
+			public const int actionModeCopyDrawable = 2130903063;
 			
 			// aapt resource value: 0x7F030018
-			public const int actionModeSelectAllDrawable = 2130903064;
+			public const int actionModeCutDrawable = 2130903064;
 			
 			// aapt resource value: 0x7F030019
-			public const int actionModeShareDrawable = 2130903065;
+			public const int actionModeFindDrawable = 2130903065;
 			
 			// aapt resource value: 0x7F03001A
-			public const int actionModeSplitBackground = 2130903066;
+			public const int actionModePasteDrawable = 2130903066;
 			
 			// aapt resource value: 0x7F03001B
-			public const int actionModeStyle = 2130903067;
+			public const int actionModePopupWindowStyle = 2130903067;
 			
 			// aapt resource value: 0x7F03001C
-			public const int actionModeWebSearchDrawable = 2130903068;
+			public const int actionModeSelectAllDrawable = 2130903068;
 			
 			// aapt resource value: 0x7F03001D
-			public const int actionOverflowButtonStyle = 2130903069;
+			public const int actionModeShareDrawable = 2130903069;
 			
 			// aapt resource value: 0x7F03001E
-			public const int actionOverflowMenuStyle = 2130903070;
+			public const int actionModeSplitBackground = 2130903070;
 			
 			// aapt resource value: 0x7F03001F
-			public const int actionProviderClass = 2130903071;
+			public const int actionModeStyle = 2130903071;
 			
 			// aapt resource value: 0x7F030020
-			public const int actionViewClass = 2130903072;
+			public const int actionModeWebSearchDrawable = 2130903072;
 			
 			// aapt resource value: 0x7F030021
-			public const int activityChooserViewStyle = 2130903073;
+			public const int actionOverflowButtonStyle = 2130903073;
 			
 			// aapt resource value: 0x7F030022
-			public const int alertDialogButtonGroupStyle = 2130903074;
+			public const int actionOverflowMenuStyle = 2130903074;
 			
 			// aapt resource value: 0x7F030023
-			public const int alertDialogCenterButtons = 2130903075;
+			public const int actionProviderClass = 2130903075;
 			
 			// aapt resource value: 0x7F030024
-			public const int alertDialogStyle = 2130903076;
+			public const int actionViewClass = 2130903076;
 			
 			// aapt resource value: 0x7F030025
-			public const int alertDialogTheme = 2130903077;
+			public const int activityChooserViewStyle = 2130903077;
 			
 			// aapt resource value: 0x7F030026
-			public const int allowStacking = 2130903078;
+			public const int alertDialogButtonGroupStyle = 2130903078;
 			
 			// aapt resource value: 0x7F030027
-			public const int alpha = 2130903079;
+			public const int alertDialogCenterButtons = 2130903079;
 			
 			// aapt resource value: 0x7F030028
-			public const int alphabeticModifiers = 2130903080;
+			public const int alertDialogStyle = 2130903080;
 			
 			// aapt resource value: 0x7F030029
-			public const int arrowHeadLength = 2130903081;
+			public const int alertDialogTheme = 2130903081;
 			
 			// aapt resource value: 0x7F03002A
-			public const int arrowShaftLength = 2130903082;
+			public const int allowStacking = 2130903082;
 			
 			// aapt resource value: 0x7F03002B
-			public const int autoCompleteTextViewStyle = 2130903083;
+			public const int alpha = 2130903083;
 			
 			// aapt resource value: 0x7F03002C
-			public const int autoSizeMaxTextSize = 2130903084;
+			public const int alphabeticModifiers = 2130903084;
 			
 			// aapt resource value: 0x7F03002D
-			public const int autoSizeMinTextSize = 2130903085;
+			public const int arrowHeadLength = 2130903085;
 			
 			// aapt resource value: 0x7F03002E
-			public const int autoSizePresetSizes = 2130903086;
+			public const int arrowShaftLength = 2130903086;
 			
 			// aapt resource value: 0x7F03002F
-			public const int autoSizeStepGranularity = 2130903087;
+			public const int autoCompleteTextViewStyle = 2130903087;
 			
 			// aapt resource value: 0x7F030030
-			public const int autoSizeTextType = 2130903088;
+			public const int autoSizeMaxTextSize = 2130903088;
 			
 			// aapt resource value: 0x7F030031
-			public const int background = 2130903089;
+			public const int autoSizeMinTextSize = 2130903089;
 			
 			// aapt resource value: 0x7F030032
-			public const int backgroundSplit = 2130903090;
+			public const int autoSizePresetSizes = 2130903090;
 			
 			// aapt resource value: 0x7F030033
-			public const int backgroundStacked = 2130903091;
+			public const int autoSizeStepGranularity = 2130903091;
 			
 			// aapt resource value: 0x7F030034
-			public const int backgroundTint = 2130903092;
+			public const int autoSizeTextType = 2130903092;
 			
 			// aapt resource value: 0x7F030035
-			public const int backgroundTintMode = 2130903093;
+			public const int background = 2130903093;
 			
 			// aapt resource value: 0x7F030036
-			public const int barLength = 2130903094;
+			public const int backgroundSplit = 2130903094;
 			
 			// aapt resource value: 0x7F030037
-			public const int behavior_autoHide = 2130903095;
+			public const int backgroundStacked = 2130903095;
 			
 			// aapt resource value: 0x7F030038
-			public const int behavior_hideable = 2130903096;
+			public const int backgroundTint = 2130903096;
 			
 			// aapt resource value: 0x7F030039
-			public const int behavior_overlapTop = 2130903097;
+			public const int backgroundTintMode = 2130903097;
 			
 			// aapt resource value: 0x7F03003A
-			public const int behavior_peekHeight = 2130903098;
+			public const int barLength = 2130903098;
 			
 			// aapt resource value: 0x7F03003B
-			public const int behavior_skipCollapsed = 2130903099;
-			
-			// aapt resource value: 0x7F03003D
-			public const int borderlessButtonStyle = 2130903101;
+			public const int behavior_autoHide = 2130903099;
 			
 			// aapt resource value: 0x7F03003C
-			public const int borderWidth = 2130903100;
+			public const int behavior_hideable = 2130903100;
+			
+			// aapt resource value: 0x7F03003D
+			public const int behavior_overlapTop = 2130903101;
 			
 			// aapt resource value: 0x7F03003E
-			public const int bottomSheetDialogTheme = 2130903102;
+			public const int behavior_peekHeight = 2130903102;
 			
 			// aapt resource value: 0x7F03003F
-			public const int bottomSheetStyle = 2130903103;
-			
-			// aapt resource value: 0x7F030040
-			public const int buttonBarButtonStyle = 2130903104;
+			public const int behavior_skipCollapsed = 2130903103;
 			
 			// aapt resource value: 0x7F030041
-			public const int buttonBarNegativeButtonStyle = 2130903105;
+			public const int borderlessButtonStyle = 2130903105;
+			
+			// aapt resource value: 0x7F030040
+			public const int borderWidth = 2130903104;
 			
 			// aapt resource value: 0x7F030042
-			public const int buttonBarNeutralButtonStyle = 2130903106;
+			public const int bottomSheetDialogTheme = 2130903106;
 			
 			// aapt resource value: 0x7F030043
-			public const int buttonBarPositiveButtonStyle = 2130903107;
+			public const int bottomSheetStyle = 2130903107;
 			
 			// aapt resource value: 0x7F030044
-			public const int buttonBarStyle = 2130903108;
+			public const int buttonBarButtonStyle = 2130903108;
 			
 			// aapt resource value: 0x7F030045
-			public const int buttonGravity = 2130903109;
+			public const int buttonBarNegativeButtonStyle = 2130903109;
 			
 			// aapt resource value: 0x7F030046
-			public const int buttonPanelSideLayout = 2130903110;
+			public const int buttonBarNeutralButtonStyle = 2130903110;
 			
 			// aapt resource value: 0x7F030047
-			public const int buttonStyle = 2130903111;
+			public const int buttonBarPositiveButtonStyle = 2130903111;
 			
 			// aapt resource value: 0x7F030048
-			public const int buttonStyleSmall = 2130903112;
+			public const int buttonBarStyle = 2130903112;
 			
 			// aapt resource value: 0x7F030049
-			public const int buttonTint = 2130903113;
+			public const int buttonGravity = 2130903113;
 			
 			// aapt resource value: 0x7F03004A
-			public const int buttonTintMode = 2130903114;
+			public const int buttonPanelSideLayout = 2130903114;
 			
 			// aapt resource value: 0x7F03004B
-			public const int checkboxStyle = 2130903115;
+			public const int buttonStyle = 2130903115;
 			
 			// aapt resource value: 0x7F03004C
-			public const int checkedTextViewStyle = 2130903116;
+			public const int buttonStyleSmall = 2130903116;
 			
 			// aapt resource value: 0x7F03004D
-			public const int closeIcon = 2130903117;
+			public const int buttonTint = 2130903117;
 			
 			// aapt resource value: 0x7F03004E
-			public const int closeItemLayout = 2130903118;
+			public const int buttonTintMode = 2130903118;
 			
 			// aapt resource value: 0x7F03004F
-			public const int collapseContentDescription = 2130903119;
-			
-			// aapt resource value: 0x7F030051
-			public const int collapsedTitleGravity = 2130903121;
-			
-			// aapt resource value: 0x7F030052
-			public const int collapsedTitleTextAppearance = 2130903122;
+			public const int checkboxStyle = 2130903119;
 			
 			// aapt resource value: 0x7F030050
-			public const int collapseIcon = 2130903120;
+			public const int checkedTextViewStyle = 2130903120;
+			
+			// aapt resource value: 0x7F030051
+			public const int closeIcon = 2130903121;
+			
+			// aapt resource value: 0x7F030052
+			public const int closeItemLayout = 2130903122;
 			
 			// aapt resource value: 0x7F030053
-			public const int color = 2130903123;
-			
-			// aapt resource value: 0x7F030054
-			public const int colorAccent = 2130903124;
+			public const int collapseContentDescription = 2130903123;
 			
 			// aapt resource value: 0x7F030055
-			public const int colorBackgroundFloating = 2130903125;
+			public const int collapsedTitleGravity = 2130903125;
 			
 			// aapt resource value: 0x7F030056
-			public const int colorButtonNormal = 2130903126;
+			public const int collapsedTitleTextAppearance = 2130903126;
+			
+			// aapt resource value: 0x7F030054
+			public const int collapseIcon = 2130903124;
 			
 			// aapt resource value: 0x7F030057
-			public const int colorControlActivated = 2130903127;
+			public const int color = 2130903127;
 			
 			// aapt resource value: 0x7F030058
-			public const int colorControlHighlight = 2130903128;
+			public const int colorAccent = 2130903128;
 			
 			// aapt resource value: 0x7F030059
-			public const int colorControlNormal = 2130903129;
+			public const int colorBackgroundFloating = 2130903129;
 			
 			// aapt resource value: 0x7F03005A
-			public const int colorError = 2130903130;
+			public const int colorButtonNormal = 2130903130;
 			
 			// aapt resource value: 0x7F03005B
-			public const int colorPrimary = 2130903131;
+			public const int colorControlActivated = 2130903131;
 			
 			// aapt resource value: 0x7F03005C
-			public const int colorPrimaryDark = 2130903132;
+			public const int colorControlHighlight = 2130903132;
 			
 			// aapt resource value: 0x7F03005D
-			public const int colorSwitchThumbNormal = 2130903133;
+			public const int colorControlNormal = 2130903133;
 			
 			// aapt resource value: 0x7F03005E
-			public const int commitIcon = 2130903134;
+			public const int colorError = 2130903134;
 			
 			// aapt resource value: 0x7F03005F
-			public const int contentDescription = 2130903135;
+			public const int colorPrimary = 2130903135;
 			
 			// aapt resource value: 0x7F030060
-			public const int contentInsetEnd = 2130903136;
+			public const int colorPrimaryDark = 2130903136;
 			
 			// aapt resource value: 0x7F030061
-			public const int contentInsetEndWithActions = 2130903137;
+			public const int colorSwitchThumbNormal = 2130903137;
 			
 			// aapt resource value: 0x7F030062
-			public const int contentInsetLeft = 2130903138;
+			public const int commitIcon = 2130903138;
 			
 			// aapt resource value: 0x7F030063
-			public const int contentInsetRight = 2130903139;
+			public const int contentDescription = 2130903139;
 			
 			// aapt resource value: 0x7F030064
-			public const int contentInsetStart = 2130903140;
+			public const int contentInsetEnd = 2130903140;
 			
 			// aapt resource value: 0x7F030065
-			public const int contentInsetStartWithNavigation = 2130903141;
+			public const int contentInsetEndWithActions = 2130903141;
 			
 			// aapt resource value: 0x7F030066
-			public const int contentScrim = 2130903142;
+			public const int contentInsetLeft = 2130903142;
 			
 			// aapt resource value: 0x7F030067
-			public const int controlBackground = 2130903143;
+			public const int contentInsetRight = 2130903143;
 			
 			// aapt resource value: 0x7F030068
-			public const int counterEnabled = 2130903144;
+			public const int contentInsetStart = 2130903144;
 			
 			// aapt resource value: 0x7F030069
-			public const int counterMaxLength = 2130903145;
+			public const int contentInsetStartWithNavigation = 2130903145;
 			
 			// aapt resource value: 0x7F03006A
-			public const int counterOverflowTextAppearance = 2130903146;
+			public const int contentScrim = 2130903146;
 			
 			// aapt resource value: 0x7F03006B
-			public const int counterTextAppearance = 2130903147;
+			public const int controlBackground = 2130903147;
 			
 			// aapt resource value: 0x7F03006C
-			public const int customNavigationLayout = 2130903148;
+			public const int counterEnabled = 2130903148;
 			
 			// aapt resource value: 0x7F03006D
-			public const int defaultQueryHint = 2130903149;
+			public const int counterMaxLength = 2130903149;
 			
 			// aapt resource value: 0x7F03006E
-			public const int dialogPreferredPadding = 2130903150;
+			public const int counterOverflowTextAppearance = 2130903150;
 			
 			// aapt resource value: 0x7F03006F
-			public const int dialogTheme = 2130903151;
+			public const int counterTextAppearance = 2130903151;
 			
 			// aapt resource value: 0x7F030070
-			public const int displayOptions = 2130903152;
+			public const int customNavigationLayout = 2130903152;
 			
 			// aapt resource value: 0x7F030071
-			public const int divider = 2130903153;
+			public const int defaultQueryHint = 2130903153;
 			
 			// aapt resource value: 0x7F030072
-			public const int dividerHorizontal = 2130903154;
+			public const int dialogPreferredPadding = 2130903154;
+			
+			// aapt resource value: 0x7F030000
+			public const int DialogSpotColor = 2130903040;
+			
+			// aapt resource value: 0x7F030001
+			public const int DialogSpotCount = 2130903041;
 			
 			// aapt resource value: 0x7F030073
-			public const int dividerPadding = 2130903155;
+			public const int dialogTheme = 2130903155;
+			
+			// aapt resource value: 0x7F030002
+			public const int DialogTitleAppearance = 2130903042;
+			
+			// aapt resource value: 0x7F030003
+			public const int DialogTitleText = 2130903043;
 			
 			// aapt resource value: 0x7F030074
-			public const int dividerVertical = 2130903156;
+			public const int displayOptions = 2130903156;
 			
 			// aapt resource value: 0x7F030075
-			public const int drawableSize = 2130903157;
+			public const int divider = 2130903157;
 			
 			// aapt resource value: 0x7F030076
-			public const int drawerArrowStyle = 2130903158;
-			
-			// aapt resource value: 0x7F030078
-			public const int dropdownListPreferredItemHeight = 2130903160;
+			public const int dividerHorizontal = 2130903158;
 			
 			// aapt resource value: 0x7F030077
-			public const int dropDownListViewStyle = 2130903159;
+			public const int dividerPadding = 2130903159;
+			
+			// aapt resource value: 0x7F030078
+			public const int dividerVertical = 2130903160;
 			
 			// aapt resource value: 0x7F030079
-			public const int editTextBackground = 2130903161;
+			public const int drawableSize = 2130903161;
 			
 			// aapt resource value: 0x7F03007A
-			public const int editTextColor = 2130903162;
-			
-			// aapt resource value: 0x7F03007B
-			public const int editTextStyle = 2130903163;
+			public const int drawerArrowStyle = 2130903162;
 			
 			// aapt resource value: 0x7F03007C
-			public const int elevation = 2130903164;
+			public const int dropdownListPreferredItemHeight = 2130903164;
+			
+			// aapt resource value: 0x7F03007B
+			public const int dropDownListViewStyle = 2130903163;
 			
 			// aapt resource value: 0x7F03007D
-			public const int errorEnabled = 2130903165;
+			public const int editTextBackground = 2130903165;
 			
 			// aapt resource value: 0x7F03007E
-			public const int errorTextAppearance = 2130903166;
+			public const int editTextColor = 2130903166;
 			
 			// aapt resource value: 0x7F03007F
-			public const int expandActivityOverflowButtonDrawable = 2130903167;
+			public const int editTextStyle = 2130903167;
 			
 			// aapt resource value: 0x7F030080
-			public const int expanded = 2130903168;
+			public const int elevation = 2130903168;
 			
 			// aapt resource value: 0x7F030081
-			public const int expandedTitleGravity = 2130903169;
+			public const int errorEnabled = 2130903169;
 			
 			// aapt resource value: 0x7F030082
-			public const int expandedTitleMargin = 2130903170;
+			public const int errorTextAppearance = 2130903170;
 			
 			// aapt resource value: 0x7F030083
-			public const int expandedTitleMarginBottom = 2130903171;
+			public const int expandActivityOverflowButtonDrawable = 2130903171;
 			
 			// aapt resource value: 0x7F030084
-			public const int expandedTitleMarginEnd = 2130903172;
+			public const int expanded = 2130903172;
 			
 			// aapt resource value: 0x7F030085
-			public const int expandedTitleMarginStart = 2130903173;
+			public const int expandedTitleGravity = 2130903173;
 			
 			// aapt resource value: 0x7F030086
-			public const int expandedTitleMarginTop = 2130903174;
+			public const int expandedTitleMargin = 2130903174;
 			
 			// aapt resource value: 0x7F030087
-			public const int expandedTitleTextAppearance = 2130903175;
+			public const int expandedTitleMarginBottom = 2130903175;
 			
 			// aapt resource value: 0x7F030088
-			public const int fabSize = 2130903176;
+			public const int expandedTitleMarginEnd = 2130903176;
 			
 			// aapt resource value: 0x7F030089
-			public const int fastScrollEnabled = 2130903177;
+			public const int expandedTitleMarginStart = 2130903177;
 			
 			// aapt resource value: 0x7F03008A
-			public const int fastScrollHorizontalThumbDrawable = 2130903178;
+			public const int expandedTitleMarginTop = 2130903178;
 			
 			// aapt resource value: 0x7F03008B
-			public const int fastScrollHorizontalTrackDrawable = 2130903179;
+			public const int expandedTitleTextAppearance = 2130903179;
 			
 			// aapt resource value: 0x7F03008C
-			public const int fastScrollVerticalThumbDrawable = 2130903180;
+			public const int fabSize = 2130903180;
 			
 			// aapt resource value: 0x7F03008D
-			public const int fastScrollVerticalTrackDrawable = 2130903181;
+			public const int fastScrollEnabled = 2130903181;
 			
 			// aapt resource value: 0x7F03008E
-			public const int font = 2130903182;
+			public const int fastScrollHorizontalThumbDrawable = 2130903182;
 			
 			// aapt resource value: 0x7F03008F
-			public const int fontFamily = 2130903183;
+			public const int fastScrollHorizontalTrackDrawable = 2130903183;
 			
 			// aapt resource value: 0x7F030090
-			public const int fontProviderAuthority = 2130903184;
+			public const int fastScrollVerticalThumbDrawable = 2130903184;
 			
 			// aapt resource value: 0x7F030091
-			public const int fontProviderCerts = 2130903185;
+			public const int fastScrollVerticalTrackDrawable = 2130903185;
 			
 			// aapt resource value: 0x7F030092
-			public const int fontProviderFetchStrategy = 2130903186;
+			public const int font = 2130903186;
 			
 			// aapt resource value: 0x7F030093
-			public const int fontProviderFetchTimeout = 2130903187;
+			public const int fontFamily = 2130903187;
 			
 			// aapt resource value: 0x7F030094
-			public const int fontProviderPackage = 2130903188;
+			public const int fontProviderAuthority = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int fontProviderQuery = 2130903189;
+			public const int fontProviderCerts = 2130903189;
 			
 			// aapt resource value: 0x7F030096
-			public const int fontStyle = 2130903190;
+			public const int fontProviderFetchStrategy = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int fontWeight = 2130903191;
+			public const int fontProviderFetchTimeout = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int foregroundInsidePadding = 2130903192;
+			public const int fontProviderPackage = 2130903192;
 			
 			// aapt resource value: 0x7F030099
-			public const int gapBetweenBars = 2130903193;
+			public const int fontProviderQuery = 2130903193;
 			
 			// aapt resource value: 0x7F03009A
-			public const int goIcon = 2130903194;
+			public const int fontStyle = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int headerLayout = 2130903195;
+			public const int fontWeight = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int height = 2130903196;
+			public const int foregroundInsidePadding = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int hideOnContentScroll = 2130903197;
+			public const int gapBetweenBars = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int hintAnimationEnabled = 2130903198;
+			public const int goIcon = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int hintEnabled = 2130903199;
+			public const int headerLayout = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int hintTextAppearance = 2130903200;
+			public const int height = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int homeAsUpIndicator = 2130903201;
+			public const int hideOnContentScroll = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int homeLayout = 2130903202;
+			public const int hintAnimationEnabled = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int icon = 2130903203;
-			
-			// aapt resource value: 0x7F0300A6
-			public const int iconifiedByDefault = 2130903206;
+			public const int hintEnabled = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int iconTint = 2130903204;
+			public const int hintTextAppearance = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int iconTintMode = 2130903205;
+			public const int homeAsUpIndicator = 2130903205;
+			
+			// aapt resource value: 0x7F0300A6
+			public const int homeLayout = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int imageButtonStyle = 2130903207;
-			
-			// aapt resource value: 0x7F0300A8
-			public const int indeterminateProgressStyle = 2130903208;
-			
-			// aapt resource value: 0x7F0300A9
-			public const int initialActivityCount = 2130903209;
+			public const int icon = 2130903207;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int insetForeground = 2130903210;
+			public const int iconifiedByDefault = 2130903210;
+			
+			// aapt resource value: 0x7F0300A8
+			public const int iconTint = 2130903208;
+			
+			// aapt resource value: 0x7F0300A9
+			public const int iconTintMode = 2130903209;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int isLightTheme = 2130903211;
+			public const int imageButtonStyle = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int itemBackground = 2130903212;
+			public const int indeterminateProgressStyle = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int itemIconTint = 2130903213;
+			public const int initialActivityCount = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int itemPadding = 2130903214;
+			public const int insetForeground = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int itemTextAppearance = 2130903215;
+			public const int isLightTheme = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int itemTextColor = 2130903216;
+			public const int itemBackground = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int keylines = 2130903217;
+			public const int itemIconTint = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int layout = 2130903218;
+			public const int itemPadding = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int layoutManager = 2130903219;
+			public const int itemTextAppearance = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int layout_anchor = 2130903220;
+			public const int itemTextColor = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int layout_anchorGravity = 2130903221;
+			public const int keylines = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int layout_behavior = 2130903222;
+			public const int layout = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int layout_collapseMode = 2130903223;
+			public const int layoutManager = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int layout_collapseParallaxMultiplier = 2130903224;
+			public const int layout_anchor = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int layout_dodgeInsetEdges = 2130903225;
+			public const int layout_anchorGravity = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int layout_insetEdge = 2130903226;
+			public const int layout_behavior = 2130903226;
 			
 			// aapt resource value: 0x7F0300BB
-			public const int layout_keyline = 2130903227;
+			public const int layout_collapseMode = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int layout_scrollFlags = 2130903228;
+			public const int layout_collapseParallaxMultiplier = 2130903228;
 			
 			// aapt resource value: 0x7F0300BD
-			public const int layout_scrollInterpolator = 2130903229;
+			public const int layout_dodgeInsetEdges = 2130903229;
 			
 			// aapt resource value: 0x7F0300BE
-			public const int listChoiceBackgroundIndicator = 2130903230;
+			public const int layout_insetEdge = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int listDividerAlertDialog = 2130903231;
+			public const int layout_keyline = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int listItemLayout = 2130903232;
+			public const int layout_scrollFlags = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int listLayout = 2130903233;
+			public const int layout_scrollInterpolator = 2130903233;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int listMenuViewStyle = 2130903234;
+			public const int listChoiceBackgroundIndicator = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int listPopupWindowStyle = 2130903235;
+			public const int listDividerAlertDialog = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int listPreferredItemHeight = 2130903236;
+			public const int listItemLayout = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int listPreferredItemHeightLarge = 2130903237;
+			public const int listLayout = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int listPreferredItemHeightSmall = 2130903238;
+			public const int listMenuViewStyle = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int listPreferredItemPaddingLeft = 2130903239;
+			public const int listPopupWindowStyle = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int listPreferredItemPaddingRight = 2130903240;
+			public const int listPreferredItemHeight = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int logo = 2130903241;
+			public const int listPreferredItemHeightLarge = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int logoDescription = 2130903242;
+			public const int listPreferredItemHeightSmall = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int maxActionInlineWidth = 2130903243;
+			public const int listPreferredItemPaddingLeft = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int maxButtonHeight = 2130903244;
+			public const int listPreferredItemPaddingRight = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int measureWithLargestChild = 2130903245;
+			public const int logo = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int menu = 2130903246;
+			public const int logoDescription = 2130903246;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int multiChoiceItemLayout = 2130903247;
+			public const int maxActionInlineWidth = 2130903247;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int navigationContentDescription = 2130903248;
+			public const int maxButtonHeight = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int navigationIcon = 2130903249;
+			public const int measureWithLargestChild = 2130903249;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int navigationMode = 2130903250;
+			public const int menu = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int numericModifiers = 2130903251;
+			public const int multiChoiceItemLayout = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int overlapAnchor = 2130903252;
+			public const int navigationContentDescription = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int paddingBottomNoButtons = 2130903253;
+			public const int navigationIcon = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int paddingEnd = 2130903254;
+			public const int navigationMode = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int paddingStart = 2130903255;
+			public const int numericModifiers = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int paddingTopNoTitle = 2130903256;
+			public const int overlapAnchor = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int panelBackground = 2130903257;
+			public const int paddingBottomNoButtons = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int panelMenuListTheme = 2130903258;
+			public const int paddingEnd = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int panelMenuListWidth = 2130903259;
+			public const int paddingStart = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int passwordToggleContentDescription = 2130903260;
+			public const int paddingTopNoTitle = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int passwordToggleDrawable = 2130903261;
+			public const int panelBackground = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int passwordToggleEnabled = 2130903262;
+			public const int panelMenuListTheme = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int passwordToggleTint = 2130903263;
+			public const int panelMenuListWidth = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int passwordToggleTintMode = 2130903264;
+			public const int passwordToggleContentDescription = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int popupMenuStyle = 2130903265;
+			public const int passwordToggleDrawable = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int popupTheme = 2130903266;
+			public const int passwordToggleEnabled = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int popupWindowStyle = 2130903267;
+			public const int passwordToggleTint = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int preserveIconSpacing = 2130903268;
+			public const int passwordToggleTintMode = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int pressedTranslationZ = 2130903269;
+			public const int popupMenuStyle = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int progressBarPadding = 2130903270;
+			public const int popupTheme = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int progressBarStyle = 2130903271;
+			public const int popupWindowStyle = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int queryBackground = 2130903272;
+			public const int preserveIconSpacing = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int queryHint = 2130903273;
+			public const int pressedTranslationZ = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int radioButtonStyle = 2130903274;
+			public const int progressBarPadding = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int ratingBarStyle = 2130903275;
+			public const int progressBarStyle = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int ratingBarStyleIndicator = 2130903276;
+			public const int queryBackground = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int ratingBarStyleSmall = 2130903277;
+			public const int queryHint = 2130903277;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int reverseLayout = 2130903278;
+			public const int radioButtonStyle = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int rippleColor = 2130903279;
+			public const int ratingBarStyle = 2130903279;
 			
 			// aapt resource value: 0x7F0300F0
-			public const int scrimAnimationDuration = 2130903280;
+			public const int ratingBarStyleIndicator = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int scrimVisibleHeightTrigger = 2130903281;
+			public const int ratingBarStyleSmall = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int searchHintIcon = 2130903282;
+			public const int reverseLayout = 2130903282;
 			
 			// aapt resource value: 0x7F0300F3
-			public const int searchIcon = 2130903283;
+			public const int rippleColor = 2130903283;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int searchViewStyle = 2130903284;
+			public const int scrimAnimationDuration = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int seekBarStyle = 2130903285;
+			public const int scrimVisibleHeightTrigger = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int selectableItemBackground = 2130903286;
+			public const int searchHintIcon = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int selectableItemBackgroundBorderless = 2130903287;
+			public const int searchIcon = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int showAsAction = 2130903288;
+			public const int searchViewStyle = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int showDividers = 2130903289;
+			public const int seekBarStyle = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int showText = 2130903290;
+			public const int selectableItemBackground = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int showTitle = 2130903291;
+			public const int selectableItemBackgroundBorderless = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int singleChoiceItemLayout = 2130903292;
+			public const int showAsAction = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int spanCount = 2130903293;
+			public const int showDividers = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int spinBars = 2130903294;
+			public const int showText = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int spinnerDropDownItemStyle = 2130903295;
+			public const int showTitle = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int spinnerStyle = 2130903296;
+			public const int singleChoiceItemLayout = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int splitTrack = 2130903297;
+			public const int spanCount = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int srcCompat = 2130903298;
+			public const int spinBars = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int stackFromEnd = 2130903299;
+			public const int spinnerDropDownItemStyle = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int state_above_anchor = 2130903300;
+			public const int spinnerStyle = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int state_collapsed = 2130903301;
+			public const int splitTrack = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int state_collapsible = 2130903302;
+			public const int srcCompat = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int statusBarBackground = 2130903303;
+			public const int stackFromEnd = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int statusBarScrim = 2130903304;
+			public const int state_above_anchor = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int subMenuArrow = 2130903305;
+			public const int state_collapsed = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int submitBackground = 2130903306;
+			public const int state_collapsible = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int subtitle = 2130903307;
+			public const int statusBarBackground = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int subtitleTextAppearance = 2130903308;
+			public const int statusBarScrim = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int subtitleTextColor = 2130903309;
+			public const int subMenuArrow = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int subtitleTextStyle = 2130903310;
+			public const int submitBackground = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int suggestionRowLayout = 2130903311;
+			public const int subtitle = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int switchMinWidth = 2130903312;
+			public const int subtitleTextAppearance = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int switchPadding = 2130903313;
+			public const int subtitleTextColor = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int switchStyle = 2130903314;
+			public const int subtitleTextStyle = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int switchTextAppearance = 2130903315;
+			public const int suggestionRowLayout = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int tabBackground = 2130903316;
+			public const int switchMinWidth = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int tabContentStart = 2130903317;
+			public const int switchPadding = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int tabGravity = 2130903318;
+			public const int switchStyle = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int tabIndicatorColor = 2130903319;
+			public const int switchTextAppearance = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int tabIndicatorHeight = 2130903320;
+			public const int tabBackground = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int tabMaxWidth = 2130903321;
+			public const int tabContentStart = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int tabMinWidth = 2130903322;
+			public const int tabGravity = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int tabMode = 2130903323;
+			public const int tabIndicatorColor = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int tabPadding = 2130903324;
+			public const int tabIndicatorHeight = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int tabPaddingBottom = 2130903325;
+			public const int tabMaxWidth = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int tabPaddingEnd = 2130903326;
+			public const int tabMinWidth = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int tabPaddingStart = 2130903327;
+			public const int tabMode = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int tabPaddingTop = 2130903328;
+			public const int tabPadding = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int tabSelectedTextColor = 2130903329;
+			public const int tabPaddingBottom = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int tabTextAppearance = 2130903330;
+			public const int tabPaddingEnd = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int tabTextColor = 2130903331;
+			public const int tabPaddingStart = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int textAllCaps = 2130903332;
+			public const int tabPaddingTop = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int textAppearanceLargePopupMenu = 2130903333;
+			public const int tabSelectedTextColor = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int textAppearanceListItem = 2130903334;
+			public const int tabTextAppearance = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int textAppearanceListItemSecondary = 2130903335;
+			public const int tabTextColor = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int textAppearanceListItemSmall = 2130903336;
+			public const int textAllCaps = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int textAppearancePopupMenuHeader = 2130903337;
+			public const int textAppearanceLargePopupMenu = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int textAppearanceSearchResultSubtitle = 2130903338;
+			public const int textAppearanceListItem = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int textAppearanceSearchResultTitle = 2130903339;
+			public const int textAppearanceListItemSecondary = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int textAppearanceSmallPopupMenu = 2130903340;
+			public const int textAppearanceListItemSmall = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int textColorAlertDialogListItem = 2130903341;
+			public const int textAppearancePopupMenuHeader = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int textColorError = 2130903342;
+			public const int textAppearanceSearchResultSubtitle = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int textColorSearchUrl = 2130903343;
+			public const int textAppearanceSearchResultTitle = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int theme = 2130903344;
+			public const int textAppearanceSmallPopupMenu = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int thickness = 2130903345;
+			public const int textColorAlertDialogListItem = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int thumbTextPadding = 2130903346;
+			public const int textColorError = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int thumbTint = 2130903347;
+			public const int textColorSearchUrl = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int thumbTintMode = 2130903348;
+			public const int theme = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int tickMark = 2130903349;
+			public const int thickness = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int tickMarkTint = 2130903350;
+			public const int thumbTextPadding = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int tickMarkTintMode = 2130903351;
+			public const int thumbTint = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int tint = 2130903352;
+			public const int thumbTintMode = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int tintMode = 2130903353;
+			public const int tickMark = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int title = 2130903354;
+			public const int tickMarkTint = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int titleEnabled = 2130903355;
+			public const int tickMarkTintMode = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int titleMargin = 2130903356;
+			public const int tint = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int titleMarginBottom = 2130903357;
+			public const int tintMode = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int titleMarginEnd = 2130903358;
-			
-			// aapt resource value: 0x7F030141
-			public const int titleMargins = 2130903361;
+			public const int title = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int titleMarginStart = 2130903359;
+			public const int titleEnabled = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int titleMarginTop = 2130903360;
+			public const int titleMargin = 2130903360;
+			
+			// aapt resource value: 0x7F030141
+			public const int titleMarginBottom = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int titleTextAppearance = 2130903362;
-			
-			// aapt resource value: 0x7F030143
-			public const int titleTextColor = 2130903363;
-			
-			// aapt resource value: 0x7F030144
-			public const int titleTextStyle = 2130903364;
+			public const int titleMarginEnd = 2130903362;
 			
 			// aapt resource value: 0x7F030145
-			public const int toolbarId = 2130903365;
+			public const int titleMargins = 2130903365;
+			
+			// aapt resource value: 0x7F030143
+			public const int titleMarginStart = 2130903363;
+			
+			// aapt resource value: 0x7F030144
+			public const int titleMarginTop = 2130903364;
 			
 			// aapt resource value: 0x7F030146
-			public const int toolbarNavigationButtonStyle = 2130903366;
+			public const int titleTextAppearance = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int toolbarStyle = 2130903367;
+			public const int titleTextColor = 2130903367;
 			
 			// aapt resource value: 0x7F030148
-			public const int tooltipForegroundColor = 2130903368;
+			public const int titleTextStyle = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int tooltipFrameBackground = 2130903369;
+			public const int toolbarId = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int tooltipText = 2130903370;
+			public const int toolbarNavigationButtonStyle = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int track = 2130903371;
+			public const int toolbarStyle = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int trackTint = 2130903372;
+			public const int tooltipForegroundColor = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int trackTintMode = 2130903373;
+			public const int tooltipFrameBackground = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int useCompatPadding = 2130903374;
+			public const int tooltipText = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int voiceIcon = 2130903375;
+			public const int track = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int windowActionBar = 2130903376;
+			public const int trackTint = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int windowActionBarOverlay = 2130903377;
+			public const int trackTintMode = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int windowActionModeOverlay = 2130903378;
+			public const int useCompatPadding = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int windowFixedHeightMajor = 2130903379;
+			public const int voiceIcon = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int windowFixedHeightMinor = 2130903380;
+			public const int windowActionBar = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int windowFixedWidthMajor = 2130903381;
+			public const int windowActionBarOverlay = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int windowFixedWidthMinor = 2130903382;
+			public const int windowActionModeOverlay = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int windowMinWidthMajor = 2130903383;
+			public const int windowFixedHeightMajor = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int windowMinWidthMinor = 2130903384;
+			public const int windowFixedHeightMinor = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int windowNoTitle = 2130903385;
+			public const int windowFixedWidthMajor = 2130903385;
+			
+			// aapt resource value: 0x7F03015A
+			public const int windowFixedWidthMinor = 2130903386;
+			
+			// aapt resource value: 0x7F03015B
+			public const int windowMinWidthMajor = 2130903387;
+			
+			// aapt resource value: 0x7F03015C
+			public const int windowMinWidthMinor = 2130903388;
+			
+			// aapt resource value: 0x7F03015D
+			public const int windowNoTitle = 2130903389;
 			
 			static Attribute()
 			{
@@ -1559,28 +3116,31 @@ namespace Plumber71.Toolbox
 			public const int secondary_text_disabled_material_light = 2131034202;
 			
 			// aapt resource value: 0x7F05005B
-			public const int switch_thumb_disabled_material_dark = 2131034203;
+			public const int spots_dialog_color = 2131034203;
 			
 			// aapt resource value: 0x7F05005C
-			public const int switch_thumb_disabled_material_light = 2131034204;
+			public const int switch_thumb_disabled_material_dark = 2131034204;
 			
 			// aapt resource value: 0x7F05005D
-			public const int switch_thumb_material_dark = 2131034205;
+			public const int switch_thumb_disabled_material_light = 2131034205;
 			
 			// aapt resource value: 0x7F05005E
-			public const int switch_thumb_material_light = 2131034206;
+			public const int switch_thumb_material_dark = 2131034206;
 			
 			// aapt resource value: 0x7F05005F
-			public const int switch_thumb_normal_material_dark = 2131034207;
+			public const int switch_thumb_material_light = 2131034207;
 			
 			// aapt resource value: 0x7F050060
-			public const int switch_thumb_normal_material_light = 2131034208;
+			public const int switch_thumb_normal_material_dark = 2131034208;
 			
 			// aapt resource value: 0x7F050061
-			public const int tooltip_background_dark = 2131034209;
+			public const int switch_thumb_normal_material_light = 2131034209;
 			
 			// aapt resource value: 0x7F050062
-			public const int tooltip_background_light = 2131034210;
+			public const int tooltip_background_dark = 2131034210;
+			
+			// aapt resource value: 0x7F050063
+			public const int tooltip_background_light = 2131034211;
 			
 			static Color()
 			{
@@ -2043,28 +3603,43 @@ namespace Plumber71.Toolbox
 			public const int notification_top_pad_large_text = 2131099796;
 			
 			// aapt resource value: 0x7F060095
-			public const int tooltip_corner_radius = 2131099797;
+			public const int progress_margin = 2131099797;
 			
 			// aapt resource value: 0x7F060096
-			public const int tooltip_horizontal_padding = 2131099798;
+			public const int progress_width = 2131099798;
 			
 			// aapt resource value: 0x7F060097
-			public const int tooltip_margin = 2131099799;
+			public const int spot_size = 2131099799;
 			
 			// aapt resource value: 0x7F060098
-			public const int tooltip_precise_anchor_extra_offset = 2131099800;
+			public const int title_margin = 2131099800;
 			
 			// aapt resource value: 0x7F060099
-			public const int tooltip_precise_anchor_threshold = 2131099801;
+			public const int title_padding = 2131099801;
 			
 			// aapt resource value: 0x7F06009A
-			public const int tooltip_vertical_padding = 2131099802;
+			public const int tooltip_corner_radius = 2131099802;
 			
 			// aapt resource value: 0x7F06009B
-			public const int tooltip_y_offset_non_touch = 2131099803;
+			public const int tooltip_horizontal_padding = 2131099803;
 			
 			// aapt resource value: 0x7F06009C
-			public const int tooltip_y_offset_touch = 2131099804;
+			public const int tooltip_margin = 2131099804;
+			
+			// aapt resource value: 0x7F06009D
+			public const int tooltip_precise_anchor_extra_offset = 2131099805;
+			
+			// aapt resource value: 0x7F06009E
+			public const int tooltip_precise_anchor_threshold = 2131099806;
+			
+			// aapt resource value: 0x7F06009F
+			public const int tooltip_vertical_padding = 2131099807;
+			
+			// aapt resource value: 0x7F0600A0
+			public const int tooltip_y_offset_non_touch = 2131099808;
+			
+			// aapt resource value: 0x7F0600A1
+			public const int tooltip_y_offset_touch = 2131099809;
 			
 			static Dimension()
 			{
@@ -2678,286 +4253,295 @@ namespace Plumber71.Toolbox
 			public const int list_item = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int masked = 2131230809;
+			public const int marker_progress = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int media_actions = 2131230810;
+			public const int masked = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int message = 2131230811;
+			public const int media_actions = 2131230811;
+			
+			// aapt resource value: 0x7F08005C
+			public const int message = 2131230812;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F08005C
-			public const int middle = 2131230812;
-			
 			// aapt resource value: 0x7F08005D
-			public const int mini = 2131230813;
+			public const int middle = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int multiply = 2131230814;
+			public const int mini = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int navigation = 2131230815;
+			public const int multiply = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int navigation_dashboard = 2131230816;
+			public const int my_text_view = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int navigation_header_container = 2131230817;
+			public const int navigation = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int navigation_home = 2131230818;
+			public const int navigation_dashboard = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int navigation_notifications = 2131230819;
+			public const int navigation_header_container = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int never = 2131230820;
+			public const int navigation_home = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int none = 2131230821;
+			public const int navigation_notifications = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int normal = 2131230822;
+			public const int never = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int notification_background = 2131230823;
+			public const int none = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int notification_main_column = 2131230824;
+			public const int normal = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int notification_main_column_container = 2131230825;
+			public const int notification_background = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int parallax = 2131230826;
+			public const int notification_main_column = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int parentPanel = 2131230827;
+			public const int notification_main_column_container = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int parent_matrix = 2131230828;
+			public const int parallax = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int pin = 2131230829;
+			public const int parentPanel = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int progress_circular = 2131230830;
+			public const int parent_matrix = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int progress_horizontal = 2131230831;
+			public const int pin = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int radio = 2131230832;
+			public const int progress_circular = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int right = 2131230833;
+			public const int progress_horizontal = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int right_icon = 2131230834;
+			public const int radio = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int right_side = 2131230835;
+			public const int right = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int save_image_matrix = 2131230836;
+			public const int right_icon = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int save_non_transition_alpha = 2131230837;
+			public const int right_side = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int save_scale_type = 2131230838;
+			public const int save_image_matrix = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int screen = 2131230839;
+			public const int save_non_transition_alpha = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int scroll = 2131230840;
-			
-			// aapt resource value: 0x7F08007C
-			public const int scrollable = 2131230844;
+			public const int save_scale_type = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int scrollIndicatorDown = 2131230841;
+			public const int screen = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int scrollIndicatorUp = 2131230842;
-			
-			// aapt resource value: 0x7F08007B
-			public const int scrollView = 2131230843;
-			
-			// aapt resource value: 0x7F08007D
-			public const int search_badge = 2131230845;
+			public const int scroll = 2131230842;
 			
 			// aapt resource value: 0x7F08007E
-			public const int search_bar = 2131230846;
+			public const int scrollable = 2131230846;
+			
+			// aapt resource value: 0x7F08007B
+			public const int scrollIndicatorDown = 2131230843;
+			
+			// aapt resource value: 0x7F08007C
+			public const int scrollIndicatorUp = 2131230844;
+			
+			// aapt resource value: 0x7F08007D
+			public const int scrollView = 2131230845;
 			
 			// aapt resource value: 0x7F08007F
-			public const int search_button = 2131230847;
+			public const int search_badge = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int search_close_btn = 2131230848;
+			public const int search_bar = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int search_edit_frame = 2131230849;
+			public const int search_button = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int search_go_btn = 2131230850;
+			public const int search_close_btn = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int search_mag_icon = 2131230851;
+			public const int search_edit_frame = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int search_plate = 2131230852;
+			public const int search_go_btn = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int search_src_text = 2131230853;
+			public const int search_mag_icon = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int search_voice_btn = 2131230854;
+			public const int search_plate = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int select_dialog_listview = 2131230855;
+			public const int search_src_text = 2131230855;
+			
+			// aapt resource value: 0x7F080088
+			public const int search_voice_btn = 2131230856;
+			
+			// aapt resource value: 0x7F080089
+			public const int select_dialog_listview = 2131230857;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F080088
-			public const int shortcut = 2131230856;
-			
-			// aapt resource value: 0x7F080089
-			public const int showCustom = 2131230857;
-			
 			// aapt resource value: 0x7F08008A
-			public const int showHome = 2131230858;
+			public const int shortcut = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int showTitle = 2131230859;
+			public const int showCustom = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int smallLabel = 2131230860;
+			public const int showHome = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int snackbar_action = 2131230861;
+			public const int showTitle = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int snackbar_text = 2131230862;
+			public const int smallLabel = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int snap = 2131230863;
+			public const int snackbar_action = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int spacer = 2131230864;
+			public const int snackbar_text = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int split_action_bar = 2131230865;
+			public const int snap = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int src_atop = 2131230866;
+			public const int spacer = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int src_in = 2131230867;
+			public const int split_action_bar = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int src_over = 2131230868;
+			public const int src_atop = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int start = 2131230869;
+			public const int src_in = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int status_bar_latest_event_content = 2131230870;
+			public const int src_over = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int submenuarrow = 2131230871;
+			public const int start = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int submit_area = 2131230872;
+			public const int status_bar_latest_event_content = 2131230872;
+			
+			// aapt resource value: 0x7F080099
+			public const int submenuarrow = 2131230873;
+			
+			// aapt resource value: 0x7F08009A
+			public const int submit_area = 2131230874;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F080099
-			public const int tabMode = 2131230873;
-			
-			// aapt resource value: 0x7F08009A
-			public const int text = 2131230874;
-			
 			// aapt resource value: 0x7F08009B
-			public const int text2 = 2131230875;
-			
-			// aapt resource value: 0x7F08009F
-			public const int textinput_counter = 2131230879;
-			
-			// aapt resource value: 0x7F0800A0
-			public const int textinput_error = 2131230880;
+			public const int tabMode = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int textSpacerNoButtons = 2131230876;
+			public const int tag_transition_group = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int textSpacerNoTitle = 2131230877;
+			public const int text = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int text_input_password_toggle = 2131230878;
-			
-			// aapt resource value: 0x7F0800A1
-			public const int time = 2131230881;
+			public const int text2 = 2131230878;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int title = 2131230882;
+			public const int textinput_counter = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int titleDividerNoCustom = 2131230883;
+			public const int textinput_error = 2131230883;
+			
+			// aapt resource value: 0x7F08009F
+			public const int textSpacerNoButtons = 2131230879;
+			
+			// aapt resource value: 0x7F0800A0
+			public const int textSpacerNoTitle = 2131230880;
+			
+			// aapt resource value: 0x7F0800A1
+			public const int text_input_password_toggle = 2131230881;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int title_template = 2131230884;
+			public const int time = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int top = 2131230885;
+			public const int title = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int topPanel = 2131230886;
+			public const int titleDividerNoCustom = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int touch_outside = 2131230887;
+			public const int title_template = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int transition_current_scene = 2131230888;
+			public const int top = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int transition_layout_save = 2131230889;
+			public const int topPanel = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int transition_position = 2131230890;
+			public const int touch_outside = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int transition_scene_layoutid_cache = 2131230891;
+			public const int transition_current_scene = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int transition_transform = 2131230892;
+			public const int transition_layout_save = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int uniform = 2131230893;
+			public const int transition_position = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int up = 2131230894;
+			public const int transition_scene_layoutid_cache = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int useLogo = 2131230895;
+			public const int transition_transform = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int view_offset_helper = 2131230896;
+			public const int uniform = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int visible = 2131230897;
+			public const int up = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int withText = 2131230898;
+			public const int useLogo = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int wrap_content = 2131230899;
+			public const int view_offset_helper = 2131230899;
+			
+			// aapt resource value: 0x7F0800B4
+			public const int visible = 2131230900;
+			
+			// aapt resource value: 0x7F0800B5
+			public const int withText = 2131230901;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int wrap_content = 2131230902;
 			
 			static Id()
 			{
@@ -3022,127 +4606,127 @@ namespace Plumber71.Toolbox
 			public const int abc_action_bar_up_container = 2131361793;
 			
 			// aapt resource value: 0x7F0A0002
-			public const int abc_action_bar_view_list_nav_layout = 2131361794;
+			public const int abc_action_menu_item_layout = 2131361794;
 			
 			// aapt resource value: 0x7F0A0003
-			public const int abc_action_menu_item_layout = 2131361795;
+			public const int abc_action_menu_layout = 2131361795;
 			
 			// aapt resource value: 0x7F0A0004
-			public const int abc_action_menu_layout = 2131361796;
+			public const int abc_action_mode_bar = 2131361796;
 			
 			// aapt resource value: 0x7F0A0005
-			public const int abc_action_mode_bar = 2131361797;
+			public const int abc_action_mode_close_item_material = 2131361797;
 			
 			// aapt resource value: 0x7F0A0006
-			public const int abc_action_mode_close_item_material = 2131361798;
+			public const int abc_activity_chooser_view = 2131361798;
 			
 			// aapt resource value: 0x7F0A0007
-			public const int abc_activity_chooser_view = 2131361799;
+			public const int abc_activity_chooser_view_list_item = 2131361799;
 			
 			// aapt resource value: 0x7F0A0008
-			public const int abc_activity_chooser_view_list_item = 2131361800;
+			public const int abc_alert_dialog_button_bar_material = 2131361800;
 			
 			// aapt resource value: 0x7F0A0009
-			public const int abc_alert_dialog_button_bar_material = 2131361801;
+			public const int abc_alert_dialog_material = 2131361801;
 			
 			// aapt resource value: 0x7F0A000A
-			public const int abc_alert_dialog_material = 2131361802;
+			public const int abc_alert_dialog_title_material = 2131361802;
 			
 			// aapt resource value: 0x7F0A000B
-			public const int abc_alert_dialog_title_material = 2131361803;
+			public const int abc_dialog_title_material = 2131361803;
 			
 			// aapt resource value: 0x7F0A000C
-			public const int abc_dialog_title_material = 2131361804;
+			public const int abc_expanded_menu_layout = 2131361804;
 			
 			// aapt resource value: 0x7F0A000D
-			public const int abc_expanded_menu_layout = 2131361805;
+			public const int abc_list_menu_item_checkbox = 2131361805;
 			
 			// aapt resource value: 0x7F0A000E
-			public const int abc_list_menu_item_checkbox = 2131361806;
+			public const int abc_list_menu_item_icon = 2131361806;
 			
 			// aapt resource value: 0x7F0A000F
-			public const int abc_list_menu_item_icon = 2131361807;
+			public const int abc_list_menu_item_layout = 2131361807;
 			
 			// aapt resource value: 0x7F0A0010
-			public const int abc_list_menu_item_layout = 2131361808;
+			public const int abc_list_menu_item_radio = 2131361808;
 			
 			// aapt resource value: 0x7F0A0011
-			public const int abc_list_menu_item_radio = 2131361809;
+			public const int abc_popup_menu_header_item_layout = 2131361809;
 			
 			// aapt resource value: 0x7F0A0012
-			public const int abc_popup_menu_header_item_layout = 2131361810;
+			public const int abc_popup_menu_item_layout = 2131361810;
 			
 			// aapt resource value: 0x7F0A0013
-			public const int abc_popup_menu_item_layout = 2131361811;
+			public const int abc_screen_content_include = 2131361811;
 			
 			// aapt resource value: 0x7F0A0014
-			public const int abc_screen_content_include = 2131361812;
+			public const int abc_screen_simple = 2131361812;
 			
 			// aapt resource value: 0x7F0A0015
-			public const int abc_screen_simple = 2131361813;
+			public const int abc_screen_simple_overlay_action_mode = 2131361813;
 			
 			// aapt resource value: 0x7F0A0016
-			public const int abc_screen_simple_overlay_action_mode = 2131361814;
+			public const int abc_screen_toolbar = 2131361814;
 			
 			// aapt resource value: 0x7F0A0017
-			public const int abc_screen_toolbar = 2131361815;
+			public const int abc_search_dropdown_item_icons_2line = 2131361815;
 			
 			// aapt resource value: 0x7F0A0018
-			public const int abc_search_dropdown_item_icons_2line = 2131361816;
+			public const int abc_search_view = 2131361816;
 			
 			// aapt resource value: 0x7F0A0019
-			public const int abc_search_view = 2131361817;
+			public const int abc_select_dialog_material = 2131361817;
 			
 			// aapt resource value: 0x7F0A001A
-			public const int abc_select_dialog_material = 2131361818;
+			public const int activity_main = 2131361818;
 			
 			// aapt resource value: 0x7F0A001B
-			public const int activity_main = 2131361819;
+			public const int design_bottom_navigation_item = 2131361819;
 			
 			// aapt resource value: 0x7F0A001C
-			public const int design_bottom_navigation_item = 2131361820;
+			public const int design_bottom_sheet_dialog = 2131361820;
 			
 			// aapt resource value: 0x7F0A001D
-			public const int design_bottom_sheet_dialog = 2131361821;
+			public const int design_layout_snackbar = 2131361821;
 			
 			// aapt resource value: 0x7F0A001E
-			public const int design_layout_snackbar = 2131361822;
+			public const int design_layout_snackbar_include = 2131361822;
 			
 			// aapt resource value: 0x7F0A001F
-			public const int design_layout_snackbar_include = 2131361823;
+			public const int design_layout_tab_icon = 2131361823;
 			
 			// aapt resource value: 0x7F0A0020
-			public const int design_layout_tab_icon = 2131361824;
+			public const int design_layout_tab_text = 2131361824;
 			
 			// aapt resource value: 0x7F0A0021
-			public const int design_layout_tab_text = 2131361825;
+			public const int design_menu_item_action_area = 2131361825;
 			
 			// aapt resource value: 0x7F0A0022
-			public const int design_menu_item_action_area = 2131361826;
+			public const int design_navigation_item = 2131361826;
 			
 			// aapt resource value: 0x7F0A0023
-			public const int design_navigation_item = 2131361827;
+			public const int design_navigation_item_header = 2131361827;
 			
 			// aapt resource value: 0x7F0A0024
-			public const int design_navigation_item_header = 2131361828;
+			public const int design_navigation_item_separator = 2131361828;
 			
 			// aapt resource value: 0x7F0A0025
-			public const int design_navigation_item_separator = 2131361829;
+			public const int design_navigation_item_subheader = 2131361829;
 			
 			// aapt resource value: 0x7F0A0026
-			public const int design_navigation_item_subheader = 2131361830;
+			public const int design_navigation_menu = 2131361830;
 			
 			// aapt resource value: 0x7F0A0027
-			public const int design_navigation_menu = 2131361831;
+			public const int design_navigation_menu_item = 2131361831;
 			
 			// aapt resource value: 0x7F0A0028
-			public const int design_navigation_menu_item = 2131361832;
+			public const int design_text_input_password_icon = 2131361832;
 			
 			// aapt resource value: 0x7F0A0029
-			public const int design_text_input_password_icon = 2131361833;
+			public const int HomeFragment = 2131361833;
 			
 			// aapt resource value: 0x7F0A002A
-			public const int HomeFragment = 2131361834;
+			public const int my_dialog_layout = 2131361834;
 			
 			// aapt resource value: 0x7F0A002B
 			public const int notification_action = 2131361835;
@@ -3262,136 +4846,133 @@ namespace Plumber71.Toolbox
 			public const int abc_action_bar_home_description = 2131558400;
 			
 			// aapt resource value: 0x7F0D0001
-			public const int abc_action_bar_home_description_format = 2131558401;
+			public const int abc_action_bar_up_description = 2131558401;
 			
 			// aapt resource value: 0x7F0D0002
-			public const int abc_action_bar_home_subtitle_description_format = 2131558402;
+			public const int abc_action_menu_overflow_description = 2131558402;
 			
 			// aapt resource value: 0x7F0D0003
-			public const int abc_action_bar_up_description = 2131558403;
-			
-			// aapt resource value: 0x7F0D0004
-			public const int abc_action_menu_overflow_description = 2131558404;
+			public const int abc_action_mode_done = 2131558403;
 			
 			// aapt resource value: 0x7F0D0005
-			public const int abc_action_mode_done = 2131558405;
+			public const int abc_activitychooserview_choose_application = 2131558405;
 			
-			// aapt resource value: 0x7F0D0007
-			public const int abc_activitychooserview_choose_application = 2131558407;
+			// aapt resource value: 0x7F0D0004
+			public const int abc_activity_chooser_view_see_all = 2131558404;
 			
 			// aapt resource value: 0x7F0D0006
-			public const int abc_activity_chooser_view_see_all = 2131558406;
+			public const int abc_capital_off = 2131558406;
+			
+			// aapt resource value: 0x7F0D0007
+			public const int abc_capital_on = 2131558407;
 			
 			// aapt resource value: 0x7F0D0008
-			public const int abc_capital_off = 2131558408;
+			public const int abc_font_family_body_1_material = 2131558408;
 			
 			// aapt resource value: 0x7F0D0009
-			public const int abc_capital_on = 2131558409;
+			public const int abc_font_family_body_2_material = 2131558409;
 			
 			// aapt resource value: 0x7F0D000A
-			public const int abc_font_family_body_1_material = 2131558410;
+			public const int abc_font_family_button_material = 2131558410;
 			
 			// aapt resource value: 0x7F0D000B
-			public const int abc_font_family_body_2_material = 2131558411;
+			public const int abc_font_family_caption_material = 2131558411;
 			
 			// aapt resource value: 0x7F0D000C
-			public const int abc_font_family_button_material = 2131558412;
+			public const int abc_font_family_display_1_material = 2131558412;
 			
 			// aapt resource value: 0x7F0D000D
-			public const int abc_font_family_caption_material = 2131558413;
+			public const int abc_font_family_display_2_material = 2131558413;
 			
 			// aapt resource value: 0x7F0D000E
-			public const int abc_font_family_display_1_material = 2131558414;
+			public const int abc_font_family_display_3_material = 2131558414;
 			
 			// aapt resource value: 0x7F0D000F
-			public const int abc_font_family_display_2_material = 2131558415;
+			public const int abc_font_family_display_4_material = 2131558415;
 			
 			// aapt resource value: 0x7F0D0010
-			public const int abc_font_family_display_3_material = 2131558416;
+			public const int abc_font_family_headline_material = 2131558416;
 			
 			// aapt resource value: 0x7F0D0011
-			public const int abc_font_family_display_4_material = 2131558417;
+			public const int abc_font_family_menu_material = 2131558417;
 			
 			// aapt resource value: 0x7F0D0012
-			public const int abc_font_family_headline_material = 2131558418;
+			public const int abc_font_family_subhead_material = 2131558418;
 			
 			// aapt resource value: 0x7F0D0013
-			public const int abc_font_family_menu_material = 2131558419;
-			
-			// aapt resource value: 0x7F0D0014
-			public const int abc_font_family_subhead_material = 2131558420;
+			public const int abc_font_family_title_material = 2131558419;
 			
 			// aapt resource value: 0x7F0D0015
-			public const int abc_font_family_title_material = 2131558421;
-			
-			// aapt resource value: 0x7F0D0017
-			public const int abc_searchview_description_clear = 2131558423;
-			
-			// aapt resource value: 0x7F0D0018
-			public const int abc_searchview_description_query = 2131558424;
-			
-			// aapt resource value: 0x7F0D0019
-			public const int abc_searchview_description_search = 2131558425;
-			
-			// aapt resource value: 0x7F0D001A
-			public const int abc_searchview_description_submit = 2131558426;
-			
-			// aapt resource value: 0x7F0D001B
-			public const int abc_searchview_description_voice = 2131558427;
+			public const int abc_searchview_description_clear = 2131558421;
 			
 			// aapt resource value: 0x7F0D0016
-			public const int abc_search_hint = 2131558422;
+			public const int abc_searchview_description_query = 2131558422;
+			
+			// aapt resource value: 0x7F0D0017
+			public const int abc_searchview_description_search = 2131558423;
+			
+			// aapt resource value: 0x7F0D0018
+			public const int abc_searchview_description_submit = 2131558424;
+			
+			// aapt resource value: 0x7F0D0019
+			public const int abc_searchview_description_voice = 2131558425;
+			
+			// aapt resource value: 0x7F0D0014
+			public const int abc_search_hint = 2131558420;
+			
+			// aapt resource value: 0x7F0D001A
+			public const int abc_shareactionprovider_share_with = 2131558426;
+			
+			// aapt resource value: 0x7F0D001B
+			public const int abc_shareactionprovider_share_with_application = 2131558427;
 			
 			// aapt resource value: 0x7F0D001C
-			public const int abc_shareactionprovider_share_with = 2131558428;
-			
-			// aapt resource value: 0x7F0D001D
-			public const int abc_shareactionprovider_share_with_application = 2131558429;
+			public const int abc_toolbar_collapse_description = 2131558428;
 			
 			// aapt resource value: 0x7F0D001E
-			public const int abc_toolbar_collapse_description = 2131558430;
+			public const int appbar_scrolling_view_behavior = 2131558430;
 			
-			// aapt resource value: 0x7F0D0020
-			public const int appbar_scrolling_view_behavior = 2131558432;
+			// aapt resource value: 0x7F0D001D
+			public const int app_name = 2131558429;
 			
 			// aapt resource value: 0x7F0D001F
-			public const int app_name = 2131558431;
+			public const int bottom_sheet_behavior = 2131558431;
+			
+			// aapt resource value: 0x7F0D0020
+			public const int character_counter_pattern = 2131558432;
 			
 			// aapt resource value: 0x7F0D0021
-			public const int bottom_sheet_behavior = 2131558433;
+			public const int hello = 2131558433;
 			
 			// aapt resource value: 0x7F0D0022
-			public const int character_counter_pattern = 2131558434;
+			public const int password_toggle_content_description = 2131558434;
 			
 			// aapt resource value: 0x7F0D0023
-			public const int password_toggle_content_description = 2131558435;
+			public const int path_password_eye = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int path_password_eye = 2131558436;
+			public const int path_password_eye_mask_strike_through = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int path_password_eye_mask_strike_through = 2131558437;
+			public const int path_password_eye_mask_visible = 2131558437;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int path_password_eye_mask_visible = 2131558438;
+			public const int path_password_strike_through = 2131558438;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int path_password_strike_through = 2131558439;
+			public const int search_menu_title = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int search_menu_title = 2131558440;
+			public const int status_bar_notification_info_overflow = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int status_bar_notification_info_overflow = 2131558441;
+			public const int title_dashboard = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int title_dashboard = 2131558442;
+			public const int title_home = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int title_home = 2131558443;
-			
-			// aapt resource value: 0x7F0D002C
-			public const int title_notifications = 2131558444;
+			public const int title_notifications = 2131558443;
 			
 			static String()
 			{
@@ -4001,595 +5582,568 @@ namespace Plumber71.Toolbox
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624133;
 			
 			// aapt resource value: 0x7F0E00C6
-			public const int TextAppearance_AppCompat = 2131624134;
+			public const int SpotsDialogDefault = 2131624134;
 			
 			// aapt resource value: 0x7F0E00C7
-			public const int TextAppearance_AppCompat_Body1 = 2131624135;
+			public const int TextAppearance_AppCompat = 2131624135;
 			
 			// aapt resource value: 0x7F0E00C8
-			public const int TextAppearance_AppCompat_Body2 = 2131624136;
+			public const int TextAppearance_AppCompat_Body1 = 2131624136;
 			
 			// aapt resource value: 0x7F0E00C9
-			public const int TextAppearance_AppCompat_Button = 2131624137;
+			public const int TextAppearance_AppCompat_Body2 = 2131624137;
 			
 			// aapt resource value: 0x7F0E00CA
-			public const int TextAppearance_AppCompat_Caption = 2131624138;
+			public const int TextAppearance_AppCompat_Button = 2131624138;
 			
 			// aapt resource value: 0x7F0E00CB
-			public const int TextAppearance_AppCompat_Display1 = 2131624139;
+			public const int TextAppearance_AppCompat_Caption = 2131624139;
 			
 			// aapt resource value: 0x7F0E00CC
-			public const int TextAppearance_AppCompat_Display2 = 2131624140;
+			public const int TextAppearance_AppCompat_Display1 = 2131624140;
 			
 			// aapt resource value: 0x7F0E00CD
-			public const int TextAppearance_AppCompat_Display3 = 2131624141;
+			public const int TextAppearance_AppCompat_Display2 = 2131624141;
 			
 			// aapt resource value: 0x7F0E00CE
-			public const int TextAppearance_AppCompat_Display4 = 2131624142;
+			public const int TextAppearance_AppCompat_Display3 = 2131624142;
 			
 			// aapt resource value: 0x7F0E00CF
-			public const int TextAppearance_AppCompat_Headline = 2131624143;
+			public const int TextAppearance_AppCompat_Display4 = 2131624143;
 			
 			// aapt resource value: 0x7F0E00D0
-			public const int TextAppearance_AppCompat_Inverse = 2131624144;
+			public const int TextAppearance_AppCompat_Headline = 2131624144;
 			
 			// aapt resource value: 0x7F0E00D1
-			public const int TextAppearance_AppCompat_Large = 2131624145;
+			public const int TextAppearance_AppCompat_Inverse = 2131624145;
 			
 			// aapt resource value: 0x7F0E00D2
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624146;
+			public const int TextAppearance_AppCompat_Large = 2131624146;
 			
 			// aapt resource value: 0x7F0E00D3
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624147;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131624147;
 			
 			// aapt resource value: 0x7F0E00D4
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624148;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624148;
 			
 			// aapt resource value: 0x7F0E00D5
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624149;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624149;
 			
 			// aapt resource value: 0x7F0E00D6
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624150;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624150;
 			
 			// aapt resource value: 0x7F0E00D7
-			public const int TextAppearance_AppCompat_Medium = 2131624151;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624151;
 			
 			// aapt resource value: 0x7F0E00D8
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624152;
+			public const int TextAppearance_AppCompat_Medium = 2131624152;
 			
 			// aapt resource value: 0x7F0E00D9
-			public const int TextAppearance_AppCompat_Menu = 2131624153;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624153;
 			
 			// aapt resource value: 0x7F0E00DA
-			public const int TextAppearance_AppCompat_Notification = 2131624154;
+			public const int TextAppearance_AppCompat_Menu = 2131624154;
 			
 			// aapt resource value: 0x7F0E00DB
-			public const int TextAppearance_AppCompat_Notification_Info = 2131624155;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624155;
 			
 			// aapt resource value: 0x7F0E00DC
-			public const int TextAppearance_AppCompat_Notification_Info_Media = 2131624156;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624156;
 			
 			// aapt resource value: 0x7F0E00DD
-			public const int TextAppearance_AppCompat_Notification_Line2 = 2131624157;
+			public const int TextAppearance_AppCompat_Small = 2131624157;
 			
 			// aapt resource value: 0x7F0E00DE
-			public const int TextAppearance_AppCompat_Notification_Line2_Media = 2131624158;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131624158;
 			
 			// aapt resource value: 0x7F0E00DF
-			public const int TextAppearance_AppCompat_Notification_Media = 2131624159;
+			public const int TextAppearance_AppCompat_Subhead = 2131624159;
 			
 			// aapt resource value: 0x7F0E00E0
-			public const int TextAppearance_AppCompat_Notification_Time = 2131624160;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624160;
 			
 			// aapt resource value: 0x7F0E00E1
-			public const int TextAppearance_AppCompat_Notification_Time_Media = 2131624161;
+			public const int TextAppearance_AppCompat_Title = 2131624161;
 			
 			// aapt resource value: 0x7F0E00E2
-			public const int TextAppearance_AppCompat_Notification_Title = 2131624162;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131624162;
 			
 			// aapt resource value: 0x7F0E00E3
-			public const int TextAppearance_AppCompat_Notification_Title_Media = 2131624163;
+			public const int TextAppearance_AppCompat_Tooltip = 2131624163;
 			
 			// aapt resource value: 0x7F0E00E4
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624164;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624164;
 			
 			// aapt resource value: 0x7F0E00E5
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624165;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624165;
 			
 			// aapt resource value: 0x7F0E00E6
-			public const int TextAppearance_AppCompat_Small = 2131624166;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624166;
 			
 			// aapt resource value: 0x7F0E00E7
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624167;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624167;
 			
 			// aapt resource value: 0x7F0E00E8
-			public const int TextAppearance_AppCompat_Subhead = 2131624168;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624168;
 			
 			// aapt resource value: 0x7F0E00E9
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624169;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624169;
 			
 			// aapt resource value: 0x7F0E00EA
-			public const int TextAppearance_AppCompat_Title = 2131624170;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624170;
 			
 			// aapt resource value: 0x7F0E00EB
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624171;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624171;
 			
 			// aapt resource value: 0x7F0E00EC
-			public const int TextAppearance_AppCompat_Tooltip = 2131624172;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624172;
 			
 			// aapt resource value: 0x7F0E00ED
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624173;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131624173;
 			
 			// aapt resource value: 0x7F0E00EE
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624174;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624174;
 			
 			// aapt resource value: 0x7F0E00EF
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624175;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624175;
 			
 			// aapt resource value: 0x7F0E00F0
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624176;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624176;
 			
 			// aapt resource value: 0x7F0E00F1
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624177;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624177;
 			
 			// aapt resource value: 0x7F0E00F2
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624178;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624178;
 			
 			// aapt resource value: 0x7F0E00F3
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624179;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624179;
 			
 			// aapt resource value: 0x7F0E00F4
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624180;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624180;
 			
 			// aapt resource value: 0x7F0E00F5
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624181;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131624181;
 			
 			// aapt resource value: 0x7F0E00F6
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624182;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624182;
 			
 			// aapt resource value: 0x7F0E00F7
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624183;
+			public const int TextAppearance_Compat_Notification = 2131624183;
 			
 			// aapt resource value: 0x7F0E00F8
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624184;
+			public const int TextAppearance_Compat_Notification_Info = 2131624184;
 			
 			// aapt resource value: 0x7F0E00F9
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624185;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131624185;
 			
 			// aapt resource value: 0x7F0E00FA
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624186;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131624186;
 			
 			// aapt resource value: 0x7F0E00FB
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624187;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624187;
 			
 			// aapt resource value: 0x7F0E00FC
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624188;
+			public const int TextAppearance_Compat_Notification_Media = 2131624188;
 			
 			// aapt resource value: 0x7F0E00FD
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624189;
+			public const int TextAppearance_Compat_Notification_Time = 2131624189;
 			
 			// aapt resource value: 0x7F0E00FE
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624190;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131624190;
 			
 			// aapt resource value: 0x7F0E00FF
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624191;
+			public const int TextAppearance_Compat_Notification_Title = 2131624191;
 			
 			// aapt resource value: 0x7F0E0100
-			public const int TextAppearance_Compat_Notification = 2131624192;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131624192;
 			
 			// aapt resource value: 0x7F0E0101
-			public const int TextAppearance_Compat_Notification_Info = 2131624193;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624193;
 			
 			// aapt resource value: 0x7F0E0102
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131624194;
+			public const int TextAppearance_Design_Counter = 2131624194;
 			
 			// aapt resource value: 0x7F0E0103
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624195;
+			public const int TextAppearance_Design_Counter_Overflow = 2131624195;
 			
 			// aapt resource value: 0x7F0E0104
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624196;
+			public const int TextAppearance_Design_Error = 2131624196;
 			
 			// aapt resource value: 0x7F0E0105
-			public const int TextAppearance_Compat_Notification_Media = 2131624197;
+			public const int TextAppearance_Design_Hint = 2131624197;
 			
 			// aapt resource value: 0x7F0E0106
-			public const int TextAppearance_Compat_Notification_Time = 2131624198;
+			public const int TextAppearance_Design_Snackbar_Message = 2131624198;
 			
 			// aapt resource value: 0x7F0E0107
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131624199;
+			public const int TextAppearance_Design_Tab = 2131624199;
 			
 			// aapt resource value: 0x7F0E0108
-			public const int TextAppearance_Compat_Notification_Title = 2131624200;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624200;
 			
 			// aapt resource value: 0x7F0E0109
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131624201;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624201;
 			
 			// aapt resource value: 0x7F0E010A
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624202;
-			
-			// aapt resource value: 0x7F0E010B
-			public const int TextAppearance_Design_Counter = 2131624203;
-			
-			// aapt resource value: 0x7F0E010C
-			public const int TextAppearance_Design_Counter_Overflow = 2131624204;
-			
-			// aapt resource value: 0x7F0E010D
-			public const int TextAppearance_Design_Error = 2131624205;
-			
-			// aapt resource value: 0x7F0E010E
-			public const int TextAppearance_Design_Hint = 2131624206;
-			
-			// aapt resource value: 0x7F0E010F
-			public const int TextAppearance_Design_Snackbar_Message = 2131624207;
-			
-			// aapt resource value: 0x7F0E0110
-			public const int TextAppearance_Design_Tab = 2131624208;
-			
-			// aapt resource value: 0x7F0E0111
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624209;
-			
-			// aapt resource value: 0x7F0E0112
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624210;
-			
-			// aapt resource value: 0x7F0E0113
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624211;
-			
-			// aapt resource value: 0x7F0E012F
-			public const int ThemeOverlay_AppCompat = 2131624239;
-			
-			// aapt resource value: 0x7F0E0130
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624240;
-			
-			// aapt resource value: 0x7F0E0131
-			public const int ThemeOverlay_AppCompat_Dark = 2131624241;
-			
-			// aapt resource value: 0x7F0E0132
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624242;
-			
-			// aapt resource value: 0x7F0E0133
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624243;
-			
-			// aapt resource value: 0x7F0E0134
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624244;
-			
-			// aapt resource value: 0x7F0E0135
-			public const int ThemeOverlay_AppCompat_Light = 2131624245;
-			
-			// aapt resource value: 0x7F0E0114
-			public const int Theme_AppCompat = 2131624212;
-			
-			// aapt resource value: 0x7F0E0115
-			public const int Theme_AppCompat_CompactMenu = 2131624213;
-			
-			// aapt resource value: 0x7F0E0116
-			public const int Theme_AppCompat_DayNight = 2131624214;
-			
-			// aapt resource value: 0x7F0E0117
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624215;
-			
-			// aapt resource value: 0x7F0E0118
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624216;
-			
-			// aapt resource value: 0x7F0E011B
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624219;
-			
-			// aapt resource value: 0x7F0E0119
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624217;
-			
-			// aapt resource value: 0x7F0E011A
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624218;
-			
-			// aapt resource value: 0x7F0E011C
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624220;
-			
-			// aapt resource value: 0x7F0E011D
-			public const int Theme_AppCompat_Dialog = 2131624221;
-			
-			// aapt resource value: 0x7F0E0120
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624224;
-			
-			// aapt resource value: 0x7F0E011E
-			public const int Theme_AppCompat_Dialog_Alert = 2131624222;
-			
-			// aapt resource value: 0x7F0E011F
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624223;
-			
-			// aapt resource value: 0x7F0E0121
-			public const int Theme_AppCompat_Light = 2131624225;
-			
-			// aapt resource value: 0x7F0E0122
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624226;
-			
-			// aapt resource value: 0x7F0E0123
-			public const int Theme_AppCompat_Light_Dialog = 2131624227;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624202;
 			
 			// aapt resource value: 0x7F0E0126
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624230;
-			
-			// aapt resource value: 0x7F0E0124
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624228;
-			
-			// aapt resource value: 0x7F0E0125
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624229;
+			public const int ThemeOverlay_AppCompat = 2131624230;
 			
 			// aapt resource value: 0x7F0E0127
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624231;
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624231;
 			
 			// aapt resource value: 0x7F0E0128
-			public const int Theme_AppCompat_NoActionBar = 2131624232;
+			public const int ThemeOverlay_AppCompat_Dark = 2131624232;
 			
 			// aapt resource value: 0x7F0E0129
-			public const int Theme_Design = 2131624233;
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624233;
 			
 			// aapt resource value: 0x7F0E012A
-			public const int Theme_Design_BottomSheetDialog = 2131624234;
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624234;
 			
 			// aapt resource value: 0x7F0E012B
-			public const int Theme_Design_Light = 2131624235;
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624235;
 			
 			// aapt resource value: 0x7F0E012C
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624236;
+			public const int ThemeOverlay_AppCompat_Light = 2131624236;
+			
+			// aapt resource value: 0x7F0E010B
+			public const int Theme_AppCompat = 2131624203;
+			
+			// aapt resource value: 0x7F0E010C
+			public const int Theme_AppCompat_CompactMenu = 2131624204;
+			
+			// aapt resource value: 0x7F0E010D
+			public const int Theme_AppCompat_DayNight = 2131624205;
+			
+			// aapt resource value: 0x7F0E010E
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624206;
+			
+			// aapt resource value: 0x7F0E010F
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624207;
+			
+			// aapt resource value: 0x7F0E0112
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624210;
+			
+			// aapt resource value: 0x7F0E0110
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624208;
+			
+			// aapt resource value: 0x7F0E0111
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624209;
+			
+			// aapt resource value: 0x7F0E0113
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624211;
+			
+			// aapt resource value: 0x7F0E0114
+			public const int Theme_AppCompat_Dialog = 2131624212;
+			
+			// aapt resource value: 0x7F0E0117
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624215;
+			
+			// aapt resource value: 0x7F0E0115
+			public const int Theme_AppCompat_Dialog_Alert = 2131624213;
+			
+			// aapt resource value: 0x7F0E0116
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624214;
+			
+			// aapt resource value: 0x7F0E0118
+			public const int Theme_AppCompat_Light = 2131624216;
+			
+			// aapt resource value: 0x7F0E0119
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624217;
+			
+			// aapt resource value: 0x7F0E011A
+			public const int Theme_AppCompat_Light_Dialog = 2131624218;
+			
+			// aapt resource value: 0x7F0E011D
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624221;
+			
+			// aapt resource value: 0x7F0E011B
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624219;
+			
+			// aapt resource value: 0x7F0E011C
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624220;
+			
+			// aapt resource value: 0x7F0E011E
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624222;
+			
+			// aapt resource value: 0x7F0E011F
+			public const int Theme_AppCompat_NoActionBar = 2131624223;
+			
+			// aapt resource value: 0x7F0E0120
+			public const int Theme_Design = 2131624224;
+			
+			// aapt resource value: 0x7F0E0121
+			public const int Theme_Design_BottomSheetDialog = 2131624225;
+			
+			// aapt resource value: 0x7F0E0122
+			public const int Theme_Design_Light = 2131624226;
+			
+			// aapt resource value: 0x7F0E0123
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624227;
+			
+			// aapt resource value: 0x7F0E0124
+			public const int Theme_Design_Light_NoActionBar = 2131624228;
+			
+			// aapt resource value: 0x7F0E0125
+			public const int Theme_Design_NoActionBar = 2131624229;
 			
 			// aapt resource value: 0x7F0E012D
-			public const int Theme_Design_Light_NoActionBar = 2131624237;
+			public const int Widget_AppCompat_ActionBar = 2131624237;
 			
 			// aapt resource value: 0x7F0E012E
-			public const int Theme_Design_NoActionBar = 2131624238;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624238;
+			
+			// aapt resource value: 0x7F0E012F
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624239;
+			
+			// aapt resource value: 0x7F0E0130
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624240;
+			
+			// aapt resource value: 0x7F0E0131
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624241;
+			
+			// aapt resource value: 0x7F0E0132
+			public const int Widget_AppCompat_ActionButton = 2131624242;
+			
+			// aapt resource value: 0x7F0E0133
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624243;
+			
+			// aapt resource value: 0x7F0E0134
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624244;
+			
+			// aapt resource value: 0x7F0E0135
+			public const int Widget_AppCompat_ActionMode = 2131624245;
 			
 			// aapt resource value: 0x7F0E0136
-			public const int Widget_AppCompat_ActionBar = 2131624246;
+			public const int Widget_AppCompat_ActivityChooserView = 2131624246;
 			
 			// aapt resource value: 0x7F0E0137
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624247;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624247;
 			
 			// aapt resource value: 0x7F0E0138
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624248;
-			
-			// aapt resource value: 0x7F0E0139
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624249;
-			
-			// aapt resource value: 0x7F0E013A
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624250;
-			
-			// aapt resource value: 0x7F0E013B
-			public const int Widget_AppCompat_ActionButton = 2131624251;
-			
-			// aapt resource value: 0x7F0E013C
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624252;
-			
-			// aapt resource value: 0x7F0E013D
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624253;
+			public const int Widget_AppCompat_Button = 2131624248;
 			
 			// aapt resource value: 0x7F0E013E
-			public const int Widget_AppCompat_ActionMode = 2131624254;
+			public const int Widget_AppCompat_ButtonBar = 2131624254;
 			
 			// aapt resource value: 0x7F0E013F
-			public const int Widget_AppCompat_ActivityChooserView = 2131624255;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624255;
+			
+			// aapt resource value: 0x7F0E0139
+			public const int Widget_AppCompat_Button_Borderless = 2131624249;
+			
+			// aapt resource value: 0x7F0E013A
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624250;
+			
+			// aapt resource value: 0x7F0E013B
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624251;
+			
+			// aapt resource value: 0x7F0E013C
+			public const int Widget_AppCompat_Button_Colored = 2131624252;
+			
+			// aapt resource value: 0x7F0E013D
+			public const int Widget_AppCompat_Button_Small = 2131624253;
 			
 			// aapt resource value: 0x7F0E0140
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624256;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624256;
 			
 			// aapt resource value: 0x7F0E0141
-			public const int Widget_AppCompat_Button = 2131624257;
-			
-			// aapt resource value: 0x7F0E0147
-			public const int Widget_AppCompat_ButtonBar = 2131624263;
-			
-			// aapt resource value: 0x7F0E0148
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624264;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624257;
 			
 			// aapt resource value: 0x7F0E0142
-			public const int Widget_AppCompat_Button_Borderless = 2131624258;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624258;
 			
 			// aapt resource value: 0x7F0E0143
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624259;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624259;
 			
 			// aapt resource value: 0x7F0E0144
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624260;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624260;
 			
 			// aapt resource value: 0x7F0E0145
-			public const int Widget_AppCompat_Button_Colored = 2131624261;
+			public const int Widget_AppCompat_EditText = 2131624261;
 			
 			// aapt resource value: 0x7F0E0146
-			public const int Widget_AppCompat_Button_Small = 2131624262;
+			public const int Widget_AppCompat_ImageButton = 2131624262;
+			
+			// aapt resource value: 0x7F0E0147
+			public const int Widget_AppCompat_Light_ActionBar = 2131624263;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624264;
 			
 			// aapt resource value: 0x7F0E0149
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624265;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624265;
 			
 			// aapt resource value: 0x7F0E014A
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624266;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624266;
 			
 			// aapt resource value: 0x7F0E014B
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624267;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624267;
 			
 			// aapt resource value: 0x7F0E014C
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624268;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624268;
 			
 			// aapt resource value: 0x7F0E014D
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624269;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624269;
 			
 			// aapt resource value: 0x7F0E014E
-			public const int Widget_AppCompat_EditText = 2131624270;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624270;
 			
 			// aapt resource value: 0x7F0E014F
-			public const int Widget_AppCompat_ImageButton = 2131624271;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624271;
 			
 			// aapt resource value: 0x7F0E0150
-			public const int Widget_AppCompat_Light_ActionBar = 2131624272;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624272;
 			
 			// aapt resource value: 0x7F0E0151
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624273;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624273;
 			
 			// aapt resource value: 0x7F0E0152
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624274;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624274;
 			
 			// aapt resource value: 0x7F0E0153
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624275;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624275;
 			
 			// aapt resource value: 0x7F0E0154
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624276;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624276;
 			
 			// aapt resource value: 0x7F0E0155
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624277;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624277;
 			
 			// aapt resource value: 0x7F0E0156
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624278;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624278;
 			
 			// aapt resource value: 0x7F0E0157
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624279;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624279;
 			
 			// aapt resource value: 0x7F0E0158
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624280;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624280;
 			
 			// aapt resource value: 0x7F0E0159
-			public const int Widget_AppCompat_Light_ActionButton = 2131624281;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624281;
 			
 			// aapt resource value: 0x7F0E015A
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624282;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624282;
 			
 			// aapt resource value: 0x7F0E015B
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624283;
+			public const int Widget_AppCompat_Light_SearchView = 2131624283;
 			
 			// aapt resource value: 0x7F0E015C
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624284;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624284;
 			
 			// aapt resource value: 0x7F0E015D
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624285;
+			public const int Widget_AppCompat_ListMenuView = 2131624285;
 			
 			// aapt resource value: 0x7F0E015E
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624286;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624286;
 			
 			// aapt resource value: 0x7F0E015F
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624287;
+			public const int Widget_AppCompat_ListView = 2131624287;
 			
 			// aapt resource value: 0x7F0E0160
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624288;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624288;
 			
 			// aapt resource value: 0x7F0E0161
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624289;
+			public const int Widget_AppCompat_ListView_Menu = 2131624289;
 			
 			// aapt resource value: 0x7F0E0162
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624290;
+			public const int Widget_AppCompat_PopupMenu = 2131624290;
 			
 			// aapt resource value: 0x7F0E0163
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624291;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624291;
 			
 			// aapt resource value: 0x7F0E0164
-			public const int Widget_AppCompat_Light_SearchView = 2131624292;
+			public const int Widget_AppCompat_PopupWindow = 2131624292;
 			
 			// aapt resource value: 0x7F0E0165
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624293;
+			public const int Widget_AppCompat_ProgressBar = 2131624293;
 			
 			// aapt resource value: 0x7F0E0166
-			public const int Widget_AppCompat_ListMenuView = 2131624294;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624294;
 			
 			// aapt resource value: 0x7F0E0167
-			public const int Widget_AppCompat_ListPopupWindow = 2131624295;
+			public const int Widget_AppCompat_RatingBar = 2131624295;
 			
 			// aapt resource value: 0x7F0E0168
-			public const int Widget_AppCompat_ListView = 2131624296;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624296;
 			
 			// aapt resource value: 0x7F0E0169
-			public const int Widget_AppCompat_ListView_DropDown = 2131624297;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624297;
 			
 			// aapt resource value: 0x7F0E016A
-			public const int Widget_AppCompat_ListView_Menu = 2131624298;
+			public const int Widget_AppCompat_SearchView = 2131624298;
 			
 			// aapt resource value: 0x7F0E016B
-			public const int Widget_AppCompat_PopupMenu = 2131624299;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624299;
 			
 			// aapt resource value: 0x7F0E016C
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624300;
+			public const int Widget_AppCompat_SeekBar = 2131624300;
 			
 			// aapt resource value: 0x7F0E016D
-			public const int Widget_AppCompat_PopupWindow = 2131624301;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624301;
 			
 			// aapt resource value: 0x7F0E016E
-			public const int Widget_AppCompat_ProgressBar = 2131624302;
+			public const int Widget_AppCompat_Spinner = 2131624302;
 			
 			// aapt resource value: 0x7F0E016F
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624303;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624303;
 			
 			// aapt resource value: 0x7F0E0170
-			public const int Widget_AppCompat_RatingBar = 2131624304;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624304;
 			
 			// aapt resource value: 0x7F0E0171
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624305;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624305;
 			
 			// aapt resource value: 0x7F0E0172
-			public const int Widget_AppCompat_RatingBar_Small = 2131624306;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624306;
 			
 			// aapt resource value: 0x7F0E0173
-			public const int Widget_AppCompat_SearchView = 2131624307;
+			public const int Widget_AppCompat_Toolbar = 2131624307;
 			
 			// aapt resource value: 0x7F0E0174
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624308;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624308;
 			
 			// aapt resource value: 0x7F0E0175
-			public const int Widget_AppCompat_SeekBar = 2131624309;
+			public const int Widget_Compat_NotificationActionContainer = 2131624309;
 			
 			// aapt resource value: 0x7F0E0176
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624310;
+			public const int Widget_Compat_NotificationActionText = 2131624310;
 			
 			// aapt resource value: 0x7F0E0177
-			public const int Widget_AppCompat_Spinner = 2131624311;
+			public const int Widget_Design_AppBarLayout = 2131624311;
 			
 			// aapt resource value: 0x7F0E0178
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624312;
+			public const int Widget_Design_BottomNavigationView = 2131624312;
 			
 			// aapt resource value: 0x7F0E0179
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624313;
+			public const int Widget_Design_BottomSheet_Modal = 2131624313;
 			
 			// aapt resource value: 0x7F0E017A
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624314;
+			public const int Widget_Design_CollapsingToolbar = 2131624314;
 			
 			// aapt resource value: 0x7F0E017B
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624315;
+			public const int Widget_Design_CoordinatorLayout = 2131624315;
 			
 			// aapt resource value: 0x7F0E017C
-			public const int Widget_AppCompat_Toolbar = 2131624316;
+			public const int Widget_Design_FloatingActionButton = 2131624316;
 			
 			// aapt resource value: 0x7F0E017D
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624317;
+			public const int Widget_Design_NavigationView = 2131624317;
 			
 			// aapt resource value: 0x7F0E017E
-			public const int Widget_Compat_NotificationActionContainer = 2131624318;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624318;
 			
 			// aapt resource value: 0x7F0E017F
-			public const int Widget_Compat_NotificationActionText = 2131624319;
+			public const int Widget_Design_Snackbar = 2131624319;
 			
 			// aapt resource value: 0x7F0E0180
-			public const int Widget_Design_AppBarLayout = 2131624320;
+			public const int Widget_Design_TabLayout = 2131624320;
 			
 			// aapt resource value: 0x7F0E0181
-			public const int Widget_Design_BottomNavigationView = 2131624321;
-			
-			// aapt resource value: 0x7F0E0182
-			public const int Widget_Design_BottomSheet_Modal = 2131624322;
-			
-			// aapt resource value: 0x7F0E0183
-			public const int Widget_Design_CollapsingToolbar = 2131624323;
-			
-			// aapt resource value: 0x7F0E0184
-			public const int Widget_Design_CoordinatorLayout = 2131624324;
-			
-			// aapt resource value: 0x7F0E0185
-			public const int Widget_Design_FloatingActionButton = 2131624325;
-			
-			// aapt resource value: 0x7F0E0186
-			public const int Widget_Design_NavigationView = 2131624326;
-			
-			// aapt resource value: 0x7F0E0187
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624327;
-			
-			// aapt resource value: 0x7F0E0188
-			public const int Widget_Design_Snackbar = 2131624328;
-			
-			// aapt resource value: 0x7F0E0189
-			public const int Widget_Design_TabLayout = 2131624329;
-			
-			// aapt resource value: 0x7F0E018A
-			public const int Widget_Design_TextInputLayout = 2131624330;
+			public const int Widget_Design_TextInputLayout = 2131624321;
 			
 			static Style()
 			{
@@ -4604,37 +6158,37 @@ namespace Plumber71.Toolbox
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F030033,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F03006C,0x7F030070,0x7F030071,0x7F03007C,0x7F03009C,0x7F03009D,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A8,0x7F0300AE,0x7F0300C9,0x7F0300D2,0x7F0300E2,0x7F0300E6,0x7F0300E7,0x7F03010B,0x7F03010E,0x7F03013A,0x7F030144 }
+			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030037,0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F030068,0x7F030069,0x7F030070,0x7F030074,0x7F030075,0x7F030080,0x7F0300A0,0x7F0300A1,0x7F0300A5,0x7F0300A6,0x7F0300A7,0x7F0300AC,0x7F0300B2,0x7F0300CD,0x7F0300D6,0x7F0300E6,0x7F0300EA,0x7F0300EB,0x7F03010F,0x7F030112,0x7F03013E,0x7F030148 }
 			public static int[] ActionBar = new int[] {
-					2130903089,
-					2130903090,
-					2130903091,
-					2130903136,
-					2130903137,
-					2130903138,
-					2130903139,
+					2130903093,
+					2130903094,
+					2130903095,
 					2130903140,
 					2130903141,
-					2130903148,
+					2130903142,
+					2130903143,
+					2130903144,
+					2130903145,
 					2130903152,
-					2130903153,
-					2130903164,
-					2130903196,
-					2130903197,
+					2130903156,
+					2130903157,
+					2130903168,
+					2130903200,
 					2130903201,
-					2130903202,
-					2130903203,
-					2130903208,
-					2130903214,
-					2130903241,
-					2130903250,
-					2130903266,
+					2130903205,
+					2130903206,
+					2130903207,
+					2130903212,
+					2130903218,
+					2130903245,
+					2130903254,
 					2130903270,
-					2130903271,
-					2130903307,
-					2130903310,
-					2130903354,
-					2130903364};
+					2130903274,
+					2130903275,
+					2130903311,
+					2130903314,
+					2130903358,
+					2130903368};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -4741,14 +6295,14 @@ namespace Plumber71.Toolbox
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F03004E,0x7F03009C,0x7F03010E,0x7F030144 }
+			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030052,0x7F0300A0,0x7F030112,0x7F030148 }
 			public static int[] ActionMode = new int[] {
-					2130903089,
-					2130903090,
-					2130903118,
-					2130903196,
-					2130903310,
-					2130903364};
+					2130903093,
+					2130903094,
+					2130903122,
+					2130903200,
+					2130903314,
+					2130903368};
 			
 			// aapt resource value: 0x0
 			public const int ActionMode_background = 0;
@@ -4768,10 +6322,10 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F03007F,0x7F0300A9 }
+			// aapt resource value: { 0x7F030083,0x7F0300AD }
 			public static int[] ActivityChooserView = new int[] {
-					2130903167,
-					2130903209};
+					2130903171,
+					2130903213};
 			
 			// aapt resource value: 0x0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -4779,15 +6333,15 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030046,0x7F0300C0,0x7F0300C1,0x7F0300CF,0x7F0300FB,0x7F0300FC }
+			// aapt resource value: { 0x10100F2,0x7F03004A,0x7F0300C4,0x7F0300C5,0x7F0300D3,0x7F0300FF,0x7F030100 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
-					2130903110,
-					2130903232,
-					2130903233,
-					2130903247,
-					2130903291,
-					2130903292};
+					2130903114,
+					2130903236,
+					2130903237,
+					2130903251,
+					2130903295,
+					2130903296};
 			
 			// aapt resource value: 0x0
 			public const int AlertDialog_android_layout = 0;
@@ -4810,18 +6364,18 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x6
 			public const int AlertDialog_singleChoiceItemLayout = 6;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F03007C,0x7F030080 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F030080,0x7F030084 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903164,
-					2130903168};
+					2130903168,
+					2130903172};
 			
-			// aapt resource value: { 0x7F030105,0x7F030106 }
+			// aapt resource value: { 0x7F030109,0x7F03010A }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903301,
-					2130903302};
+					2130903305,
+					2130903306};
 			
 			// aapt resource value: 0x0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -4844,10 +6398,10 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F0300BC,0x7F0300BD }
+			// aapt resource value: { 0x7F0300C0,0x7F0300C1 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903228,
-					2130903229};
+					2130903232,
+					2130903233};
 			
 			// aapt resource value: 0x0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -4855,12 +6409,12 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
 			
-			// aapt resource value: { 0x1010119,0x7F030102,0x7F030138,0x7F030139 }
+			// aapt resource value: { 0x1010119,0x7F030106,0x7F03013C,0x7F03013D }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903298,
-					2130903352,
-					2130903353};
+					2130903302,
+					2130903356,
+					2130903357};
 			
 			// aapt resource value: 0x0
 			public const int AppCompatImageView_android_src = 0;
@@ -4874,12 +6428,12 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F030135,0x7F030136,0x7F030137 }
+			// aapt resource value: { 0x1010142,0x7F030139,0x7F03013A,0x7F03013B }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903349,
-					2130903350,
-					2130903351};
+					2130903353,
+					2130903354,
+					2130903355};
 			
 			// aapt resource value: 0x0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -4924,16 +6478,16 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F03008F,0x7F030124 }
+			// aapt resource value: { 0x1010034,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F030034,0x7F030093,0x7F030128 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
-					2130903084,
-					2130903085,
-					2130903086,
-					2130903087,
 					2130903088,
-					2130903183,
-					2130903332};
+					2130903089,
+					2130903090,
+					2130903091,
+					2130903092,
+					2130903187,
+					2130903336};
 			
 			// aapt resource value: 0x0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -4959,14 +6513,10 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x7
 			public const int AppCompatTextView_textAllCaps = 7;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003D,0x7F030040,0x7F030041,0x7F030042,0x7F030043,0x7F030044,0x7F030047,0x7F030048,0x7F03004B,0x7F03004C,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F030067,0x7F03006E,0x7F03006F,0x7F030072,0x7F030074,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007B,0x7F0300A1,0x7F0300A7,0x7F0300BE,0x7F0300BF,0x7F0300C2,0x7F0300C3,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300E1,0x7F0300E3,0x7F0300EA,0x7F0300EB,0x7F0300EC,0x7F0300ED,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300FF,0x7F030100,0x7F030112,0x7F030125,0x7F030126,0x7F030127,0x7F030128,0x7F030129,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012D,0x7F03012F,0x7F030146,0x7F030147,0x7F030148,0x7F030149,0x7F030150,0x7F030151,0x7F030152,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159 }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030025,0x7F030026,0x7F030027,0x7F030028,0x7F030029,0x7F03002F,0x7F030041,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F03004B,0x7F03004C,0x7F03004F,0x7F030050,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030061,0x7F03006B,0x7F030072,0x7F030073,0x7F030076,0x7F030078,0x7F03007B,0x7F03007C,0x7F03007D,0x7F03007E,0x7F03007F,0x7F0300A5,0x7F0300AB,0x7F0300C2,0x7F0300C3,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E5,0x7F0300E7,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F1,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F030103,0x7F030104,0x7F030116,0x7F030129,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012D,0x7F03012E,0x7F03012F,0x7F030130,0x7F030131,0x7F030133,0x7F03014A,0x7F03014B,0x7F03014C,0x7F03014D,0x7F030154,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
-					2130903040,
-					2130903041,
-					2130903042,
-					2130903043,
 					2130903044,
 					2130903045,
 					2130903046,
@@ -4976,10 +6526,10 @@ namespace Plumber71.Toolbox
 					2130903050,
 					2130903051,
 					2130903052,
+					2130903053,
 					2130903054,
 					2130903055,
 					2130903056,
-					2130903057,
 					2130903058,
 					2130903059,
 					2130903060,
@@ -4993,93 +6543,97 @@ namespace Plumber71.Toolbox
 					2130903068,
 					2130903069,
 					2130903070,
+					2130903071,
+					2130903072,
 					2130903073,
 					2130903074,
-					2130903075,
-					2130903076,
 					2130903077,
-					2130903083,
-					2130903101,
-					2130903104,
+					2130903078,
+					2130903079,
+					2130903080,
+					2130903081,
+					2130903087,
 					2130903105,
-					2130903106,
-					2130903107,
 					2130903108,
+					2130903109,
+					2130903110,
 					2130903111,
 					2130903112,
 					2130903115,
 					2130903116,
-					2130903124,
-					2130903125,
-					2130903126,
-					2130903127,
+					2130903119,
+					2130903120,
 					2130903128,
 					2130903129,
 					2130903130,
 					2130903131,
 					2130903132,
 					2130903133,
-					2130903143,
-					2130903150,
-					2130903151,
+					2130903134,
+					2130903135,
+					2130903136,
+					2130903137,
+					2130903147,
 					2130903154,
-					2130903156,
-					2130903159,
+					2130903155,
+					2130903158,
 					2130903160,
-					2130903161,
-					2130903162,
 					2130903163,
-					2130903201,
-					2130903207,
-					2130903230,
-					2130903231,
+					2130903164,
+					2130903165,
+					2130903166,
+					2130903167,
+					2130903205,
+					2130903211,
 					2130903234,
 					2130903235,
-					2130903236,
-					2130903237,
 					2130903238,
 					2130903239,
 					2130903240,
-					2130903257,
-					2130903258,
-					2130903259,
-					2130903265,
-					2130903267,
-					2130903274,
-					2130903275,
-					2130903276,
-					2130903277,
-					2130903284,
-					2130903285,
-					2130903286,
-					2130903287,
-					2130903295,
-					2130903296,
-					2130903314,
-					2130903333,
-					2130903334,
-					2130903335,
-					2130903336,
+					2130903241,
+					2130903242,
+					2130903243,
+					2130903244,
+					2130903261,
+					2130903262,
+					2130903263,
+					2130903269,
+					2130903271,
+					2130903278,
+					2130903279,
+					2130903280,
+					2130903281,
+					2130903288,
+					2130903289,
+					2130903290,
+					2130903291,
+					2130903299,
+					2130903300,
+					2130903318,
 					2130903337,
 					2130903338,
 					2130903339,
 					2130903340,
 					2130903341,
+					2130903342,
 					2130903343,
-					2130903366,
-					2130903367,
-					2130903368,
-					2130903369,
-					2130903376,
-					2130903377,
-					2130903378,
-					2130903379,
+					2130903344,
+					2130903345,
+					2130903347,
+					2130903370,
+					2130903371,
+					2130903372,
+					2130903373,
 					2130903380,
 					2130903381,
 					2130903382,
 					2130903383,
 					2130903384,
-					2130903385};
+					2130903385,
+					2130903386,
+					2130903387,
+					2130903388,
+					2130903389};
 			
 			// aapt resource value: 0x2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -5438,13 +6992,13 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x118
 			public const int AppCompatTheme_windowNoTitle = 280;
 			
-			// aapt resource value: { 0x7F03007C,0x7F0300AC,0x7F0300AD,0x7F0300B0,0x7F0300CE }
+			// aapt resource value: { 0x7F030080,0x7F0300B0,0x7F0300B1,0x7F0300B4,0x7F0300D2 }
 			public static int[] BottomNavigationView = new int[] {
-					2130903164,
-					2130903212,
-					2130903213,
+					2130903168,
 					2130903216,
-					2130903246};
+					2130903217,
+					2130903220,
+					2130903250};
 			
 			// aapt resource value: 0x0
 			public const int BottomNavigationView_elevation = 0;
@@ -5461,11 +7015,11 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x4
 			public const int BottomNavigationView_menu = 4;
 			
-			// aapt resource value: { 0x7F030038,0x7F03003A,0x7F03003B }
+			// aapt resource value: { 0x7F03003C,0x7F03003E,0x7F03003F }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
-					2130903096,
-					2130903098,
-					2130903099};
+					2130903100,
+					2130903102,
+					2130903103};
 			
 			// aapt resource value: 0x0
 			public const int BottomSheetBehavior_Layout_behavior_hideable = 0;
@@ -5476,31 +7030,31 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x2
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
 			
-			// aapt resource value: { 0x7F030026 }
+			// aapt resource value: { 0x7F03002A }
 			public static int[] ButtonBarLayout = new int[] {
-					2130903078};
+					2130903082};
 			
 			// aapt resource value: 0x0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x7F030051,0x7F030052,0x7F030066,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F0300F0,0x7F0300F1,0x7F030108,0x7F03013A,0x7F03013B,0x7F030145 }
+			// aapt resource value: { 0x7F030055,0x7F030056,0x7F03006A,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F0300F4,0x7F0300F5,0x7F03010C,0x7F03013E,0x7F03013F,0x7F030149 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903121,
-					2130903122,
-					2130903142,
-					2130903169,
-					2130903170,
-					2130903171,
-					2130903172,
+					2130903125,
+					2130903126,
+					2130903146,
 					2130903173,
 					2130903174,
 					2130903175,
-					2130903280,
-					2130903281,
-					2130903304,
-					2130903354,
-					2130903355,
-					2130903365};
+					2130903176,
+					2130903177,
+					2130903178,
+					2130903179,
+					2130903284,
+					2130903285,
+					2130903308,
+					2130903358,
+					2130903359,
+					2130903369};
 			
 			// aapt resource value: 0x0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -5532,10 +7086,10 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F0300B7,0x7F0300B8 }
+			// aapt resource value: { 0x7F0300BB,0x7F0300BC }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903223,
-					2130903224};
+					2130903227,
+					2130903228};
 			
 			// aapt resource value: 0x0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -5561,11 +7115,11 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x15
 			public const int CollapsingToolbarLayout_toolbarId = 21;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F030027 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x7F03002B }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903079};
+					2130903083};
 			
 			// aapt resource value: 0x2
 			public const int ColorStateListItem_alpha = 2;
@@ -5576,11 +7130,11 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x0
 			public const int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x1010107,0x7F030049,0x7F03004A }
+			// aapt resource value: { 0x1010107,0x7F03004D,0x7F03004E }
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130903113,
-					2130903114};
+					2130903117,
+					2130903118};
 			
 			// aapt resource value: 0x0
 			public const int CompoundButton_android_button = 0;
@@ -5591,23 +7145,23 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x2
 			public const int CompoundButton_buttonTintMode = 2;
 			
-			// aapt resource value: { 0x7F0300B1,0x7F030107 }
+			// aapt resource value: { 0x7F0300B5,0x7F03010B }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903217,
-					2130903303};
+					2130903221,
+					2130903307};
 			
 			// aapt resource value: 0x0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F0300B4,0x7F0300B5,0x7F0300B6,0x7F0300B9,0x7F0300BA,0x7F0300BB }
+			// aapt resource value: { 0x10100B3,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300BD,0x7F0300BE,0x7F0300BF }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903220,
-					2130903221,
-					2130903222,
+					2130903224,
 					2130903225,
 					2130903226,
-					2130903227};
+					2130903229,
+					2130903230,
+					2130903231};
 			
 			// aapt resource value: 0x0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -5633,11 +7187,11 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F03003E,0x7F03003F,0x7F03012E }
+			// aapt resource value: { 0x7F030042,0x7F030043,0x7F030132 }
 			public static int[] DesignTheme = new int[] {
-					2130903102,
-					2130903103,
-					2130903342};
+					2130903106,
+					2130903107,
+					2130903346};
 			
 			// aapt resource value: 0x0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
@@ -5648,16 +7202,35 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x2
 			public const int DesignTheme_textColorError = 2;
 			
-			// aapt resource value: { 0x7F030029,0x7F03002A,0x7F030036,0x7F030053,0x7F030075,0x7F030099,0x7F0300FE,0x7F030131 }
+			// aapt resource value: { 0x7F030000,0x7F030001,0x7F030002,0x7F030003 }
+			public static int[] Dialog = new int[] {
+					2130903040,
+					2130903041,
+					2130903042,
+					2130903043};
+			
+			// aapt resource value: 0x0
+			public const int Dialog_DialogSpotColor = 0;
+			
+			// aapt resource value: 0x1
+			public const int Dialog_DialogSpotCount = 1;
+			
+			// aapt resource value: 0x2
+			public const int Dialog_DialogTitleAppearance = 2;
+			
+			// aapt resource value: 0x3
+			public const int Dialog_DialogTitleText = 3;
+			
+			// aapt resource value: { 0x7F03002D,0x7F03002E,0x7F03003A,0x7F030057,0x7F030079,0x7F03009D,0x7F030102,0x7F030135 }
 			public static int[] DrawerArrowToggle = new int[] {
-					2130903081,
-					2130903082,
-					2130903094,
-					2130903123,
-					2130903157,
-					2130903193,
-					2130903294,
-					2130903345};
+					2130903085,
+					2130903086,
+					2130903098,
+					2130903127,
+					2130903161,
+					2130903197,
+					2130903298,
+					2130903349};
 			
 			// aapt resource value: 0x0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -5683,16 +7256,16 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030034,0x7F030035,0x7F03003C,0x7F03007C,0x7F030088,0x7F0300E5,0x7F0300EF,0x7F03014E }
+			// aapt resource value: { 0x7F030038,0x7F030039,0x7F030040,0x7F030080,0x7F03008C,0x7F0300E9,0x7F0300F3,0x7F030152 }
 			public static int[] FloatingActionButton = new int[] {
-					2130903092,
-					2130903093,
-					2130903100,
-					2130903164,
-					2130903176,
-					2130903269,
-					2130903279,
-					2130903374};
+					2130903096,
+					2130903097,
+					2130903104,
+					2130903168,
+					2130903180,
+					2130903273,
+					2130903283,
+					2130903378};
 			
 			// aapt resource value: 0x0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -5700,9 +7273,9 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
 			
-			// aapt resource value: { 0x7F030037 }
+			// aapt resource value: { 0x7F03003B }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130903095};
+					2130903099};
 			
 			// aapt resource value: 0x0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -5725,29 +7298,41 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x7
 			public const int FloatingActionButton_useCompatPadding = 7;
 			
-			// aapt resource value: { 0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095 }
+			// aapt resource value: { 0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F030099 }
 			public static int[] FontFamily = new int[] {
-					2130903184,
-					2130903185,
-					2130903186,
-					2130903187,
 					2130903188,
-					2130903189};
-			
-			// aapt resource value: { 0x7F03008E,0x7F030096,0x7F030097 }
-			public static int[] FontFamilyFont = new int[] {
-					2130903182,
+					2130903189,
 					2130903190,
-					2130903191};
+					2130903191,
+					2130903192,
+					2130903193};
+			
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x7F030092,0x7F03009A,0x7F03009B }
+			public static int[] FontFamilyFont = new int[] {
+					16844082,
+					16844083,
+					16844095,
+					2130903186,
+					2130903194,
+					2130903195};
 			
 			// aapt resource value: 0x0
-			public const int FontFamilyFont_font = 0;
-			
-			// aapt resource value: 0x1
-			public const int FontFamilyFont_fontStyle = 1;
+			public const int FontFamilyFont_android_font = 0;
 			
 			// aapt resource value: 0x2
-			public const int FontFamilyFont_fontWeight = 2;
+			public const int FontFamilyFont_android_fontStyle = 2;
+			
+			// aapt resource value: 0x1
+			public const int FontFamilyFont_android_fontWeight = 1;
+			
+			// aapt resource value: 0x3
+			public const int FontFamilyFont_font = 3;
+			
+			// aapt resource value: 0x4
+			public const int FontFamilyFont_fontStyle = 4;
+			
+			// aapt resource value: 0x5
+			public const int FontFamilyFont_fontWeight = 5;
 			
 			// aapt resource value: 0x0
 			public const int FontFamily_fontProviderAuthority = 0;
@@ -5767,11 +7352,11 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F030098 }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F03009C }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903192};
+					2130903196};
 			
 			// aapt resource value: 0x0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -5782,17 +7367,17 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F030071,0x7F030073,0x7F0300CD,0x7F0300F9 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F030075,0x7F030077,0x7F0300D1,0x7F0300FD }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903153,
-					2130903155,
-					2130903245,
-					2130903289};
+					2130903157,
+					2130903159,
+					2130903249,
+					2130903293};
 			
 			// aapt resource value: 0x2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -5878,7 +7463,7 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F03005F,0x7F0300A4,0x7F0300A5,0x7F0300D3,0x7F0300F8,0x7F03014A }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030011,0x7F030023,0x7F030024,0x7F03002C,0x7F030063,0x7F0300A8,0x7F0300A9,0x7F0300D7,0x7F0300FC,0x7F03014E }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -5893,16 +7478,16 @@ namespace Plumber71.Toolbox
 					16843236,
 					16843237,
 					16843375,
-					2130903053,
-					2130903071,
-					2130903072,
-					2130903080,
-					2130903135,
-					2130903204,
-					2130903205,
-					2130903251,
-					2130903288,
-					2130903370};
+					2130903057,
+					2130903075,
+					2130903076,
+					2130903084,
+					2130903139,
+					2130903208,
+					2130903209,
+					2130903255,
+					2130903292,
+					2130903374};
 			
 			// aapt resource value: 0x13
 			public const int MenuItem_actionLayout = 19;
@@ -5973,7 +7558,7 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x22
 			public const int MenuItem_tooltipText = 34;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0300E4,0x7F030109 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0300E8,0x7F03010D }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -5982,8 +7567,8 @@ namespace Plumber71.Toolbox
 					16843055,
 					16843056,
 					16843057,
-					2130903268,
-					2130903305};
+					2130903272,
+					2130903309};
 			
 			// aapt resource value: 0x4
 			public const int MenuView_android_headerBackground = 4;
@@ -6012,18 +7597,18 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F03007C,0x7F03009B,0x7F0300AC,0x7F0300AD,0x7F0300AF,0x7F0300B0,0x7F0300CE }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F030080,0x7F03009F,0x7F0300B0,0x7F0300B1,0x7F0300B3,0x7F0300B4,0x7F0300D2 }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903164,
-					2130903195,
-					2130903212,
-					2130903213,
-					2130903215,
+					2130903168,
+					2130903199,
 					2130903216,
-					2130903246};
+					2130903217,
+					2130903219,
+					2130903220,
+					2130903250};
 			
 			// aapt resource value: 0x0
 			public const int NavigationView_android_background = 0;
@@ -6055,15 +7640,15 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x9
 			public const int NavigationView_menu = 9;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F0300D4 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F0300D8 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903252};
+					2130903256};
 			
-			// aapt resource value: { 0x7F030104 }
+			// aapt resource value: { 0x7F030108 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903300};
+					2130903304};
 			
 			// aapt resource value: 0x0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -6077,10 +7662,10 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F0300D5,0x7F0300D8 }
+			// aapt resource value: { 0x7F0300D9,0x7F0300DC }
 			public static int[] RecycleListView = new int[] {
-					2130903253,
-					2130903256};
+					2130903257,
+					2130903260};
 			
 			// aapt resource value: 0x0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -6088,19 +7673,19 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100F1,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F0300B3,0x7F0300EE,0x7F0300FD,0x7F030103 }
+			// aapt resource value: { 0x10100C4,0x10100F1,0x7F03008D,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F0300B7,0x7F0300F2,0x7F030101,0x7F030107 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842993,
-					2130903177,
-					2130903178,
-					2130903179,
-					2130903180,
 					2130903181,
-					2130903219,
-					2130903278,
-					2130903293,
-					2130903299};
+					2130903182,
+					2130903183,
+					2130903184,
+					2130903185,
+					2130903223,
+					2130903282,
+					2130903297,
+					2130903303};
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_descendantFocusability = 1;
@@ -6135,39 +7720,39 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x10
 			public const int RecyclerView_stackFromEnd = 16;
 			
-			// aapt resource value: { 0x7F0300AA }
+			// aapt resource value: { 0x7F0300AE }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903210};
+					2130903214};
 			
 			// aapt resource value: 0x0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
-			// aapt resource value: { 0x7F030039 }
+			// aapt resource value: { 0x7F03003D }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130903097};
+					2130903101};
 			
 			// aapt resource value: 0x0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F03004D,0x7F03005E,0x7F03006D,0x7F03009A,0x7F0300A6,0x7F0300B2,0x7F0300E8,0x7F0300E9,0x7F0300F2,0x7F0300F3,0x7F03010A,0x7F03010F,0x7F03014F }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030051,0x7F030062,0x7F030071,0x7F03009E,0x7F0300AA,0x7F0300B6,0x7F0300EC,0x7F0300ED,0x7F0300F6,0x7F0300F7,0x7F03010E,0x7F030113,0x7F030153 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903117,
-					2130903134,
-					2130903149,
-					2130903194,
-					2130903206,
-					2130903218,
-					2130903272,
-					2130903273,
-					2130903282,
-					2130903283,
-					2130903306,
-					2130903311,
-					2130903375};
+					2130903121,
+					2130903138,
+					2130903153,
+					2130903198,
+					2130903210,
+					2130903222,
+					2130903276,
+					2130903277,
+					2130903286,
+					2130903287,
+					2130903310,
+					2130903315,
+					2130903379};
 			
 			// aapt resource value: 0x0
 			public const int SearchView_android_focusable = 0;
@@ -6220,11 +7805,11 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x16
 			public const int SearchView_voiceIcon = 22;
 			
-			// aapt resource value: { 0x101011F,0x7F03007C,0x7F0300CB }
+			// aapt resource value: { 0x101011F,0x7F030080,0x7F0300CF }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130903164,
-					2130903243};
+					2130903168,
+					2130903247};
 			
 			// aapt resource value: 0x0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -6235,13 +7820,13 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x2
 			public const int SnackbarLayout_maxActionInlineWidth = 2;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0300E2 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0300E6 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903266};
+					2130903270};
 			
 			// aapt resource value: 0x3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -6258,22 +7843,22 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x4
 			public const int Spinner_popupTheme = 4;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0300FA,0x7F030101,0x7F030110,0x7F030111,0x7F030113,0x7F030132,0x7F030133,0x7F030134,0x7F03014B,0x7F03014C,0x7F03014D }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0300FE,0x7F030105,0x7F030114,0x7F030115,0x7F030117,0x7F030136,0x7F030137,0x7F030138,0x7F03014F,0x7F030150,0x7F030151 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903290,
-					2130903297,
-					2130903312,
-					2130903313,
-					2130903315,
-					2130903346,
-					2130903347,
-					2130903348,
-					2130903371,
-					2130903372,
-					2130903373};
+					2130903294,
+					2130903301,
+					2130903316,
+					2130903317,
+					2130903319,
+					2130903350,
+					2130903351,
+					2130903352,
+					2130903375,
+					2130903376,
+					2130903377};
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOff = 1;
@@ -6332,12 +7917,8 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F030114,0x7F030115,0x7F030116,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030123 }
+			// aapt resource value: { 0x7F030118,0x7F030119,0x7F03011A,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030123,0x7F030124,0x7F030125,0x7F030126,0x7F030127 }
 			public static int[] TabLayout = new int[] {
-					2130903316,
-					2130903317,
-					2130903318,
-					2130903319,
 					2130903320,
 					2130903321,
 					2130903322,
@@ -6349,7 +7930,11 @@ namespace Plumber71.Toolbox
 					2130903328,
 					2130903329,
 					2130903330,
-					2130903331};
+					2130903331,
+					2130903332,
+					2130903333,
+					2130903334,
+					2130903335};
 			
 			// aapt resource value: 0x0
 			public const int TabLayout_tabBackground = 0;
@@ -6399,7 +7984,7 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x15
 			public const int TabLayout_tabTextColor = 21;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F03008F,0x7F030124 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F030093,0x7F030128 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -6412,8 +7997,8 @@ namespace Plumber71.Toolbox
 					16843107,
 					16843108,
 					16843692,
-					2130903183,
-					2130903332};
+					2130903187,
+					2130903336};
 			
 			// aapt resource value: 0x10
 			public const int TextAppearance_android_fontFamily = 16;
@@ -6454,24 +8039,24 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x12
 			public const int TextAppearance_textAllCaps = 18;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F030068,0x7F030069,0x7F03006A,0x7F03006B,0x7F03007D,0x7F03007E,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0 }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F03006C,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030081,0x7F030082,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300E0,0x7F0300E1,0x7F0300E2,0x7F0300E3,0x7F0300E4 }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
-					2130903144,
-					2130903145,
-					2130903146,
-					2130903147,
-					2130903165,
-					2130903166,
-					2130903198,
-					2130903199,
-					2130903200,
-					2130903260,
-					2130903261,
-					2130903262,
-					2130903263,
-					2130903264};
+					2130903148,
+					2130903149,
+					2130903150,
+					2130903151,
+					2130903169,
+					2130903170,
+					2130903202,
+					2130903203,
+					2130903204,
+					2130903264,
+					2130903265,
+					2130903266,
+					2130903267,
+					2130903268};
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_hint = 1;
@@ -6521,37 +8106,37 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x15
 			public const int TextInputLayout_passwordToggleTintMode = 21;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030045,0x7F03004F,0x7F030050,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F0300C9,0x7F0300CA,0x7F0300CC,0x7F0300D0,0x7F0300D1,0x7F0300E2,0x7F03010B,0x7F03010C,0x7F03010D,0x7F03013A,0x7F03013C,0x7F03013D,0x7F03013E,0x7F03013F,0x7F030140,0x7F030141,0x7F030142,0x7F030143 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F030049,0x7F030053,0x7F030054,0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F030068,0x7F030069,0x7F0300CD,0x7F0300CE,0x7F0300D0,0x7F0300D4,0x7F0300D5,0x7F0300E6,0x7F03010F,0x7F030110,0x7F030111,0x7F03013E,0x7F030140,0x7F030141,0x7F030142,0x7F030143,0x7F030144,0x7F030145,0x7F030146,0x7F030147 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
-					2130903109,
-					2130903119,
-					2130903120,
-					2130903136,
-					2130903137,
-					2130903138,
-					2130903139,
+					2130903113,
+					2130903123,
+					2130903124,
 					2130903140,
 					2130903141,
-					2130903241,
-					2130903242,
-					2130903244,
+					2130903142,
+					2130903143,
+					2130903144,
+					2130903145,
+					2130903245,
+					2130903246,
 					2130903248,
-					2130903249,
-					2130903266,
-					2130903307,
-					2130903308,
-					2130903309,
-					2130903354,
-					2130903356,
-					2130903357,
+					2130903252,
+					2130903253,
+					2130903270,
+					2130903311,
+					2130903312,
+					2130903313,
 					2130903358,
-					2130903359,
 					2130903360,
 					2130903361,
 					2130903362,
-					2130903363};
+					2130903363,
+					2130903364,
+					2130903365,
+					2130903366,
+					2130903367};
 			
 			// aapt resource value: 0x0
 			public const int Toolbar_android_gravity = 0;
@@ -6640,19 +8225,19 @@ namespace Plumber71.Toolbox
 			// aapt resource value: 0x28
 			public const int Toolbar_titleTextColor = 40;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F0300D6,0x7F0300D7,0x7F030130 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F0300DA,0x7F0300DB,0x7F030134 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903254,
-					2130903255,
-					2130903344};
+					2130903258,
+					2130903259,
+					2130903348};
 			
-			// aapt resource value: { 0x10100D4,0x7F030034,0x7F030035 }
+			// aapt resource value: { 0x10100D4,0x7F030038,0x7F030039 }
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130903092,
-					2130903093};
+					2130903096,
+					2130903097};
 			
 			// aapt resource value: 0x0
 			public const int ViewBackgroundHelper_android_background = 0;
