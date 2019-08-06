@@ -7,13 +7,13 @@ using System.Data;
 using System.IO;
 using System.Text;
 
-namespace Plumber71.Core.Controller
+namespace Plumber71.Core.Service.ExcelReader
 {
     public class ExcelController
     {
         private string Path { get; set; }
 
-        public ExcelController(string path) => this.Path = path;
+        public ExcelController(string path) => Path = path;
         public DataSet ReadToEnd()
         {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);

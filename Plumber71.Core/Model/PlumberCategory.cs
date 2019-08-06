@@ -6,10 +6,9 @@ namespace Plumber71.Core.Model
     /// <summary>
     /// Каталог товаров на сайте
     /// </summary>
-    public class PlumberCategory : CategoryAbstraction<PlumberProduct>
+    public class CategoryDTO : CategoryAbstraction<ProductDTO>
     {
-        public Currencies ProductsCurrency;
-        public PlumberCategory() { }
-        public PlumberCategory(string name) : base(name) { }
+        public CategoryDTO() { }
+        public CategoryDTO(string name) : base(name) { }
     }
 }

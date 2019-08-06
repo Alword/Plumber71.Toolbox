@@ -32,7 +32,7 @@ namespace Plumber71.Core.Service.PricelistParser
             ParseCategory(dataTable);
             return excelPricelist;
         }
-
+        public 
         private void ParseCategory(DataTable dataTable)
         {
             foreach (DataRow dataRow in dataTable.Rows)

@@ -9,7 +9,7 @@ namespace Plumber71.Core.Model
     /// <summary>
     /// Тип продукта для приложения
     /// </summary>
-    public class PlumberProduct : ProductAbstraction
+    public class ProductDTO : ProductAbstraction
     {
         public int Id { get => Key; set => Key = value; }
         private double totalPrice;
@@ -19,7 +19,7 @@ namespace Plumber71.Core.Model
             set => totalPrice = Math.Round(value, 2);
         }
 
-        public PlumberProduct() { }
+        public ProductDTO() { }
 
         public override string ToString()
         {

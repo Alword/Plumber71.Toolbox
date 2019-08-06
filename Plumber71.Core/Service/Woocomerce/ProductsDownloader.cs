@@ -14,13 +14,13 @@ namespace Plumber71.Core.Service.Woocomerce
         {
             this.wooClient = wooClient;
         }
-        public async Task<IEnumerable<PlumberCategory>> DownloadAll()
+        public async Task<IEnumerable<CategoryDTO>> DownloadAll()
         {
             int currentPage = 0;
             int productsPerPage = WooClient.PRODUCTS_PER_PAGE;
             int totalProducts = 0;
             int productsOnCurrentPage;
-            Dictionary<string, PlumberCategory> categories = new Dictionary<string, PlumberCategory>();
+            Dictionary<string, CategoryDTO> categories = new Dictionary<string, CategoryDTO>();
             do
             {
                 var wooProducts = await wooClient.GetProductsPage(productsPerPage, ++currentPage); // Скачиваем страницу
@@ -34,20 +34,20 @@ namespace Plumber71.Core.Service.Woocomerce
             return categories.Values.AsEnumerable();
         }
 
-        private void HandleProductsPage(Dictionary<string, PlumberCategory> categories, List<Product> wooProducts)
+        private void HandleProductsPage(Dictionary<string, CategoryDTO> categories, List<Product> wooProducts)
         {
             foreach (var wooProduct in wooProducts)
             {
                 // handle product
-                PlumberProduct product = HandleProduct(wooProduct);
+                ProductDTO product = HandleProduct(wooProduct);
                 // check category 
                 CheckCategory(categories, wooProduct, product);
             }
         }
 
-        private PlumberProduct HandleProduct(Product wooProduct)
+        private ProductDTO HandleProduct(Product wooProduct)
         {
-            var product = new PlumberProduct()
+            var product = new ProductDTO()
             {
                 Id = (int)wooProduct.id,
                 Name = wooProduct.name,
@@ -57,7 +57,7 @@ namespace Plumber71.Core.Service.Woocomerce
             return product;
         }
 
-        private static void CheckCategory(Dictionary<string, PlumberCategory> categories, Product wooProduct, PlumberProduct product)
+        private static void CheckCategory(Dictionary<string, CategoryDTO> categories, Product wooProduct, ProductDTO product)
         {
             string categoryName = wooProduct.categories[0].name;
             if (categories.ContainsKey(wooProduct.categories[0].name))
@@ -70,7 +70,7 @@ namespace Plumber71.Core.Service.Woocomerce
             }
         }
 
-        private static void AddProductInCategoryIfNotExist(Dictionary<string, PlumberCategory> categories, PlumberProduct product, string categoryName)
+        private static void AddProductInCategoryIfNotExist(Dictionary<string, CategoryDTO> categories, ProductDTO product, string categoryName)
         {
             // Если существует
 
@@ -86,9 +86,9 @@ namespace Plumber71.Core.Service.Woocomerce
             }
         }
 
-        private static void CreateCategoryAndAddProduct(Dictionary<string, PlumberCategory> categories, PlumberProduct product, string categoryName)
+        private static void CreateCategoryAndAddProduct(Dictionary<string, CategoryDTO> categories, ProductDTO product, string categoryName)
         {
-            PlumberCategory newCategory = new PlumberCategory(categoryName);// Создаём категорию
+            CategoryDTO newCategory = new CategoryDTO(categoryName);// Создаём категорию
             categories[categoryName] = newCategory;// Добавляем в словарь
             newCategory.Products.Add(product);
         }

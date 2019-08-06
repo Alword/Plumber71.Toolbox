@@ -17,7 +17,7 @@ namespace Plumber71.Core.Service.Woocomerce
             this.wooClient = wooClient;
         }
 
-        public async Task<IEnumerable<Product>> UploadRange(IEnumerable<PlumberCategory> plumberCategories)
+        public async Task<IEnumerable<Product>> UploadRange(IEnumerable<CategoryDTO> plumberCategories)
         {
             var productList = plumberCategories.AsProductsIEnumerable();
             IEnumerable<Product> wooProducts = productList.Select(p => new Product()

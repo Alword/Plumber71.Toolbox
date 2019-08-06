@@ -42,7 +42,7 @@ namespace Plumber71.TestConsole
 
         static void TestChache()
         {
-            PlumberProduct productDomain = new PlumberProduct
+            ProductDTO productDomain = new ProductDTO
             {
                 Name = "Test"
             };
@@ -51,7 +51,7 @@ namespace Plumber71.TestConsole
 
         static void TestArrayToDictionary()
         {
-            var chacheObject = JsonFileStorage.Load<List<PlumberCategory>>("chacheObject.json").ToArray();
+            var chacheObject = JsonFileStorage.Load<List<CategoryDTO>>("chacheObject.json").ToArray();
             ProductComparer product = new ProductComparer(chacheObject);
             PricelistController catalogueController = new PricelistController(originalFileName);
             Priselist catalogue = catalogueController.ParseCatalogue();
@@ -64,12 +64,10 @@ namespace Plumber71.TestConsole
             pricelistController.SetGlobalRate(1.12);
             //pricelistController.SetCategoryRate("Котлы настенные", 1.2);
             //pricelistController.SetProductRate(346, 1.3);
-            var chacheObject = JsonFileStorage.Load<List<PlumberCategory>>("chacheObject.json");
+            var chacheObject = JsonFileStorage.Load<List<CategoryDTO>>("chacheObject.json");
             chacheObject = pricelistController.ApplySetting(chacheObject).ToList();
             JsonFileStorage.Save(chacheObject);
             ProductsUpdater pu = new ProductsUpdater(new WooClient());
-            // TODO Проверить необходимость обновления
-            // TODO Разбить на части запрос обновления
             Console.WriteLine($"Done: {nameof(TestPriceMarkupService)}");
         }
     }

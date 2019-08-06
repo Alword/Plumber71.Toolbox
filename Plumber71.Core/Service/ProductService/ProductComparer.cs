@@ -10,13 +10,13 @@ namespace Plumber71.Core.Service.PriceComparer
 {
     public class ProductComparer
     {
-        public readonly PlumberCategory[] chacheCategoryes = null;
-        public ProductComparer(PlumberCategory[] chacheCategory)
+        public readonly IEnumerable<CategoryDTO> chacheCategoryes = null;
+        public ProductComparer(CategoryDTO[] chacheCategory)
         {
             this.chacheCategoryes = chacheCategory;
         }
 
-        public List<PlumberProduct> GetChangedProducts(List<PriselistCategory> categoryExcels)
+        public List<ProductDTO> GetChangedProducts(List<CategoryDTO> categoryExcels)
         {
             var productsList = chacheCategoryes.AsProductsIEnumerable();
 
@@ -25,21 +25,21 @@ namespace Plumber71.Core.Service.PriceComparer
             return GetChangedProducts(categoryExcels, chacedProductsDictionary);
         }
 
-        private static List<PlumberProduct> GetChangedProducts(List<PriselistCategory> categoryExcels,
-            Dictionary<string, PlumberProduct> chacedProductsDictionary)
+        private static List<ProductDTO> GetChangedProducts(List<CategoryDTO> categoryList,
+            Dictionary<string, ProductDTO> chacedProductsDictionary)
         {
-            IEnumerable<PriselistProduct> allProducts = categoryExcels
+            IEnumerable<ProductDTO> allProducts = categoryList
                 .AsProductsIEnumerable()
                 .Where(p => chacedProductsDictionary.ContainsKey(p.Name));
 
-            List<PlumberProduct> changedProducts = new List<PlumberProduct>();
-            PlumberProduct currentProduct = null;
+            List<ProductDTO> changedProducts = new List<ProductDTO>();
+            ProductDTO currentProduct = null;
             foreach (var product in allProducts)
             {
                 currentProduct = chacedProductsDictionary[product.Name];
-                if (currentProduct.TotalPrice != product.TradePriceInRubbles)
+                if (currentProduct.TotalPrice != product.TotalPrice)
                 {
-                    currentProduct.TotalPrice = product.TradePriceInRubbles;
+                    currentProduct.TotalPrice = product.TotalPrice;
                     changedProducts.Add(currentProduct);
                 }
             }

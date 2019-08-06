@@ -31,7 +31,7 @@ namespace Plumber71.Core.Controller
             priceMarkupConfig.ProductRate[productKey] = rate;
         }
 
-        public IEnumerable<PlumberCategory> ApplySetting(IEnumerable<PlumberCategory> plumberCatalogue)
+        public IEnumerable<CategoryDTO> ApplySetting(IEnumerable<CategoryDTO> plumberCatalogue)
         {
             JsonFileStorage.Save(priceMarkupConfig);
             foreach (var category in plumberCatalogue)

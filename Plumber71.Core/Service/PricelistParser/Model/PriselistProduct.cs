@@ -3,7 +3,7 @@ using Plumber71.Core.Model;
 
 namespace Plumber71.Core.Service.ExelPriceProvider.Model
 {
-    public class PriselistProduct : PlumberProduct
+    public class PriselistProduct : ProductDTO
     {
         public int Code { get => Key; set => Key = value; }
 
