@@ -10,10 +10,11 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using static Android.Views.View;
 
 namespace Plumber71.Toolbox
 {
-    public class HomeFragment : Android.Support.V4.App.Fragment
+    public class HomeFragment : Android.Support.V4.App.Fragment, IOnClickListener
     {
         Button excelLoad = null;
         Android.Support.V7.App.AlertDialog dialog = null;
@@ -29,7 +30,7 @@ namespace Plumber71.Toolbox
 
             excelLoad = inflatedView.FindViewById<Button>(Resource.Id.excelLoad);
 
-            excelLoad.Click += ExcelLoad_Click;
+            excelLoad.SetOnClickListener(this);
 
             dialog = new EDMTDialog.EDMTDialogBuilder().SetContext(Application.Context).Build(); //inflatedView
 
@@ -70,6 +71,11 @@ namespace Plumber71.Toolbox
                 dialog.Show();
                 Console.WriteLine(data.DataString);
             }
+        }
+
+        public void OnClick(View v)
+        {
+            throw new NotImplementedException();
         }
     }
 }
