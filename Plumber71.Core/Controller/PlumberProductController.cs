@@ -16,28 +16,33 @@ namespace Plumber71.Core.Controller
         public const string PRICE_CONFIG = "plumberPriceConfig.json";
 
         public readonly PriceMarkupController PriceMarkup;
+        public readonly ProductsDownloader ProductDownloader;
+        public readonly ProductsUpdater ProductsUpdater;
 
-        private readonly ProductsDownloader productsDownloader;
         private readonly WooClient wooClient;
 
         public PlumberProductController(WooClient wooClient)
         {
             this.wooClient = wooClient;
-            productsDownloader = new ProductsDownloader(wooClient);
+            ProductDownloader = new ProductsDownloader(wooClient);
+            ProductsUpdater = new ProductsUpdater(wooClient);
             PriceMarkup = new PriceMarkupController(PRICE_CONFIG);
         }
 
         public PlumberProductController(string restConfigJson)
         {
             WooClient wooClient = new WooClient(restConfigJson);
-            productsDownloader = new ProductsDownloader(wooClient);
             this.wooClient = wooClient;
+            ProductDownloader = new ProductsDownloader(wooClient);
+            ProductsUpdater = new ProductsUpdater(wooClient);
+            PriceMarkup = new PriceMarkupController(PRICE_CONFIG);
         }
+
 
         public async Task<PricelistDTO> LoadOnDevice()
         {
             // Кеширование товаров
-            PricelistDTO chacheProducts = await productsDownloader.DownloadAll();
+            PricelistDTO chacheProducts = await ProductDownloader.DownloadAll();
 
             JsonFileStorage.Save(chacheProducts, PRISELIST_CHACHE);
 
@@ -52,12 +57,11 @@ namespace Plumber71.Core.Controller
             // load excel
             PricelistDTO newPricelist = (PricelistDTO)(new ExcelPricelistController(path).GetExcelPricelist());
             // Price markup
-            PricelistDTO updatedPricelist = new PriceMarkupController().ApplySetting(newPricelist);
+            PricelistDTO updatedPricelist = PriceMarkup.ApplySetting(newPricelist);
             // GetChangedProducts
             List<ProductDTO> changedProducts = PricelistComparer.GetChangedProducts(currentPricelist, updatedPricelist);
             // Upload Products
-            ProductsUpdater productsUpdater = new ProductsUpdater(wooClient);
-            await productsUpdater.UploadRange(changedProducts);
+            await ProductsUpdater.UploadRange(changedProducts);
             JsonFileStorage.Save(currentPricelist, PRISELIST_CHACHE);
         }
 

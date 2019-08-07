@@ -10,6 +10,10 @@ namespace Plumber71.Core.Service.Woocomerce
 {
     public class ProductsDownloader
     {
+        public delegate void ProductDownloadedDelegate(int totalCount);
+
+        public event ProductDownloadedDelegate OnProductDownloaded;
+
         WooClient wooClient = null;
         public ProductsDownloader(WooClient wooClient)
         {
@@ -29,6 +33,7 @@ namespace Plumber71.Core.Service.Woocomerce
                 totalProducts += productsOnCurrentPage;
                 HandleProductsPage(categories, wooProducts); // Обрабатываем товары
                 Debug.WriteLine($"Page {currentPage} ProductsCount {productsOnCurrentPage} Total {totalProducts}");
+                OnProductDownloaded?.Invoke(totalProducts);
 
             } while (productsOnCurrentPage == productsPerPage);
 

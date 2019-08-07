@@ -12,6 +12,9 @@ namespace Plumber71.Core.Service.Woocomerce
 {
     public class ProductsUpdater
     {
+        public delegate void OnProductsUploadedDelegate(int totalUploaded);
+        public event OnProductsUploadedDelegate OnProductsUpdated;
+
         private const int MAX_PRODUCTS_PER_REQUEST = 100;
         private readonly WooClient wooClient = null;
         public ProductsUpdater(WooClient wooClient)
@@ -42,6 +45,7 @@ namespace Plumber71.Core.Service.Woocomerce
                 IEnumerable<Product> updatePack = wooProducts.Take(MAX_PRODUCTS_PER_REQUEST);
                 totalUpdated += (await wooClient.UpdateProductRange(updatePack)).Count();
                 wooProducts = wooProducts.Skip(MAX_PRODUCTS_PER_REQUEST);
+                OnProductsUpdated?.Invoke(totalUpdated);
                 Debug.WriteLine($"Current pack {updatePack.Count()} TotalUpdated: {totalUpdated}");
             }
             while (wooProducts.Count() > 0);
