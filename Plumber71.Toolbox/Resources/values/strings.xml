@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Plumber71 Toolbox</string>
-    <string name="title_home">Домашняя</string>
+    <string name="title_home">Загрузить новый прайслист с телефона</string>
     <string name="title_dashboard">Табло</string>
     <string name="title_notifications">Уведомления</string>
+    <string name="globalPriceMarkup">Глобальное изменение цен</string>
+    <string name="chacheUpdateInfo">Тяжелая операция, скачивает все товары с сайта, может занять некотрое время. Выполнить если добавлены новые товары или цены обновились неправильно.</string>
 </resources>

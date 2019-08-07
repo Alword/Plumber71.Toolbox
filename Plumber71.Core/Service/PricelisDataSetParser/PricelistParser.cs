@@ -92,9 +92,7 @@ namespace Plumber71.Core.Service.PricelisDataSetParser
         {
             info = info.Trim();
             string[] buffer = info.Split(':');
-            int substringIndex = info.IndexOf(buffer[0]);
-            string currencyValueText = info.Substring(substringIndex + buffer[0].Length + 1).Replace(".", ",");
-            double.TryParse(currencyValueText, out double currencyValue);
+            double currencyValue = info.Substring(buffer[0].Length + 1).ToDouble();
             return currencyValue;
         }
     }

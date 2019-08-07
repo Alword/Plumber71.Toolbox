@@ -1,6 +1,7 @@
 ﻿using Plumber71.Core.Enums;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 
 namespace Plumber71.Core.Extentions
@@ -18,8 +19,9 @@ namespace Plumber71.Core.Extentions
         public static double ToDouble(this string text)
         {
             text = text.Trim();
-            if (text.Contains(".")) text = text.Replace(".", ",");
-            double.TryParse(text, out double result);
+            if (text.Contains(",")) text = text.Replace(",", ".");
+            var numberStyles = NumberStyles.Any;
+            double.TryParse(text, numberStyles, CultureInfo.InvariantCulture, out double result);
             return result;
         }
 
