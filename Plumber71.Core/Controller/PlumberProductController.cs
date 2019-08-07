@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 using Plumber71.Core.Model;
 using Plumber71.Core.Service.JsonFileService;
 using Plumber71.Core.Service.PricelisDataSetParser.Model;
@@ -15,6 +16,12 @@ namespace Plumber71.Core.Controller
         private readonly ProductsDownloader productsDownloader;
         public PlumberProductController(WooClient wooClient)
         {
+            productsDownloader = new ProductsDownloader(wooClient);
+        }
+
+        public PlumberProductController(string restConfigJson)
+        {
+            WooClient wooClient = new WooClient(restConfigJson);
             productsDownloader = new ProductsDownloader(wooClient);
         }
 
@@ -42,7 +49,7 @@ namespace Plumber71.Core.Controller
             // Upload Products
             ProductsUpdater productsUpdater = new ProductsUpdater(WooClient.DefaultClient());
             await productsUpdater.UploadRange(changedProducts);
-            JsonFileStorage.Save(currentPricelist,PRISELIST_CHACHE);
+            JsonFileStorage.Save(currentPricelist, PRISELIST_CHACHE);
         }
 
         public void UpdatePrices()

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 
@@ -10,14 +11,16 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using Plumber71.Core.Controller;
+using Plumber71.Core.Service.Woocomerce;
 using static Android.Views.View;
 
 namespace Plumber71.Toolbox
 {
     public class HomeFragment : Android.Support.V4.App.Fragment, IOnClickListener
     {
-        Button excelLoad = null;
-        Android.Support.V7.App.AlertDialog dialog = null;
+        private PlumberProductController plumber = null;
+        private Button excelLoad = null;
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -30,14 +33,27 @@ namespace Plumber71.Toolbox
 
             excelLoad = inflatedView.FindViewById<Button>(Resource.Id.excelLoad);
 
-            excelLoad.SetOnClickListener(this);
+            excelLoad.Click += ExcelLoad_Click;
 
-            dialog = new EDMTDialog.EDMTDialogBuilder().SetContext(Application.Context).Build(); //inflatedView
+            string content = ReadWooClientAsset(inflatedView);
+
+            plumber = new PlumberProductController(content);
 
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
 
-            return inflater.Inflate(Resource.Layout.HomeFragment, container, false);
+            return inflatedView;
+        }
+
+        private static string ReadWooClientAsset(View inflatedView)
+        {
+            string content;
+            using (StreamReader sr = new StreamReader(Application.Context.Assets.Open("woo.secret.json")))
+            {
+                content = sr.ReadToEnd();
+            }
+
+            return content;
         }
 
         private void ExcelLoad_Click(object sender, EventArgs e)
@@ -66,10 +82,10 @@ namespace Plumber71.Toolbox
         public override void OnActivityResult(int requestCode, int resultCode, Intent data)
         {
             base.OnActivityResult(requestCode, resultCode, data);
-            if (requestCode == 1000)
+            if (requestCode == 1000 && data != null)
             {
-                dialog.Show();
                 Console.WriteLine(data.DataString);
+                plumber.UpdatePricesFromExcel(data.DataString);
             }
         }
 

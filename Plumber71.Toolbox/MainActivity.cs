@@ -12,25 +12,28 @@ namespace Plumber71.Toolbox
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
-        FrameLayout fragmentContainer;
+        private FrameLayout fragmentContainer;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
+
             SetContentView(Resource.Layout.activity_main);
 
             fragmentContainer = FindViewById<FrameLayout>(Resource.Id.fragmentContainer);
 
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
-            navigation.SetOnNavigationItemSelectedListener(this);
-            SupportFragmentManager.BeginTransaction().Replace(Resource.Id.fragmentContainer, new HomeFragment()).Commit();
 
+            navigation.SetOnNavigationItemSelectedListener(this);
+
+            SupportFragmentManager.BeginTransaction().Replace(Resource.Id.fragmentContainer, new HomeFragment()).Commit();
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-            
+
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
         public bool OnNavigationItemSelected(IMenuItem item)

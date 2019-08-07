@@ -1,4 +1,5 @@
-﻿using Plumber71.Core.Service.Woocomerce.Model;
+﻿using Newtonsoft.Json;
+using Plumber71.Core.Service.Woocomerce.Model;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,6 +17,13 @@ namespace Plumber71.Core.Service.Woocomerce
         //TODO PUT RestConfig in ctor
         public WooClient(RestConfig config)
         {
+            RestAPI rest = new RestAPI($"{config.Server}/wp-json/wc/v3/", config.UserKey, config.SecretKey);
+            client = new WCObject(rest);
+        }
+
+        public WooClient(string restConfigJson)
+        {
+            RestConfig config = JsonConvert.DeserializeObject<RestConfig>(restConfigJson);
             RestAPI rest = new RestAPI($"{config.Server}/wp-json/wc/v3/", config.UserKey, config.SecretKey);
             client = new WCObject(rest);
         }

@@ -339,3 +339,4 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 /Plumber71.Core/Resource/config.secret.json
+/Plumber71.Toolbox/Assets/woo.secret.json
