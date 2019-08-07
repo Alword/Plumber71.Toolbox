@@ -22,15 +22,15 @@ namespace Plumber71.Core.Service.Woocomerce
             int totalProducts = 0;
             int productsOnCurrentPage;
             Dictionary<string, CategoryDTO> categories = new Dictionary<string, CategoryDTO>();
-            //do
-            //{
+            do
+            {
                 var wooProducts = await wooClient.GetProductsPage(productsPerPage, ++currentPage); // Скачиваем страницу
                 productsOnCurrentPage = wooProducts.Count;
                 totalProducts += productsOnCurrentPage;
                 HandleProductsPage(categories, wooProducts); // Обрабатываем товары
                 Debug.WriteLine($"Page {currentPage} ProductsCount {productsOnCurrentPage} Total {totalProducts}");
 
-            //} while (productsOnCurrentPage == productsPerPage);
+            } while (productsOnCurrentPage == productsPerPage);
 
             PricelistDTO pricelist = new PricelistDTO()
             {

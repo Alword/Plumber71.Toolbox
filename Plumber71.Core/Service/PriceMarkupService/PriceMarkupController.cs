@@ -10,15 +10,22 @@ namespace Plumber71.Core.Controller
 {
     public class PriceMarkupController
     {
+        private string priceConfigName = null;
         private PriceMarkupConfig priceMarkupConfig;
-        public PriceMarkupController()
+        public PriceMarkupController(string priceConfigName = null)
         {
-            priceMarkupConfig = JsonFileStorage.Load<PriceMarkupConfig>() ?? new PriceMarkupConfig();
+            this.priceConfigName = priceConfigName;
+            priceMarkupConfig = JsonFileStorage.Load<PriceMarkupConfig>(priceConfigName) ?? new PriceMarkupConfig();
         }
 
         public void SetGlobalRate(double rate)
         {
             priceMarkupConfig.GlobalRate = rate;
+        }
+
+        public double GetGlobalRate()
+        {
+            return priceMarkupConfig.GlobalRate;
         }
 
         public void SetCategoryRate(string categoryName, double rate)
@@ -33,7 +40,7 @@ namespace Plumber71.Core.Controller
 
         public IEnumerable<CategoryDTO> ApplySetting(IEnumerable<CategoryDTO> plumberCatalogue)
         {
-            JsonFileStorage.Save(priceMarkupConfig);
+            JsonFileStorage.Save(priceMarkupConfig, priceConfigName);
             foreach (var category in plumberCatalogue)
             {
                 bool categoryRateExist = priceMarkupConfig.CategoryRate.TryGetValue(category.Name, out double categoryRate);

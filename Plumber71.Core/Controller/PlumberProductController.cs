@@ -13,6 +13,10 @@ namespace Plumber71.Core.Controller
     public class PlumberProductController
     {
         public const string PRISELIST_CHACHE = "pricelistChache.json";
+        public const string PRICE_CONFIG = "plumberPriceConfig.json";
+
+        public readonly PriceMarkupController PriceMarkup;
+
         private readonly ProductsDownloader productsDownloader;
         private readonly WooClient wooClient;
 
@@ -20,6 +24,7 @@ namespace Plumber71.Core.Controller
         {
             this.wooClient = wooClient;
             productsDownloader = new ProductsDownloader(wooClient);
+            PriceMarkup = new PriceMarkupController(PRICE_CONFIG);
         }
 
         public PlumberProductController(string restConfigJson)

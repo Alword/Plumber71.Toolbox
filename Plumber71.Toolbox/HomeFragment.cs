@@ -21,7 +21,10 @@ namespace Plumber71.Toolbox
     public class HomeFragment : Android.Support.V4.App.Fragment, IOnClickListener
     {
         private PlumberProductController plumber = null;
+        private EditText globalPriceMarkupText = null;
         private Button excelLoad = null;
+        private Button chacheUpdateButton = null;
+
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -36,6 +39,16 @@ namespace Plumber71.Toolbox
 
             excelLoad.Click += ExcelLoad_Click;
 
+            globalPriceMarkupText = inflatedView.FindViewById<EditText>(Resource.Id.globalPriceMarkupText);
+
+            globalPriceMarkupText.Text = $"{plumber.PriceMarkup.GetGlobalRate()}";
+
+            globalPriceMarkupText.TextChanged += GlobalPriceMarkupText_TextChanged;
+
+            chacheUpdateButton = inflatedView.FindViewById<Button>(Resource.Id.chacheUpdateButton);
+
+            chacheUpdateButton.Click += ChacheUpdateButton_Click;
+
             string content = ReadWooClientAsset(inflatedView);
 
             plumber = new PlumberProductController(content);
@@ -44,6 +57,17 @@ namespace Plumber71.Toolbox
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
 
             return inflatedView;
+        }
+
+        private async void ChacheUpdateButton_Click(object sender, EventArgs e)
+        {
+            await plumber.LoadOnDevice();
+        }
+
+        private void GlobalPriceMarkupText_TextChanged(object sender, Android.Text.TextChangedEventArgs e)
+        {
+            double rate = double.Parse(globalPriceMarkupText.Text);
+            plumber.PriceMarkup.SetGlobalRate(rate);
         }
 
         private static string ReadWooClientAsset(View inflatedView)
