@@ -12,11 +12,11 @@ namespace Plumber71.TestConsole
 {
     class Program
     {
-        private static string originalFileName = $"{Environment.CurrentDirectory}/Resource/price_d5.xls";
+        private static string originalFileName = $"{Environment.CurrentDirectory}/Plumber/price_d5.xls";
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
-            //UpdatePricesFromExcel();
+            UpdatePricesFromExcel();
             Console.ReadLine();
         }
 
@@ -72,10 +72,10 @@ namespace Plumber71.TestConsole
         //}
 
         // first programm
-        //static async void UpdatePricesFromExcel()
-        //{
-        //    PlumberProductController plumberProductController = new PlumberProductController(WooClient.DefaultClient());
-        //    plumberProductController.UpdatePricesFromExcel(originalFileName);
-        //}
+        static async void UpdatePricesFromExcel()
+        {
+            PlumberProductController plumberProductController = new PlumberProductController(WooClient.DefaultClient());
+            plumberProductController.UpdatePricesFromExcel(originalFileName);
+        }
     }
 }

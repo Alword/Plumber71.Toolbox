@@ -27,6 +27,8 @@ namespace Plumber71.Core.Service.Woocomerce
 
         public async Task<int> UploadRange(IEnumerable<ProductDTO> products)
         {
+            if (products.Count() == 0) return 0;
+
             int totalUpdated = 0;
 
             IEnumerable<Product> wooProducts = products.Select(p => new Product()

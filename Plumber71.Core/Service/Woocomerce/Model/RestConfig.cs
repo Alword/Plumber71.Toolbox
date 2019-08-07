@@ -14,7 +14,7 @@ namespace Plumber71.Core.Service.Woocomerce.Model
 
         public static RestConfig GetDefaults()
         {
-            string configFile = $"{Environment.CurrentDirectory}/Resource/woo.secret.json";
+            string configFile = $"{Environment.CurrentDirectory}/Plumber/woo.secret.json";
             return JsonConvert.DeserializeObject<RestConfig>(File.ReadAllText(configFile));            
         }
     }

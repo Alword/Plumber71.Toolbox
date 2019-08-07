@@ -1,4 +1,6 @@
-﻿using Android.App;
+﻿using Android;
+using Android.App;
+using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
@@ -27,8 +29,9 @@ namespace Plumber71.Toolbox
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
 
             navigation.SetOnNavigationItemSelectedListener(this);
-
             SupportFragmentManager.BeginTransaction().Replace(Resource.Id.fragmentContainer, new HomeFragment()).Commit();
+
+            CheckAppPermissions();
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
@@ -54,6 +57,23 @@ namespace Plumber71.Toolbox
             SupportFragmentManager.BeginTransaction().Replace(Resource.Id.fragmentContainer, selectedFragment).Commit();
 
             return true;
+        }
+
+        private void CheckAppPermissions()
+        {
+            if ((int)Build.VERSION.SdkInt < 23)
+            {
+                return;
+            }
+            else
+            {
+                if (PackageManager.CheckPermission(Manifest.Permission.ReadExternalStorage, PackageName) != Permission.Granted
+                    && PackageManager.CheckPermission(Manifest.Permission.WriteExternalStorage, PackageName) != Permission.Granted)
+                {
+                    var permissions = new string[] { Manifest.Permission.ReadExternalStorage, Manifest.Permission.WriteExternalStorage };
+                    RequestPermissions(permissions, 1);
+                }
+            }
         }
     }
 }

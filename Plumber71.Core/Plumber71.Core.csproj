@@ -12,15 +12,15 @@
 
   <ItemGroup>
     <None Remove="Model\NewFile1.txt" />
-    <None Remove="Resource\price_d5.xls" />
-    <None Remove="Resource\woo.secret.json" />
+    <None Remove="Plumber\price_d5.xls" />
+    <None Remove="Plumber\woo.secret.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Resource\price_d5.xls">
+    <Content Include="Plumber\price_d5.xls">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resource\woo.secret.json">
+    <Content Include="Plumber\woo.secret.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

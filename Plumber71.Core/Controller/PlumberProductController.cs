@@ -14,8 +14,11 @@ namespace Plumber71.Core.Controller
     {
         public const string PRISELIST_CHACHE = "pricelistChache.json";
         private readonly ProductsDownloader productsDownloader;
+        private readonly WooClient wooClient;
+
         public PlumberProductController(WooClient wooClient)
         {
+            this.wooClient = wooClient;
             productsDownloader = new ProductsDownloader(wooClient);
         }
 
@@ -23,6 +26,7 @@ namespace Plumber71.Core.Controller
         {
             WooClient wooClient = new WooClient(restConfigJson);
             productsDownloader = new ProductsDownloader(wooClient);
+            this.wooClient = wooClient;
         }
 
         public async Task<PricelistDTO> LoadOnDevice()
@@ -47,7 +51,7 @@ namespace Plumber71.Core.Controller
             // GetChangedProducts
             List<ProductDTO> changedProducts = PricelistComparer.GetChangedProducts(currentPricelist, updatedPricelist);
             // Upload Products
-            ProductsUpdater productsUpdater = new ProductsUpdater(WooClient.DefaultClient());
+            ProductsUpdater productsUpdater = new ProductsUpdater(wooClient);
             await productsUpdater.UploadRange(changedProducts);
             JsonFileStorage.Save(currentPricelist, PRISELIST_CHACHE);
         }
