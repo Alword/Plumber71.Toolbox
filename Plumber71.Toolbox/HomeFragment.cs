@@ -1,20 +1,12 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Android.App;
+﻿using Android.App;
 using Android.Content;
-using Android.Database;
 using Android.OS;
-using Android.Provider;
-using Android.Runtime;
-using Android.Util;
 using Android.Views;
 using Android.Widget;
-using Java.IO;
 using Plumber71.Core.Controller;
-using static Android.Views.View;
+using System;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace Plumber71.Toolbox
 {
