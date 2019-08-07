@@ -60,6 +60,7 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileUtil.cs" />
     <Compile Include="TableFragment.cs" />
     <Compile Include="HomeFragment.cs" />
     <Compile Include="MainActivity.cs" />

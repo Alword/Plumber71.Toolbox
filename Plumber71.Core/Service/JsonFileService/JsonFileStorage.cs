@@ -6,7 +6,7 @@ namespace Plumber71.Core.Service.JsonFileService
 {
     public class JsonFileStorage
     {
-        private static readonly string DefaultDirectory = $"{Environment.SpecialFolder.LocalApplicationData}\\Resource\\Temp";
+        private static readonly string DefaultDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal),"Resource","Temp");
         public static void Save<T>(T chacheObject, string fileName = null) where T : new()
         {
             string path = GetObjectPath<T>(fileName);

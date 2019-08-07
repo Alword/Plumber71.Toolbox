@@ -1,18 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Database;
 using Android.OS;
+using Android.Provider;
 using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using Java.IO;
 using Plumber71.Core.Controller;
-using Plumber71.Core.Service.Woocomerce;
 using static Android.Views.View;
 
 namespace Plumber71.Toolbox
@@ -58,34 +59,21 @@ namespace Plumber71.Toolbox
 
         private void ExcelLoad_Click(object sender, EventArgs e)
         {
-            String[] mimeTypes =
-            {"application/msword","application/vnd.openxmlformats-officedocument.wordprocessingml.document", // .doc & .docx
-                    "application/vnd.ms-powerpoint","application/vnd.openxmlformats-officedocument.presentationml.presentation", // .ppt & .pptx
-                    "application/vnd.ms-excel","application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", // .xls & .xlsx
-                    "text/plain",
-                    "application/pdf",
-                    "application/zip"};
-
             Intent intent = new Intent(Intent.ActionGetContent);
             intent.AddCategory(Intent.CategoryOpenable);
 
+            intent.SetType("*/*");
 
-            intent.SetType(mimeTypes.Length == 1 ? mimeTypes[0] : "*/*");
-            if (mimeTypes.Length > 0)
-            {
-                intent.PutExtra(Intent.ExtraMimeTypes, mimeTypes);
-            }
-
-            StartActivityForResult(Intent.CreateChooser(intent, "ChooseFile"), 1000);
+            StartActivityForResult(Intent.CreateChooser(intent, "ChooseFile"), 1);
         }
 
         public override void OnActivityResult(int requestCode, int resultCode, Intent data)
         {
             base.OnActivityResult(requestCode, resultCode, data);
-            if (requestCode == 1000 && data != null)
+            if (requestCode == 1 && data != null)
             {
-                Console.WriteLine(data.DataString);
-                plumber.UpdatePricesFromExcel(data.DataString);
+                string path = FileUtil.GetActualPathFromFile(data.Data);
+                plumber.UpdatePricesFromExcel(path);
             }
         }
 
