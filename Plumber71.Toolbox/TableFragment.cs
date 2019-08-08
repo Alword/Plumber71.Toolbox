@@ -3,6 +3,7 @@ using Android.Views;
 
 namespace Plumber71.Toolbox
 {
+    [Android.Runtime.Preserve(AllMembers = true)]
     public class TableFragment : Android.Support.V4.App.Fragment
     {
         public override void OnCreate(Bundle savedInstanceState)

@@ -7,6 +7,7 @@ using System;
 
 namespace Plumber71.Toolbox
 {
+    [Android.Runtime.Preserve(AllMembers = true)]
     public static class FileUtil
     {
         public static string GetActualPathFromFile(Android.Net.Uri uri)

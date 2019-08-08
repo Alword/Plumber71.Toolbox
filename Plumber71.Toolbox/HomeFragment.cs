@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Plumber71.Toolbox
 {
+    [Android.Runtime.Preserve(AllMembers = true)]
     public class HomeFragment : Android.Support.V4.App.Fragment
     {
         private PlumberProductController plumber = null;

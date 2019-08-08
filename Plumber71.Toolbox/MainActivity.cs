@@ -10,6 +10,7 @@ using Android.Widget;
 
 namespace Plumber71.Toolbox
 {
+    [Android.Runtime.Preserve(AllMembers = true)]
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
@@ -60,18 +61,12 @@ namespace Plumber71.Toolbox
 
         private void CheckAppPermissions()
         {
-            if ((int)Build.VERSION.SdkInt < 23)
+            if (PackageManager.CheckPermission(Manifest.Permission.ReadExternalStorage, PackageName) != Permission.Granted
+                    || PackageManager.CheckPermission(Manifest.Permission.WriteExternalStorage, PackageName) != Permission.Granted
+                    || PackageManager.CheckPermission(Manifest.Permission.Internet, PackageName) != Permission.Granted)
             {
-                return;
-            }
-            else
-            {
-                if (PackageManager.CheckPermission(Manifest.Permission.ReadExternalStorage, PackageName) != Permission.Granted
-                    && PackageManager.CheckPermission(Manifest.Permission.WriteExternalStorage, PackageName) != Permission.Granted)
-                {
-                    var permissions = new string[] { Manifest.Permission.ReadExternalStorage, Manifest.Permission.WriteExternalStorage };
-                    RequestPermissions(permissions, 1);
-                }
+                var permissions = new string[] { Manifest.Permission.ReadExternalStorage, Manifest.Permission.WriteExternalStorage, Manifest.Permission.Internet };
+                RequestPermissions(permissions, 1);
             }
         }
     }

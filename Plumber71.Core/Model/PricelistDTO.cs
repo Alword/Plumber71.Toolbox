@@ -6,8 +6,8 @@ using System.Text;
 
 namespace Plumber71.Core.Model
 {
-    public class PricelistDTO : PricelistAbstraction<CategoryDTO,ProductDTO>
+    public class PricelistDTO : PricelistAbstraction<CategoryDTO, ProductDTO>
     {
-        public Currencies ProductsCurrency;
+        public Currencies ProductsCurrency { get; set; }
     }
 }
