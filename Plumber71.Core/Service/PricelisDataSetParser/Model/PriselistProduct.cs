@@ -23,7 +23,7 @@ namespace Plumber71.Core.Service.PricelisDataSetParser.Model
 
         public override string ToString()
         {
-            return $"Id: {Sku} Name: {Name} Pieces: {Pieces} Currency: {Currency.ToString()} " +
+            return $"Id: {Sku} Name: {Name} Pieces: {Pieces} Currency: {Currency} " +
                 $"TradePriceInCurrency: {TradePriceInCurrency} TradePriceInRubbles: {TradePriceInRubbles} Price7Ka {Price7Ka}";
         }
 
@@ -36,8 +36,8 @@ namespace Plumber71.Core.Service.PricelisDataSetParser.Model
                 Name = product.Name,
                 Sku = $"{product.Code}",
                 Pieces = product.Pieces,
-                RegularPrice = product.Price7Ka,
-                TotalPrice = product.Price7Ka
+                RegularPrice = product.TradePriceInRubbles,
+                TotalPrice = product.TradePriceInRubbles
             };
             return productDTO;
         }

@@ -20,43 +20,43 @@ namespace Plumber71.TestConsole
             Console.ReadLine();
         }
 
-        static async void Test()
-        {
-            WooClient client = WooClient.DefaultClient();
-            List<WooCommerceNET.WooCommerce.v3.Product> products = await client.GetProductsPage();
-        }
+        //static async void Test()
+        //{
+        //    WooClient client = WooClient.DefaultClient();
+        //    List<WooCommerceNET.WooCommerce.v3.Product> products = await client.GetProductsPage();
+        //}
 
-        static void TestExcel()
-        {
-            ExcelPricelistController catalogueController = new ExcelPricelistController(originalFileName);
-            Priselist catalogue = catalogueController.GetExcelPricelist();
-            Console.WriteLine(catalogue);
-        }
+        //static void TestExcel()
+        //{
+        //    ExcelPricelistController catalogueController = new ExcelPricelistController(originalFileName);
+        //    Priselist catalogue = catalogueController.GetExcelPricelist();
+        //    Console.WriteLine(catalogue);
+        //}
 
-        static async void TestWooProductHandler()
-        {
-            WooClient wooClient = WooClient.DefaultClient();
-            PlumberProductController plumberProductController = new PlumberProductController(wooClient);
-            await plumberProductController.LoadOnDevice();
-        }
+        //static async void TestWooProductHandler()
+        //{
+        //    WooClient wooClient = WooClient.DefaultClient();
+        //    PlumberProductController plumberProductController = new PlumberProductController(wooClient);
+        //    await plumberProductController.LoadOnDevice();
+        //}
 
-        static void TestChache()
-        {
-            ProductDTO productDomain = new ProductDTO
-            {
-                Name = "Test"
-            };
-            JsonFileStorage.Save(productDomain);
-        }
+        //static void TestChache()
+        //{
+        //    ProductDTO productDomain = new ProductDTO
+        //    {
+        //        Name = "Test"
+        //    };
+        //    JsonFileStorage.Save(productDomain);
+        //}
 
-        static void TestArrayToDictionary()
-        {
-            var chacheObject = JsonFileStorage.Load<List<CategoryDTO>>("chacheObject.json").ToArray();
-            ExcelPricelistController catalogueController = new ExcelPricelistController(originalFileName);
-            PricelistDTO catalogue = (PricelistDTO)catalogueController.GetExcelPricelist();
+        //static void TestArrayToDictionary()
+        //{
+        //    var chacheObject = JsonFileStorage.Load<List<CategoryDTO>>("chacheObject.json").ToArray();
+        //    ExcelPricelistController catalogueController = new ExcelPricelistController(originalFileName);
+        //    PricelistDTO catalogue = (PricelistDTO)catalogueController.GetExcelPricelist();
 
-            var test = PricelistComparer.GetChangedProducts(catalogue.Categories, chacheObject);
-        }
+        //    var test = PricelistComparer.GetChangedProducts(catalogue.Categories, chacheObject);
+        //}
 
         //static async void TestPriceMarkupService()
         //{
