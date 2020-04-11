@@ -6,6 +6,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Plumber\email.json" />
+    <None Remove="Plumber\price_d5.xls" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Plumber\price_d5.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Plumber\email.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Plumber71.Core\Plumber71.Core.csproj" />
   </ItemGroup>
 

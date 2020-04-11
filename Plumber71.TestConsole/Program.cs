@@ -1,5 +1,6 @@
 ﻿using Plumber71.Core.Controller;
 using Plumber71.Core.Model;
+using Plumber71.Core.Service.EmailExcelProvider;
 using Plumber71.Core.Service.JsonFileService;
 using Plumber71.Core.Service.PricelisDataSetParser.Model;
 using Plumber71.Core.Service.PricelistComparer;
@@ -7,6 +8,7 @@ using Plumber71.Core.Service.Woocomerce;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Plumber71.TestConsole
 {
@@ -15,67 +17,20 @@ namespace Plumber71.TestConsole
         private static string originalFileName = $"{Environment.CurrentDirectory}/Plumber/price_d5.xls";
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            UpdatePricesFromExcel();
-            Console.ReadLine();
+            var start = DateTime.Now;
+            Console.WriteLine($"{start:dd-MM-yyyy hh:mm:ss}| Start price updating");
+            var count = UpdatePricesFromExcel();
+            var end = DateTime.Now;
+            var span = end - start;
+            Console.WriteLine($"{end:dd-MM-yyyy hh:mm:ss}| Updated {count} prices after {span.TotalSeconds:0.00} seconds");
+            Task.Delay(3000).GetAwaiter().GetResult();
         }
 
-        //static async void Test()
-        //{
-        //    WooClient client = WooClient.DefaultClient();
-        //    List<WooCommerceNET.WooCommerce.v3.Product> products = await client.GetProductsPage();
-        //}
-
-        //static void TestExcel()
-        //{
-        //    ExcelPricelistController catalogueController = new ExcelPricelistController(originalFileName);
-        //    Priselist catalogue = catalogueController.GetExcelPricelist();
-        //    Console.WriteLine(catalogue);
-        //}
-
-        //static async void TestWooProductHandler()
-        //{
-        //    WooClient wooClient = WooClient.DefaultClient();
-        //    PlumberProductController plumberProductController = new PlumberProductController(wooClient);
-        //    await plumberProductController.LoadOnDevice();
-        //}
-
-        //static void TestChache()
-        //{
-        //    ProductDTO productDomain = new ProductDTO
-        //    {
-        //        Name = "Test"
-        //    };
-        //    JsonFileStorage.Save(productDomain);
-        //}
-
-        //static void TestArrayToDictionary()
-        //{
-        //    var chacheObject = JsonFileStorage.Load<List<CategoryDTO>>("chacheObject.json").ToArray();
-        //    ExcelPricelistController catalogueController = new ExcelPricelistController(originalFileName);
-        //    PricelistDTO catalogue = (PricelistDTO)catalogueController.GetExcelPricelist();
-
-        //    var test = PricelistComparer.GetChangedProducts(catalogue.Categories, chacheObject);
-        //}
-
-        //static async void TestPriceMarkupService()
-        //{
-        //    PriceMarkupController pricelistController = new PriceMarkupController();
-        //    pricelistController.SetGlobalRate(1.12);
-        //    //pricelistController.SetCategoryRate("Котлы настенные", 1.2);
-        //    //pricelistController.SetProductRate(346, 1.3);
-        //    var chacheObject = JsonFileStorage.Load<List<CategoryDTO>>("chacheObject.json");
-        //    chacheObject = pricelistController.ApplySetting(chacheObject).ToList();
-        //    JsonFileStorage.Save(chacheObject);
-        //    ProductsUpdater pu = new ProductsUpdater(WooClient.DefaultClient());
-        //    Console.WriteLine($"Done: {nameof(TestPriceMarkupService)}");
-        //}
-
-        // first programm
-        static async void UpdatePricesFromExcel()
+        static int UpdatePricesFromExcel()
         {
+            string path = EmailExcelProvider.GetLastPriceList();
             PlumberProductController plumberProductController = new PlumberProductController(WooClient.DefaultClient());
-            plumberProductController.UpdatePricesFromExcel(originalFileName);
+            return plumberProductController.UpdatePricesFromExcel(originalFileName).GetAwaiter().GetResult();
         }
     }
 }

@@ -37,7 +37,7 @@ namespace Plumber71.Core.Service.PricelisDataSetParser.Model
                 Sku = $"{product.Code}",
                 Pieces = product.Pieces,
                 RegularPrice = product.TradePriceInRubbles,
-                TotalPrice = product.TradePriceInRubbles
+                TotalPrice = product.Price7Ka
             };
             return productDTO;
         }

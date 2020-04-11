@@ -38,7 +38,10 @@ namespace Plumber71.Core.Controller
             PriceMarkup = new PriceMarkupController(PRICE_CONFIG);
         }
 
-
+        /// <summary>
+        /// Donwload all sites products
+        /// </summary>
+        /// <returns></returns>
         public async Task<PricelistDTO> LoadOnDevice()
         {
             // Кеширование товаров
@@ -49,25 +52,31 @@ namespace Plumber71.Core.Controller
             return chacheProducts;
         }
 
-        public async void UpdatePricesFromExcel(string path)
+        /// <summary>
+        /// Update prices chached products from excel
+        /// </summary>
+        /// <param name="path"></param>
+        public async Task<int> UpdatePricesFromExcel(string path)
         {
             // load chache 
             PricelistDTO currentPricelist = JsonFileStorage.Load<PricelistDTO>(PRISELIST_CHACHE);
-            currentPricelist = currentPricelist ?? await LoadOnDevice();
+            currentPricelist ??= await LoadOnDevice();
+            
             // load excel
             PricelistDTO newPricelist = (PricelistDTO)(new ExcelPricelistController(path).GetExcelPricelist());
+            
             // Price markup
             PricelistDTO updatedPricelist = PriceMarkup.ApplySetting(newPricelist);
+            
             // GetChangedProducts
             List<ProductDTO> changedProducts = PricelistComparer.GetChangedProducts(currentPricelist, updatedPricelist);
+            
             // Upload Products
             await ProductsUpdater.UploadRange(changedProducts);
+            
             JsonFileStorage.Save(currentPricelist, PRISELIST_CHACHE);
-        }
 
-        public void UpdatePrices()
-        {
-
+            return changedProducts.Count;
         }
     }
 }

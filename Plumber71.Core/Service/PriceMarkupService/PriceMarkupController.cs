@@ -15,7 +15,7 @@ namespace Plumber71.Core.Controller
         public PriceMarkupController(string priceConfigName = null)
         {
             this.priceConfigName = priceConfigName;
-            priceMarkupConfig = JsonFileStorage.Load<PriceMarkupConfig>(priceConfigName) ?? new PriceMarkupConfig();
+            priceMarkupConfig = new PriceMarkupConfig();
         }
 
         public void SetGlobalRate(double rate)
@@ -48,11 +48,11 @@ namespace Plumber71.Core.Controller
                 {
                     bool producRateExist = priceMarkupConfig.ProductRate.TryGetValue(product.Id, out double productRate);
                     if (producRateExist)
-                        product.TotalPrice = product.RegularPrice * productRate;
+                        product.TotalPrice *= productRate;
                     else if (categoryRateExist)
-                        product.TotalPrice = product.RegularPrice * categoryRate;
+                        product.TotalPrice *= categoryRate;
                     else
-                        product.TotalPrice = product.RegularPrice * priceMarkupConfig.GlobalRate;
+                        product.TotalPrice *= priceMarkupConfig.GlobalRate;
                 }
             }
             return plumberCatalogue;

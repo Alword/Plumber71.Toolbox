@@ -12,7 +12,7 @@ namespace Plumber71.Core.Service.PriceMarkupService.Model
 
         public PriceMarkupConfig()
         {
-            GlobalRate = 1;
+            GlobalRate = 1.05;
             CategoryRate = new Dictionary<string, double>();
             ProductRate = new Dictionary<int, double>();
         }
